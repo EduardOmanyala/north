@@ -1,0 +1,182 @@
+[
+  {
+      "model": "core.QuizCategory",
+      "pk": 1,
+      "fields": {
+        "title": "Kiswahili Test One",
+        "heading":"Kiswahili Test One",
+        "type":"free",
+        "subject": "kiswahili"
+      }
+    },
+    {
+      "model": "core.QuizCategory",
+      "pk": 2,
+      "fields": {
+        "title": "Kiswahili Test Two",
+        "heading":"Kiswahili Test Two",
+        "type":"free",
+        "subject": "kiswahili"
+      }
+    },
+    {
+      "model": "core.QuizCategory",
+      "pk": 3,
+      "fields": {
+        "title": "English Test One",
+        "heading":"English Test One",
+        "type":"free",
+        "subject": "english"
+      }
+    },
+    {
+      "model": "core.QuizCategory",
+      "pk": 4,
+      "fields": {
+        "title": "English Test Two",
+        "heading":"English Test Two",
+        "type":"free",
+        "subject": "english"
+      }
+    },
+    {
+      "model": "core.QuizCategory",
+      "pk": 5,
+      "fields": {
+        "title": "English Test Three",
+        "heading":"English Test Three",
+        "type":"free",
+        "subject": "english"
+      }
+    },
+    {
+      "model": "core.QuizCategory",
+      "pk": 6,
+      "fields": {
+        "title": "English Test Four",
+        "heading":"English Test Four",
+        "type":"free",
+        "subject": "english"
+      }
+    },
+    {
+      "model": "core.QuizCategory",
+      "pk": 7,
+      "fields": {
+        "title": "Maths Test One",
+        "heading":"Maths Test One",
+        "type":"free",
+        "subject": "maths"
+      }
+    },
+    {
+      "model": "core.QuizCategory",
+      "pk": 8,
+      "fields": {
+        "title": "Maths Test Two",
+        "heading":"Maths Test Two",
+        "type":"free",
+        "subject": "maths"
+      }
+    },
+    {
+      "model": "core.QuizCategory",
+      "pk": 9,
+      "fields": {
+        "title": "Maths Test Three",
+        "heading":"Maths Test Three",
+        "type":"free",
+        "subject": "maths"
+      }
+    },
+    {
+      "model": "core.QuizCategory",
+      "pk": 10,
+      "fields": {
+        "title": "Maths Test Four",
+        "heading":"Maths Test Four",
+        "type":"free",
+        "subject": "maths"
+      }
+    },
+    {
+      "model": "core.QuizCategory",
+      "pk": 11,
+      "fields": {
+        "title": "Intergrated Science Test One",
+        "heading":"Intergrated Science Test One",
+        "type":"free",
+        "subject": "intergratedscience"
+      }
+    },
+    {
+      "model": "core.QuizCategory",
+      "pk": 12,
+      "fields": {
+        "title": "Intergrated Science Test Two",
+        "heading":"Intergrated Science Test Two",
+        "type":"free",
+        "subject": "intergratedscience"
+      }
+    },
+    {
+      "model": "core.QuizCategory",
+      "pk": 13,
+      "fields": {
+        "title": "Intergrated Science Test Three",
+        "heading":"Intergrated Science Test Three",
+        "type":"free",
+        "subject": "intergratedscience"
+      }
+    },
+    {
+      "model": "core.QuizCategory",
+      "pk": 14,
+      "fields": {
+        "title": "Intergrated Science Test Four",
+        "heading":"Intergrated Science Test Four",
+        "type":"free",
+        "subject": "intergratedscience"
+      }
+    },
+    {
+      "model": "core.QuizCategory",
+      "pk": 15,
+      "fields": {
+        "title": "Creative Arts Test One",
+        "heading":"Creative Arts Test One",
+        "type":"free",
+        "subject": "socialscience"
+      }
+    },
+    {
+      "model": "core.QuizCategory",
+      "pk": 16,
+      "fields": {
+        "title": "Creative Arts Test Two",
+        "heading":"Creative Arts Test Two",
+        "type":"free",
+        "subject": "socialscience"
+      }
+    },
+    {
+      "model": "core.QuizCategory",
+      "pk": 17,
+      "fields": {
+        "title": "Creative Arts Test Three",
+        "heading":"Creative Arts Test Three",
+        "type":"free",
+        "subject": "socialscience"
+      }
+    },
+    {
+      "model": "core.QuizCategory",
+      "pk": 18,
+      "fields": {
+        "title": "Creative Arts Test Four",
+        "heading":"Creative Arts Test Four",
+        "type":"free",
+        "subject": "socialscience"
+      }
+    }
+]

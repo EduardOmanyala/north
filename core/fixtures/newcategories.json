@@ -1,0 +1,182 @@
+[
+    {
+        "model": "core.QuizCategory",
+        "pk": 19,
+        "fields": {
+          "title": "Maths Test Five",
+          "heading":"Maths Test Five",
+          "type":"paid",
+          "subject": "maths"
+        }
+      },
+      {
+        "model": "core.QuizCategory",
+        "pk": 20,
+        "fields": {
+          "title": "Maths Test Six",
+          "heading":"Maths Test Six",
+          "type":"paid",
+          "subject": "maths"
+        }
+      },
+      {
+        "model": "core.QuizCategory",
+        "pk": 21,
+        "fields": {
+          "title": "Maths Test Seven",
+          "heading":"Maths Test Seven",
+          "type":"paid",
+          "subject": "maths"
+        }
+      },
+      {
+        "model": "core.QuizCategory",
+        "pk": 22,
+        "fields": {
+          "title": "English Test Five",
+          "heading":"English Test Five",
+          "type":"paid",
+          "subject": "english"
+        }
+      },
+      {
+        "model": "core.QuizCategory",
+        "pk": 23,
+        "fields": {
+          "title": "English Test Six",
+          "heading":"English Test Six",
+          "type":"paid",
+          "subject": "english"
+        }
+      },
+      {
+        "model": "core.QuizCategory",
+        "pk": 24,
+        "fields": {
+          "title": "Kiswahili Test Three",
+          "heading":"Kiswahili Test Three",
+          "type":"free",
+          "subject": "kiswahili"
+        }
+      },
+      {
+        "model": "core.QuizCategory",
+        "pk": 25,
+        "fields": {
+          "title": "Kiswahili Test Four",
+          "heading":"Kiswahili Test Four",
+          "type":"paid",
+          "subject": "kiswahili"
+        }
+      },
+      {
+        "model": "core.QuizCategory",
+        "pk": 26,
+        "fields": {
+          "title": "Creative Arts Test Five",
+          "heading":"Creative Arts Test Five",
+          "type":"paid",
+          "subject": "socialscience"
+        }
+      },
+      {
+        "model": "core.QuizCategory",
+        "pk": 27,
+        "fields": {
+          "title": "Creative Arts Test Six",
+          "heading":"Creative Arts Test Six",
+          "type":"paid",
+          "subject": "socialscience"
+        }
+      },
+      {
+        "model": "core.QuizCategory",
+        "pk": 28,
+        "fields": {
+          "title": "Maths Test Eight",
+          "heading":"Maths Test Eight",
+          "type":"paid",
+          "subject": "maths"
+        }
+      },
+      {
+        "model": "core.QuizCategory",
+        "pk": 29,
+        "fields": {
+          "title": "Maths Test Nine",
+          "heading":"Maths Test Nine",
+          "type":"paid",
+          "subject": "maths"
+        }
+      },
+      {
+        "model": "core.QuizCategory",
+        "pk": 30,
+        "fields": {
+          "title": "Intergrated Science Test Five",
+          "heading":"Intergrated Science Test Five",
+          "type":"paid",
+          "subject": "intergratedscience"
+        }
+      },
+      {
+        "model": "core.QuizCategory",
+        "pk": 31,
+        "fields": {
+          "title": "Intergrated Science Test Six",
+          "heading":"Intergrated Science Test Six",
+          "type":"paid",
+          "subject": "intergratedscience"
+        }
+      },
+      {
+        "model": "core.QuizCategory",
+        "pk": 32,
+        "fields": {
+          "title": "Creative Arts Test Seven",
+          "heading":"Creative Arts Test Seven",
+          "type":"paid",
+          "subject": "socialscience"
+        }
+      },
+      {
+        "model": "core.QuizCategory",
+        "pk": 33,
+        "fields": {
+          "title": "Creative Arts Test Eight",
+          "heading":"Creative Arts Test Eight",
+          "type":"paid",
+          "subject": "socialscience"
+        }
+      },
+      {
+        "model": "core.QuizCategory",
+        "pk": 34,
+        "fields": {
+          "title": "Creative Arts Test Nine",
+          "heading":"Creative Arts Test Nine",
+          "type":"paid",
+          "subject": "socialscience"
+        }
+      },
+      {
+        "model": "core.QuizCategory",
+        "pk": 35,
+        "fields": {
+          "title": "Kiswahili Test Five",
+          "heading":"Kiswahili Test Five",
+          "type":"paid",
+          "subject": "kiswahili"
+        }
+      },
+      {
+        "model": "core.QuizCategory",
+        "pk": 36,
+        "fields": {
+          "title": "Kiswahili Test Six",
+          "heading":"Kiswahili Test Six",
+          "type":"paid",
+          "subject": "kiswahili"
+        }
+      }
+  ]

@@ -1,0 +1,3663 @@
+[
+    {
+        "model": "core.QuizQuestion",
+        "pk": 262,
+        "fields": {
+        "category": 19,
+        "question": "What is 73599 rounded off to the nearest thousands?",
+        "context": "",
+        "opt_1":"73,000",
+        "opt_2":"73,600",
+        "opt_3":"74,000",
+        "opt_4":"70,000",
+        "right_opt":"74,000"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 263,
+        "fields": {
+        "category": 19,
+        "question": "Which one is ninety thousand eight hundred and sixty four in symbols?",
+        "context": "",
+        "opt_1":"900,864",
+        "opt_2":"90,864",
+        "opt_3":"9,864",
+        "opt_4":"19,864",
+        "right_opt":"90,864"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 264,
+        "fields": {
+        "category": 19,
+        "question": "What is the sum of 37423 and 3597?",
+        "context": "",
+        "opt_1":"41,020",
+        "opt_2":"40,020",
+        "opt_3":"41,010",
+        "opt_4":"433,826",
+        "right_opt":"41,020"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 265,
+        "fields": {
+        "category": 19,
+        "question": "What is the place value of digit 4 in the number 324819?",
+        "context": "",
+        "opt_1":"Hundreds",
+        "opt_2":"Thousands",
+        "opt_3":"Ten thousands",
+        "opt_4":"Millions",
+        "right_opt":"Thousands"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 266,
+        "fields": {
+        "category": 19,
+        "question": "Which number is represented by the abacus below?",
+        "context": "",
+        "opt_1":"5,324",
+        "opt_2":"53,324",
+        "opt_3":"53,024",
+        "opt_4":"500,324",
+        "right_opt":"53,024"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 267,
+        "fields": {
+        "category": 19,
+        "question": "What is the time shown below at night?",
+        "context": "",
+        "opt_1":"5:40pm",
+        "opt_2":"8:25am",
+        "opt_3":"5:40am",
+        "opt_4":"8:25pm",
+        "right_opt":"8:25pm"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 268,
+        "fields": {
+        "category": 19,
+        "question": "There are 527875 registered voters in a certain town. If 224435 are men, how many women voters are there?",
+        "context": "",
+        "opt_1":"330,440",
+        "opt_2":"3,030,440",
+        "opt_3":"304,340",
+        "opt_4":"303,440",
+        "right_opt":"303,440"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 269,
+        "fields": {
+        "category": 19,
+        "question": "What is the Greatest Common Divisor of 27, 36 and 45?",
+        "context": "",
+        "opt_1":"6",
+        "opt_2":"12",
+        "opt_3":"9",
+        "opt_4":"3",
+        "right_opt":"3"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 270,
+        "fields": {
+        "category": 19,
+        "question": "Add: 83992 + 15315 = ?",
+        "context": "",
+        "opt_1":"99,370",
+        "opt_2":"99,037",
+        "opt_3":"99,307",
+        "opt_4":"93,907",
+        "right_opt":"99,307"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 271,
+        "fields": {
+        "category": 19,
+        "question": "What is the next number in the sequence above?",
+        "context": "12, 24, 36, 48, __________________________",
+        "opt_1":"80",
+        "opt_2":"70",
+        "opt_3":"60",
+        "opt_4":"50",
+        "right_opt":"60"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 272,
+        "fields": {
+        "category": 19,
+        "question": "Work out: 3612 ÷ 12",
+        "context": "",
+        "opt_1":"301",
+        "opt_2":"3001",
+        "opt_3":"31",
+        "opt_4":"30001",
+        "right_opt":"301"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 273,
+        "fields": {
+        "category": 19,
+        "question": "What is the perimeter of the figure below?",
+        "context": "",
+        "opt_1":"145cm squared",
+        "opt_2":"165cm squared",
+        "opt_3":"135cm squared",
+        "opt_4":"155cm squared",
+        "right_opt":"155cm squared"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 274,
+        "fields": {
+        "category": 19,
+        "question": "Add: 6.295 to 12.38",
+        "context": "",
+        "opt_1":"7.543",
+        "opt_2":"17.675",
+        "opt_3":"18.675",
+        "opt_4":"19.675",
+        "right_opt":"18.675"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 275,
+        "fields": {
+        "category": 19,
+        "question": "Add 5m 20cm + 3m 45cm = _________",
+        "context": "",
+        "opt_1":"8m 200cm",
+        "opt_2":"8m 15cm",
+        "opt_3":"6m 110cm",
+        "opt_4":"8m 65cm",
+        "right_opt":"8m 65cm"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 276,
+        "fields": {
+        "category": 19,
+        "question": "Work out: 15 kg, 240g multiplied by 5",
+        "context": "",
+        "opt_1":"76kg 200g",
+        "opt_2":"70kg 200g",
+        "opt_3":"76kg 20g",
+        "opt_4":"75kg 20g",
+        "right_opt":"76kg 200g"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 277,
+        "fields": {
+        "category": 20,
+        "question": "Kate had 2486 litres of milk. She sold 568 litres on a Monday. How much milk was not sold?",
+        "context": "",
+        "opt_1":"1,718",
+        "opt_2":"1,918",
+        "opt_3":"1,818",
+        "opt_4":"1,917",
+        "right_opt":"1,918"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 278,
+        "fields": {
+        "category": 20,
+        "question": "Which number is divisible by both 5 and 10?",
+        "context": "",
+        "opt_1":"600",
+        "opt_2":"405",
+        "opt_3":"803",
+        "opt_4":"625",
+        "right_opt":"600"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 279,
+        "fields": {
+        "category": 20,
+        "question": "How many sh. 20 coins are there in sh. 500 note?",
+        "context": "",
+        "opt_1":"10",
+        "opt_2":"520",
+        "opt_3":"25",
+        "opt_4":"50",
+        "right_opt":"25"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 280,
+        "fields": {
+        "category": 20,
+        "question": "Petrol in a 40 litres 800ml container was emptied to fill 8 equal containers. What was the capacity of each container?",
+        "context": "",
+        "opt_1":"50 litres, 10ml",
+        "opt_2":"5 litres, 100ml",
+        "opt_3":"5 litres, 10ml",
+        "opt_4":"5 litres, 100ml",
+        "right_opt":"5 litres, 100ml"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 281,
+        "fields": {
+        "category": 20,
+        "question": "An athlete took 80 minutes to run a race. How many seconds did he use?",
+        "context": "",
+        "opt_1":"80 sec",
+        "opt_2":"240 sec",
+        "opt_3":"480 sec",
+        "opt_4":"4,800 sec",
+        "right_opt":"4,800 sec"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 282,
+        "fields": {
+        "category": 20,
+        "question": "Work out: 427 x 9 = __________________",
+        "context": "",
+        "opt_1":"3,643",
+        "opt_2":"4,743",
+        "opt_3":"3,843",
+        "opt_4":"3,833",
+        "right_opt":"3,843"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 283,
+        "fields": {
+        "category": 20,
+        "question": "A farmer harvested 9340g of honey. What is the mass in kg and grams?",
+        "context": "",
+        "opt_1":"93kg, 4g",
+        "opt_2":"93kg, 40g",
+        "opt_3":"9kg, 340g",
+        "opt_4":"93kg, 400g",
+        "right_opt":"9kg, 340g"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 284,
+        "fields": {
+        "category": 20,
+        "question": "Mariarosa received x beads after their teacher divided 125 beads equally among 5 of them. How many beads did Mariarose get?",
+        "context": "",
+        "opt_1":"25",
+        "opt_2":"35",
+        "opt_3":"15",
+        "opt_4":"45",
+        "right_opt":"25"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 285,
+        "fields": {
+        "category": 20,
+        "question": "Work out: 8 weeks 0 days minus 6 weeks 2 days",
+        "context": "",
+        "opt_1":"2 weeks 5 days",
+        "opt_2":"3 weeks 2 days" ,
+        "opt_3":"2 weeks 2 days",
+        "opt_4":"1 weeks 5 days",
+        "right_opt":"1 weeks 5 days"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 286,
+        "fields": {
+        "category": 20,
+        "question": "What is the value of 200 − 275 + 125?",
+        "context": "",
+        "opt_1":"50",
+        "opt_2":"100",
+        "opt_3":"115",
+        "opt_4":"150",
+        "right_opt":"50"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 287,
+        "fields": {
+        "category": 20,
+        "question": "What is the place value of digit 7 in the number 31.247?",
+        "context": "",
+        "opt_1":"Ones",
+        "opt_2":"Tenths",
+        "opt_3":"Hundredths",
+        "opt_4":"Thousandths",
+        "right_opt":"Thousandths"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 288,
+        "fields": {
+        "category": 20,
+        "question": "What is the name of the angle?",
+        "context": "Mr Hisabati drew an angle like the one shown below.",
+        "opt_1":"Obtuse angle",
+        "opt_2":"Reflex angle",
+        "opt_3":"Acute angle",
+        "opt_4":"Right angle",
+        "right_opt":"Acute angle"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 289,
+        "fields": {
+        "category": 20,
+        "question": "Mary got x marks, Monica got y marks an Martha got z marks. How many marks did they get altogether?",
+        "context": "",
+        "opt_1":"x − y − z",
+        "opt_2":"xyz",
+        "opt_3":"x + y + z",
+        "opt_4":"x − y + z",
+        "right_opt":"x + y + z"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 290,
+        "fields": {
+        "category": 20,
+        "question": "How many days are there in the months of July and August in the year 2023?",
+        "context": "",
+        "opt_1":"60",
+        "opt_2":"61",
+        "opt_3":"62",
+        "opt_4":"69",
+        "right_opt":"61"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 291,
+        "fields": {
+        "category": 20,
+        "question": "Add 8m 85cm + 5m 25cm = _________",
+        "context": "",
+        "opt_1":"13m 110cm",
+        "opt_2":"14m 10cm",
+        "opt_3":"14m 110cm",
+        "opt_4":"13m 10cm",
+        "right_opt":"14m 10cm"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 292,
+        "fields": {
+        "category": 21,
+        "question": "Which fraction has the least value?",
+        "context": "",
+        "opt_1":"3/4",
+        "opt_2":"5/12",
+        "opt_3":"1/6",
+        "opt_4":"2/3",
+        "right_opt":"1/6"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 293,
+        "fields": {
+        "category": 21,
+        "question": "Nabutola cycled for 8000m. What distance did she cover in km?",
+        "context": "",
+        "opt_1":"800 km",
+        "opt_2":"80 km",
+        "opt_3":"8 km",
+        "opt_4":"0.8 km",
+        "right_opt":"8 km"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 294,
+        "fields": {
+        "category": 21,
+        "question": "Work out: 605 - 112 + 328?",
+        "context": "",
+        "opt_1":"821",
+        "opt_2":"493",
+        "opt_3":"933",
+        "opt_4":"531",
+        "right_opt":"821"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 295,
+        "fields": {
+        "category": 21,
+        "question": "Work out: 457 litres 650 mililitres + 341 litres 240 mililitres",
+        "context": "",
+        "opt_1":"799 litres 890 mililitres",
+        "opt_2":"798 litres 890 mililitres",
+        "opt_3":"206 litres 340 mililitres",
+        "opt_4":"116 litres 410 mililitres",
+        "right_opt":"798 litres 890 mililitres"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 296,
+        "fields": {
+        "category": 21,
+        "question": "A brick measures 18cm long, 15cm and 9cm. What is its volume?",
+        "context": "",
+        "opt_1":"2,430 cm squared",
+        "opt_2":"2,340 cm squared",
+        "opt_3":"2,330 cm squared",
+        "opt_4":"42 cm squared",
+        "right_opt":"2,430 cm squared"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 297,
+        "fields": {
+        "category": 21,
+        "question": "What is the value of: sh. 142 cts 30 - sh. 18 cts 90",
+        "context": "",
+        "opt_1":"sh.122 40cts",
+        "opt_2":"sh.123 20cts",
+        "opt_3":"sh.123 60cts",
+        "opt_4":"sh.123 40cts",
+        "right_opt":"sh.123 40cts"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 298,
+        "fields": {
+        "category": 21,
+        "question": "A bookshop received 648,205 exercise books from a supplier. A school bought 76,102 of the exercise books. How many books remained in the bookshop?",
+        "opt_1":"724,307",
+        "opt_2":"672,103",
+        "opt_3":"532,103",
+        "opt_4":"572,103",
+        "right_opt":"572,103"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 299,
+        "fields": {
+        "category": 21,
+        "question": "4K club had 2,156 chicks. The chicks were distributed equally among 15 members. How many more chicks will the 4K club add for all the members to get an equal share?",
+        "opt_1":"4",
+        "opt_2":"11",
+        "opt_3":"143",
+        "opt_4":"144",
+        "right_opt":"4"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 300,
+        "fields": {
+        "category": 21,
+        "question": "Ann bought 84.20kg of kales from a grocer. She also bought 45.48 kg of kales from another grocer. She later used 15.93 kg of kales to prepare lunch. What mass, in kilograms, of kales did she remain with?",
+        "opt_1":"145.61",
+        "opt_2":"129.68",
+        "opt_3":"113.75",
+        "opt_4":"22.79",
+        "right_opt":"113.75"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 301,
+        "fields": {
+            "category": 21,
+            "question": "A trader had three hundred and forty nine thousand, eight hundred and seventy two shillings in his account. How much is this in symbols?",
+            "opt_1":"Sh. 394 872",
+            "opt_2":"Sh. 384 972",
+            "opt_3":"Sh. 349 972",
+            "opt_4":"Sh. 349 872",
+            "right_opt":"Sh. 349 872"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 302,
+        "fields": {
+            "category": 21,
+            "question": "Convert 40% as a fraction in its simplest form",
+            "opt_1":"40/100",
+            "opt_2":"2/5",
+            "opt_3":"4/10",
+            "opt_4":"2/50",
+            "right_opt":"2/5"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 303,
+        "fields": {
+            "category": 21,
+            "question": "What is the square root of 361?",
+            "opt_1":"29",
+            "opt_2":"19",
+            "opt_3":"17",
+            "opt_4":"27",
+            "right_opt":"19"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 304,
+        "fields": {
+            "category": 21,
+            "question": "A marathon runner runs 13km 650m in aday. What distance does she cover in four days?",
+            "opt_1":"53km 600m",
+            "opt_2":"54km 600m",
+            "opt_3":"52km 2 600m",
+            "opt_4":"17km 650m",
+            "right_opt":"54km 600m"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 305,
+        "fields": {
+            "category": 21,
+            "question": "Angles are measured in units called",
+            "opt_1":"Protractors",
+            "opt_2":"Metres",
+            "opt_3":"Centimetres",
+            "opt_4":"Degrees",
+            "right_opt":"Degrees"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 306,
+        "fields": {
+            "category": 21,
+            "question": "A block of wood is 3 metres long. What is the length of the block of wood in centimetres?",
+            "opt_1":"30",
+            "opt_2":"300",
+            "opt_3":"3000",
+            "opt_4":"30000",
+            "right_opt":"300"
+        }
+    }, 
+
+
+
+
+
+
+
+
+    {
+        "model": "core.QuizQuestion",
+        "pk": 307,
+        "fields": {
+        "category": 22,
+        "question": "According to this conversation, what is the similarity between Toti and Hamsa?",
+        "context": "",
+        "opt_1":"They are both short boys.",
+        "opt_2":"Both of them are taller than their class teacher.",
+        "opt_3":"They have both grown tall.",
+        "opt_4":"Both of them have grown short.",
+        "right_opt":"They have both grown tall."
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 308,
+        "fields": {
+        "category": 22,
+        "question": "Where was Hamsa when Toti learned about the rule of three from Ms Kobole?",
+        "context": "",
+        "opt_1":"At home",
+        "opt_2":"In the field",
+        "opt_3":"Playing",
+        "opt_4":"In Marema school",
+        "right_opt":"In Marema school"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 309,
+        "fields": {
+        "category": 22,
+        "question": "In simpler terms, the rule of three means, eating _______",
+        "context": "",
+        "opt_1":"Fruits and vegetables",
+        "opt_2":"A balanced diet",
+        "opt_3":"Adequate food",
+        "opt_4":"Food in adequate amounts",
+        "right_opt":"A balanced diet"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 310,
+        "fields": {
+        "category": 22,
+        "question": "According to the conversation, the rule of three doesn't involve _____",
+        "context": "",
+        "opt_1":"Locally available foods",
+        "opt_2":"Body building foods",
+        "opt_3":"Energy giving foods",
+        "opt_4":"Protective foods",
+        "right_opt":"Locally available foods"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 311,
+        "fields": {
+        "category": 22,
+        "question": "All the following minerals have been mentioned in the passage except _______",
+        "context": "",
+        "opt_1":"Iron",
+        "opt_2":"Vitamins",
+        "opt_3":"Calcium",
+        "opt_4":"Phosphorous",
+        "right_opt":"Vitamins"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 312,
+        "fields": {
+        "category": 22,
+        "question": "A child enjoys his or her right to education when",
+        "context": "",
+        "opt_1":"His or her parent provides good clothes for him or her",
+        "opt_2":"He or she is exposed to academic activities and needs met early enough.",
+        "opt_3":"His or her parent gives him or her good food.",
+        "opt_4":"He or she is allowed to air his or her views",
+        "right_opt":"He or she is exposed to academic activities and needs met early enough."
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 313,
+        "fields": {
+        "category": 22,
+        "question": "According to this passage, how is right to play helpful to a child? It makes them",
+        "context": "",
+        "opt_1":"Pass school tests",
+        "opt_2":"Grow stronger and stronger",
+        "opt_3":"Interact with their friends",
+        "opt_4":"Open minded",
+        "right_opt":"Interact with their friends"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 314,
+        "fields": {
+        "category": 22,
+        "question": "Which one of the following child rights has not been highlighted in the passage? Right to",
+        "context": "",
+        "opt_1":"Play",
+        "opt_2":"Education",
+        "opt_3":"Entertainment",
+        "opt_4":"Feeding",
+        "right_opt":"Entertainment"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 315,
+        "fields": {
+        "category": 22,
+        "question": "The writer says that it is the responsibility of a child to",
+        "context": "",
+        "opt_1":"Help in cleaning and take care of property",
+        "opt_2":"Help in cleaning",
+        "opt_3":"Take good care of proper",
+        "opt_4":"Provide basic needs for his or her family",
+        "right_opt":"Help in cleaning and take care of property"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 316,
+        "fields": {
+        "category": 22,
+        "question": "What is unimaginable to many people based on the reading?",
+        "context": "",
+        "opt_1":"People lived in the past",
+        "opt_2":"Clothes were made in the past",
+        "opt_3":"People stayed without clothes in the past",
+        "opt_4":"Old people made clothes in the past",
+        "right_opt":"People stayed without clothes in the past"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 317,
+        "fields": {
+        "category": 22,
+        "question": "What was used in the past as clothes?",
+        "context": "",
+        "opt_1":"Animal hids and skins",
+        "opt_2":"Pieces of animals",
+        "opt_3":"Pieces of papers",
+        "opt_4":"Leaves and grass",
+        "right_opt":"Animal hids and skins"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 318,
+        "fields": {
+        "category": 22,
+        "question": "Who bring models to fashion shows?",
+        "context": "",
+        "opt_1":"Competitors",
+        "opt_2":"Designers",
+        "opt_3":"Judges",
+        "opt_4":"Spectators",
+        "right_opt":"Designers"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 319,
+        "fields": {
+        "category": 22,
+        "question": "The writer kept on thinking about",
+        "context": "",
+        "opt_1":"The animals they would see",
+        "opt_2":"The next day",
+        "opt_3":"Amboseli National Park",
+        "opt_4":"Those who were lucky",
+        "right_opt":"The next day"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 320,
+        "fields": {
+        "category": 22,
+        "question": "According to this passage, who were unlucky? Those who",
+        "context": "",
+        "opt_1":"Would see different animals",
+        "opt_2":"Never paid for the trip",
+        "opt_3":"Paid for the trip",
+        "opt_4":"Were in the writer's class",
+        "right_opt":"Never paid for the trip"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 321,
+        "fields": {
+        "category": 22,
+        "question": "The writer would accompany other pupils because",
+        "context": "",
+        "opt_1":"They had paid for him",
+        "opt_2":"Their class teacher said so",
+        "opt_3":"He liked their company",
+        "opt_4":"He had paid for the trip",
+        "right_opt":"He had paid for the trip"
+        }
+    },
+
+
+
+
+
+
+
+    {
+        "model": "core.QuizQuestion",
+        "pk": 322,
+        "fields": {
+        "category": 23,
+        "question": "Select the word that should in blank space 16",
+        "context": "",
+        "opt_1":"Holidays",
+        "opt_2":"Buildings",
+        "opt_3":"Break time",
+        "opt_4":" Days",
+        "right_opt":"Holidays"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 323,
+        "fields": {
+        "category": 23,
+        "question": "Select the word that should in blank space 17",
+        "context": "",
+        "opt_1":"Idle",
+        "opt_2":"Busy",
+        "opt_3":"Lazy",
+        "opt_4":"Worked",
+        "right_opt":"Busy"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 324,
+        "fields": {
+        "category": 23,
+        "question": "Select the word that should in blank space 18",
+        "context": "",
+        "opt_1":"Books",
+        "opt_2":"Notes",
+        "opt_3":"Own",
+        "opt_4":"Work",
+        "right_opt":"Own"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 325,
+        "fields": {
+        "category": 23,
+        "question": "Select the word that should in blank space 19",
+        "context": "",
+        "opt_1":"Begin",
+        "opt_2":"Start",
+        "opt_3":"Finished",
+        "opt_4":"Complete",
+        "right_opt":"Complete"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 326,
+        "fields": {
+        "category": 23,
+        "question": "Select the word that should in blank space 20",
+        "context": "",
+        "opt_1":"Play",
+        "opt_2":"Work",
+        "opt_3":"Study",
+        "opt_4":"Write",
+        "right_opt":"Play"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 327,
+        "fields": {
+        "category": 23,
+        "question": "Yesterday you were late for classes,",
+        "context": "",
+        "opt_1":"Were'nt you?",
+        "opt_2":"Were you?",
+        "opt_3":"Aren't you?",
+        "opt_4":"Are you?",
+        "right_opt":"Were'nt you?"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 328,
+        "fields": {
+        "category": 23,
+        "question": "I am the tallest basketball player,",
+        "context": "",
+        "opt_1":"Am I?",
+        "opt_2":"Aren't I?",
+        "opt_3":"Can't I?",
+        "opt_4":"Isn't it?",
+        "right_opt":"Am I?"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 329,
+        "fields": {
+        "category": 23,
+        "question": "She did not come to school yesterday,",
+        "context": "",
+        "opt_1":"Didn't she?",
+        "opt_2":"Did he?",
+        "opt_3":"Did she?",
+        "opt_4":"Didn't she?",
+        "right_opt":"Did she?"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 330,
+        "fields": {
+        "category": 23,
+        "question": "Muthoni won the race ________________ was given a trophy",
+        "context": "",
+        "opt_1":"But",
+        "opt_2":"And",
+        "opt_3":"Yet",
+        "opt_4":"Because",
+        "right_opt":"And"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 331,
+        "fields": {
+        "category": 23,
+        "question": "France played very well _________________ lost the final to Argentina",
+        "context": "",
+        "opt_1":"Also",
+        "opt_2":"Or",
+        "opt_3":"But",
+        "opt_4":"For",
+        "right_opt":"But"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 332,
+        "fields": {
+        "category": 23,
+        "question": "You can either buy a smartphone _______________ a new suit",
+        "context": "",
+        "opt_1":"Or",
+        "opt_2":"Because",
+        "opt_3":"For",
+        "opt_4":"Since",
+        "right_opt":"Or"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 333,
+        "fields": {
+        "category": 23,
+        "question": "We have been here __________________  eight in the morning",
+        "context": "",
+        "opt_1":"But",
+        "opt_2":"For",
+        "opt_3":"Yet",
+        "opt_4":"Since",
+        "right_opt":"Since"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 334,
+        "fields": {
+        "category": 23,
+        "question": "There wasn't ___________________ milk in the jar",
+        "context": "",
+        "opt_1":"Some",
+        "opt_2":"A lot of ",
+        "opt_3":"Lots of",
+        "opt_4":"A lot",
+        "right_opt":""
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 335,
+        "fields": {
+        "category": 23,
+        "question": "Elders are people who have lived",
+        "context": "",
+        "opt_1":"More",
+        "opt_2":"Life",
+        "opt_3":"A lot",
+        "opt_4":"A lot of",
+        "right_opt":"A lot"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 336,
+        "fields": {
+        "category": 23,
+        "question": "My mother _______________ an apple everyday",
+        "context": "",
+        "opt_1":"Bought",
+        "opt_2":"Buys",
+        "opt_3":"Buying",
+        "opt_4":"Buyer",
+        "right_opt":"Buys"
+        }
+    },
+
+
+
+
+
+    {
+        "model": "core.QuizQuestion",
+        "pk": 337,
+        "fields": {
+        "category": 24,
+        "question": "Kati ya Rozina na Lawi nani ako na umri nyingi?",
+        "context": "",
+        "opt_1":"Rozina",
+        "opt_2":"Lawi",
+        "opt_3":"Hakuna",
+        "opt_4":"Wote",
+        "right_opt":"Lawi"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 338,
+        "fields": {
+        "category": 24,
+        "question": "Nani alisaidiwa kulingana na mazungumzo haya?",
+        "context": "",
+        "opt_1":"Ajuja",
+        "opt_2":"Mke",
+        "opt_3":"Nyanya",
+        "opt_4":"Shaibo",
+        "right_opt":"Nyanya"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 339,
+        "fields": {
+        "category": 24,
+        "question": "Kulingana na mazungumzo haya ni kweli kusema kuwa:",
+        "context": "",
+        "opt_1":"Lawi alimsaidia bibi",
+        "opt_2":"Rozina alipenda kazi tofauti",
+        "opt_3":"Lawi na Rozina ni wakulima",
+        "opt_4":"Lawi aling'oa kwekwe shambani",
+        "right_opt":"Lawi na Rozina ni wakulima"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 340,
+        "fields": {
+        "category": 24,
+        "question": "Ni neno gani la adabu alitumia Rozina kwa Lawi?",
+        "context": "",
+        "opt_1":"Pole",
+        "opt_2":"Samahani",
+        "opt_3":"Karibu",
+        "opt_4":"Asante",
+        "right_opt":"Pole"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 341,
+        "fields": {
+        "category": 24,
+        "question": "Neno 'Mola' imetumika kwa mazungumzo. Maana yake ni",
+        "context": "",
+        "opt_1":"Mazao",
+        "opt_2":"Bidii",
+        "opt_3":"Mungu",
+        "opt_4":"Shamba",
+        "right_opt":"Mungu"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 342,
+        "fields": {
+        "category": 24,
+        "question": "Zuma alifanya kazi gani? Kazi ya?",
+        "context": "",
+        "opt_1":"Kufinyanga",
+        "opt_2":"Uashi",
+        "opt_3":"Kuwinda",
+        "opt_4":"Usonaha",
+        "right_opt":"Kufinyanga"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 343,
+        "fields": {
+        "category": 24,
+        "question": "Vifaa alivyotengeneza ni",
+        "context": "",
+        "opt_1":"Ala za vita",
+        "opt_2":"Vifaa vya upishi",
+        "opt_3":"Vifaa vya usafiri",
+        "opt_4":"Vifaa vya muziki",
+        "right_opt":"Ala za vita"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 344,
+        "fields": {
+        "category": 24,
+        "question": "Kutokana na habari hii ni kweli kusema",
+        "context": "",
+        "opt_1":"Zuma alikuwa na wateja wengi",
+        "opt_2":"Zuma alikuwa kapera",
+        "opt_3":"Vuma alikuwa na watoto wawili",
+        "opt_4":"Zuma alikuwa mzembe",
+        "right_opt":"Zuma alikuwa na wateja wengi"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 345,
+        "fields": {
+        "category": 24,
+        "question": "Si kweli kusema kwamba:",
+        "context": "",
+        "opt_1":"Zuma alitengeneza vitu vizuri",
+        "opt_2":"Mamake Zuma alimsaidia mkazamwanawe",
+        "opt_3":"Zuma alitumia mchanga wowote kufinyanga",
+        "opt_4":"Mamake Zuma alikuwa na nguvu",
+        "right_opt":"Zuma alitumia mchanga wowote kufinyanga"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 346,
+        "fields": {
+        "category": 24,
+        "question": "Kifungu 'vilimezewa mate na wengi' ni kumaanisha kwamba:-",
+        "context": "",
+        "opt_1":"Watu walivitemea mate",
+        "opt_2":"Watu walitokwa na mate",
+        "opt_3":"Walividharau",
+        "opt_4":"Watu walivitamani",
+        "right_opt":"Watu walivitamani"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 347,
+        "fields": {
+        "category": 24,
+        "question": "Mama Zuma alifanya kazi gani?",
+        "context": "",
+        "opt_1":"Kuchunga kondoo",
+        "opt_2":"Kuteka maji",
+        "opt_3":"Kuvunja kuni",
+        "opt_4":"Kufanya biashara",
+        "right_opt":"Kuchunga kondoo"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 348,
+        "fields": {
+        "category": 24,
+        "question": "Mkewe Zuma aliitwa nani?",
+        "context": "",
+        "opt_1":"Mumbi",
+        "opt_2":"Mfinyanzi",
+        "opt_3":"Nyathira",
+        "opt_4":"Ajuza",
+        "right_opt":"Nyathira"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 349,
+        "fields": {
+        "category": 24,
+        "question": "Nyathira angeenda kumtafuta mama yake lini?",
+        "context": "",
+        "opt_1":"Jioni",
+        "opt_2":"Usiku",
+        "opt_3":"Asubuhi",
+        "opt_4":"Hatujui",
+        "right_opt":"Asubuhi"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 350,
+        "fields": {
+        "category": 24,
+        "question": "Neno 'taaluma' linamaanisha nini?",
+        "context": "",
+        "opt_1":"Ujuzi",
+        "opt_2":"Kutojua",
+        "opt_3":"Daktari",
+        "opt_4":"Kasoro",
+        "right_opt":"Ujuzi"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 351,
+        "fields": {
+        "category": 24,
+        "question": "Jaza pengo la 16 na neno linalofaa",
+        "context": "",
+        "opt_1":"Ile",
+        "opt_2":"Lile",
+        "opt_3":"Yale",
+        "opt_4":"Kile",
+        "right_opt":"Lile"
+        }
+    },
+
+
+
+
+
+    {
+        "model": "core.QuizQuestion",
+        "pk": 352,
+        "fields": {
+            "category": 25,
+            "question": "Tegua kitendawili kifuatacho: Chauma bila meno, chaumiza bila silaha.",
+            "opt_1":"Siafu",
+            "opt_2":"Moto",
+            "opt_3":"Chungu",
+            "opt_4":"Kiraka",
+            "right_opt":"Moto"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 353,
+        "fields": {
+        "category": 25,
+        "question": "Jaza pengo la 17 na neno linalofaa",
+        "context": "",
+        "opt_1":"Mingi",
+        "opt_2":"Chache",
+        "opt_3":"Mengi",
+        "opt_4":"Ndogo",
+        "right_opt":"Mengi"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 354,
+        "fields": {
+        "category": 25,
+        "question": "Jaza pengo la 18 na neno linalofaa",
+        "context": "",
+        "opt_1":"Kuvulia",
+        "opt_2":"Kuvua",
+        "opt_3":"Kufua",
+        "opt_4":"Kufulia",
+        "right_opt":"Kufulia"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 355,
+        "fields": {
+        "category": 25,
+        "question": "Jaza pengo la 19 na neno linalofaa",
+        "context": "",
+        "opt_1":"Kinachonunuliwa",
+        "opt_2":"Inunuliwayo",
+        "opt_3":"Yanayonunuliwa",
+        "opt_4":"nayonunua",
+        "right_opt":"Inunuliwayo"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 356,
+        "fields": {
+        "category": 25,
+        "question": "Jaza pengo la 20 na neno linalofaa",
+        "context": "",
+        "opt_1":"Bao",
+        "opt_2":"Jeki",
+        "opt_3":"Kitutu",
+        "opt_4":"Pasi",
+        "right_opt":"Pasi"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 357,
+        "fields": {
+        "category": 25,
+        "question": "Tulienda kanisani kuimba kwaya. Neno kanisani ni:-",
+        "context": "",
+        "opt_1":"Nomino",
+        "opt_2":"Kivumishi",
+        "opt_3":"Kiwakilishi",
+        "opt_4":"Kielelezi",
+        "right_opt":"Nomino"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 358,
+        "fields": {
+        "category": 25,
+        "question": "Gari ________________ liliharibika njiani",
+        "context": "",
+        "opt_1":"Nzuri",
+        "opt_2":"Langu",
+        "opt_3":"Moja",
+        "opt_4":"Lile",
+        "right_opt":"Langu"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 359,
+        "fields": {
+        "category": 25,
+        "question": "Msichana yule ni mgonjwa",
+        "context": "Wingi wa sentensi hii ni:- ",
+        "opt_1":"Wasichana wale ni wagonjwa",
+        "opt_2":"Wasichana yule ni mgonjwa",
+        "opt_3":"Wasichana hao ni wagonjwa",
+        "opt_4":"Wasichana hawa ni wagonjwa",
+        "right_opt":"Wasichana wale ni wagonjwa"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 360,
+        "fields": {
+        "category": 25,
+        "question": "Umbo hili huitwa?",
+        "context": "",
+        "opt_1":"Duara",
+        "opt_2":"Mraba",
+        "opt_3":"Mche",
+        "opt_4":"Duara dufu",
+        "right_opt":"Duara dufu"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 361,
+        "fields": {
+        "category": 25,
+        "question": "Neno 'ufahamu' lina irabu ngapi?",
+        "context": "",
+        "opt_1":"Mbili",
+        "opt_2":"Tatu",
+        "opt_3":"Nne",
+        "opt_4":"Saba",
+        "right_opt":"Nne"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 362,
+        "fields": {
+        "category": 25,
+        "question": "Neno 'ua' liko katika ngeli gani?",
+        "context": "",
+        "opt_1":"I-ZI",
+        "opt_2":"I-I",
+        "opt_3":"LI-YA",
+        "opt_4":"A-WA",
+        "right_opt":"LI-YA"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 363,
+        "fields": {
+        "category": 25,
+        "question": "Jibu wa waambaje ni nini?",
+        "context": "",
+        "opt_1":"Vizuri",
+        "opt_2":"Vyema",
+        "opt_3":"Vibaya",
+        "opt_4":"Sina la kuamba",
+        "right_opt":"Vyema"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 364,
+        "fields": {
+        "category": 25,
+        "question": "Mtoto wa mjomba au shangazi ni:-",
+        "context": "",
+        "opt_1":"Kuzo",
+        "opt_2":"Mkoi",
+        "opt_3":"Shemeji",
+        "opt_4":"Wifi",
+        "right_opt":"Mkoi"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 365,
+        "fields": {
+        "category": 25,
+        "question": "Shati ___________ ni safi",
+        "context": "Tumia -enyewe kwa ufasaha",
+        "opt_1":"Lenyewe",
+        "opt_2":"Yenyewe",
+        "opt_3":"Enyewe",
+        "opt_4":"Mwenyewe",
+        "right_opt":"Lenyewe"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 366,
+        "fields": {
+        "category": 25,
+        "question": "Wageni walikula wali _____________ nyama",
+        "context": "",
+        "opt_1":"Na",
+        "opt_2":"Pia",
+        "opt_3":"Kwa",
+        "opt_4":"Tena",
+        "right_opt":"Kwa"
+        }
+    },
+
+
+
+
+    {
+        "model": "core.QuizQuestion",
+        "pk": 367,
+        "fields": {
+        "category": 26,
+        "question": "The type of drawing drawn above is known as",
+        "context": "A grade 6 boy drew a picture like the one shown below",
+        "opt_1":"Memory drawing",
+        "opt_2":"Still life drawing",
+        "opt_3":"Stationary drawing",
+        "opt_4":"Virtual drawing",
+        "right_opt":"Still life drawing"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 368,
+        "fields": {
+        "category": 26,
+        "question": "Which of the following techniques did the teacher use to show shading effect?",
+        "context": "A teacher drew a form like the one below",
+        "opt_1":"Cross hatching",
+        "opt_2":"Smudge",
+        "opt_3":"Crayon etching",
+        "opt_4":"Collage",
+        "right_opt":"Cross hatching"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 369,
+        "fields": {
+        "category": 26,
+        "question": "A sculpture can be carved using",
+        "context": "",
+        "opt_1":"Plasticine",
+        "opt_2":"Clay",
+        "opt_3":"Plastic",
+        "opt_4":"Wood",
+        "right_opt":"Wood"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 370,
+        "fields": {
+        "category": 26,
+        "question": "The type of puppet drawn is called a",
+        "context": "A puppet like the one drawn below was drawn on a classroom chart",
+        "opt_1":"Glove puppet",
+        "opt_2":"Marionette",
+        "opt_3":"Rod puppet",
+        "opt_4":"Stick puppet",
+        "right_opt":"Glove puppet"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 371,
+        "fields": {
+        "category": 26,
+        "question": "All the following are elements of photography. Which one is not?",
+        "context": "",
+        "opt_1":"Focus",
+        "opt_2":"Composition",
+        "opt_3":"Lightning",
+        "opt_4":"Framing",
+        "right_opt":"Lightning"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 372,
+        "fields": {
+        "category": 26,
+        "question": "Which of the following lists consists of two secondary colours and one primary colour?",
+        "context": "",
+        "opt_1":"Orange, green, red",
+        "opt_2":"Green, purple, orange",
+        "opt_3":"Yellow, red, blue",
+        "opt_4":"Blue, green, red",
+        "right_opt":"Orange, green, red"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 373,
+        "fields": {
+        "category": 26,
+        "question": "Paraffin wax and bees wax are used in",
+        "context": "",
+        "opt_1":"Crayon etching",
+        "opt_2":"Cross hatching",
+        "opt_3":"Smudge technique",
+        "opt_4":"Painting",
+        "right_opt":"Crayon etching"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 374,
+        "fields": {
+        "category": 26,
+        "question": "A traditional dancer was seen marking her face and body with red clay. This is called",
+        "context": "",
+        "opt_1":"Body tattooing",
+        "opt_2":"Costuming",
+        "opt_3":"Body adornment",
+        "opt_4":"Performing",
+        "right_opt":"Body adornment"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 375,
+        "fields": {
+        "category": 26,
+        "question": "Percussion instruments produce sound",
+        "context": "",
+        "opt_1":"Blown or plucked",
+        "opt_2":"Shaken or blown",
+        "opt_3":"Plucked or shaken",
+        "opt_4":"Hit or shaken",
+        "right_opt":"Plucked or shaken"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 376,
+        "fields": {
+        "category": 26,
+        "question": "Which of the following communities plays the musical instrument drawn above?",
+        "context": "Below is a wind instrument called abu.",
+        "opt_1":"Mijikenda",
+        "opt_2":"Luo",
+        "opt_3":"Abagusii",
+        "opt_4":"Agikuyu",
+        "right_opt":"Luo"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 377,
+        "fields": {
+        "category": 26,
+        "question": "Which one of the following elements of a folk song is the most important?",
+        "context": "",
+        "opt_1":"Message",
+        "opt_2":"Instrumentation",
+        "opt_3":"Participants",
+        "opt_4":"Occasion",
+        "right_opt":"Message"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 378,
+        "fields": {
+        "category": 26,
+        "question": "A traditional dancer made a hat using cartons and feathers in readiness for a dance The hat he made is an example of",
+        "context": "",
+        "opt_1":"Instruments",
+        "opt_2":"Clothes",
+        "opt_3":"Costumes",
+        "opt_4":"Props",
+        "right_opt":"Costumes"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 379,
+        "fields": {
+        "category": 26,
+        "question": "Which one of the following lines is not found in the Kenya National Anthem? ",
+        "context": "",
+        "opt_1":"Kila siku tuwe na shukrani",
+        "opt_2":"Raha tupate na ustawi",
+        "opt_3":"Natulinde uhuru na amani",
+        "opt_4":"Nasi tujitoe kwa nguvu",
+        "right_opt":"Natulinde uhuru na amani"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 380,
+        "fields": {
+        "category": 26,
+        "question": "Which of the following parts of a drum is adjusted to tune it?",
+        "context": "",
+        "opt_1":"Lace",
+        "opt_2":"Membrane",
+        "opt_3":"Foot",
+        "opt_4":"Resonator",
+        "right_opt":"Lace"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 381,
+        "fields": {
+        "category": 26,
+        "question": "Which of the following lines is found in the last verse of the East African Community Anthem?",
+        "context": "",
+        "opt_1":"Tuwezeshe kuishi kwa furaha",
+        "opt_2":"Umoja wetu ni nguzo yetu",
+        "opt_3":"Natulinde uhuru na amani",
+        "opt_4":"Tufanye kazi sote kwa makini",
+        "right_opt":"Umoja wetu ni nguzo yetu"
+        }
+    },
+
+
+
+
+
+    {
+        "model": "core.QuizQuestion",
+        "pk": 382,
+        "fields": {
+        "category": 27,
+        "question": "Body movements used to show the meanings of words or ideas in a song are called",
+        "context": "",
+        "opt_1":"Moods",
+        "opt_2":"Tones",
+        "opt_3":"Dictions",
+        "opt_4":"Gestures",
+        "right_opt":"Gestures"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 383,
+        "fields": {
+        "category": 27,
+        "question": "In African traditional education",
+        "context": "",
+        "opt_1":"Children learnt through the internet",
+        "opt_2":"Tachers gave their learners notes to read",
+        "opt_3":"Elders taught the young ones through story telling",
+        "opt_4":"Group discussions were held in classrooms",
+        "right_opt":"Elders taught the young ones through story telling"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 384,
+        "fields": {
+        "category": 27,
+        "question": "Who among the following school administrators is at the highest hierarchy in a public primary school in Kenya?",
+        "context": "",
+        "opt_1":"Senior teacher",
+        "opt_2":"Class teacher",
+        "opt_3":"Deputy head teacher",
+        "opt_4":"Head teacher",
+        "right_opt":"Head teacher"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 385,
+        "fields": {
+        "category": 27,
+        "question": "Who among the following is not among the Western Bantus?",
+        "context": "",
+        "opt_1":"Akamba",
+        "opt_2":"Abakuria",
+        "opt_3":"Abaluhya",
+        "opt_4":"Abagusii",
+        "right_opt":"Akamba"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 386,
+        "fields": {
+        "category": 27,
+        "question": "All the following are tourist attractions in Kenya except",
+        "context": "",
+        "opt_1":"Language groups",
+        "opt_2":"Cultural activities",
+        "opt_3":"Natural sceneries",
+        "opt_4":"Wildlife",
+        "right_opt":"Language groups"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 387,
+        "fields": {
+        "category": 27,
+        "question": "Which one of the following is not a way through which tourism has contributed to the economy of our country?",
+        "context": "",
+        "opt_1":"Promoting local industries",
+        "opt_2":"Providing basic needs to families in the land",
+        "opt_3":"Earning the country foreign exchange",
+        "opt_4":"Promoting cultural services",
+        "right_opt":"Providing basic needs to families in the land"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 388,
+        "fields": {
+        "category": 27,
+        "question": "A school routine is normally shown on",
+        "context": "",
+        "opt_1":"A timetable",
+        "opt_2":"An exercise book cover",
+        "opt_3":"The school uniform",
+        "opt_4":"The school gate",
+        "right_opt":"A timetable"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 389,
+        "fields": {
+        "category": 27,
+        "question": "Which of the following lists shows crops that can be grown under horticulture?",
+        "context": "",
+        "opt_1":"Coffee, maize, sugarcane",
+        "opt_2":"Grass, onions, rice",
+        "opt_3":"Pumpkins, sisal, tea",
+        "opt_4":"Tomatoes, cabbages, kales",
+        "right_opt":"Tomatoes, cabbages, kales"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 390,
+        "fields": {
+        "category": 27,
+        "question": "Who among the learners was not correct?",
+        "context": "Some Grade six learners were asked to name some resources found in our country:  Osman - museums Aisha - lakes Rajab - minerals Maimuna - forests ",
+        "opt_1":"Maimuna",
+        "opt_2":"Aisha",
+        "opt_3":"Rajab",
+        "opt_4":"Osman",
+        "right_opt":"Osman"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 391,
+        "fields": {
+        "category": 27,
+        "question": "Which of the following minerals is correctly matched with the place it is found?",
+        "context": "",
+        "opt_1":"Soda ash - Magadi",
+        "opt_2":"Diatomite - Malindi ",
+        "opt_3":"Salt - Kariandusi",
+        "opt_4":"Oil - Nakuru",
+        "right_opt":"Soda ash - Magadi"
+        }
+    },{
+        "model": "core.QuizQuestion",
+        "pk": 392,
+        "fields": {
+        "category": 27,
+        "question": "Dairy fanning is important in our country because",
+        "context": "",
+        "opt_1":"Farmers keep different breeds of dairy cattle",
+        "opt_2":"Farmers are able to earn a living",
+        "opt_3":"Every citizen uses dairy products on a daily basis",
+        "opt_4":"Dairy farmers are able to give loans to young farmers at no interest",
+        "right_opt":"Every citizen uses dairy products on a daily basis"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 393,
+        "fields": {
+        "category": 27,
+        "question": "How many basketfuls of food were left after Jesus fed the multitude? ",
+        "context": "",
+        "opt_1":"24",
+        "opt_2":"10",
+        "opt_3":"3",
+        "opt_4":"12",
+        "right_opt":"12"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 394,
+        "fields": {
+        "category": 27,
+        "question": "Which is the correct way of using social media?",
+        "context": "",
+        "opt_1":"Accusing others",
+        "opt_2":"Watching nakedness",
+        "opt_3":"Sending greetings to friends",
+        "opt_4":"Posting immoral pictures",
+        "right_opt":"Sending greetings to friends"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 395,
+        "fields": {
+        "category": 27,
+        "question": "Otieno wakes up very early every Sunday to arrange chairs in their church. Otieno demonstrates:-",
+        "context": "",
+        "opt_1":"Responsibility",
+        "opt_2":"Courage",
+        "opt_3":"Holiness",
+        "opt_4":"Loneliness",
+        "right_opt":"Responsibility"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 396,
+        "fields": {
+            "category": 27,
+            "question": "Learners were asked to outline the process hue of performing long jump. Which of the following is the correct process?",
+            "opt_1":"Flight, take-off, approach, landing",
+            "opt_2":"Approach, take-off, flight, landing",
+            "opt_3":"Take-off, landing, approach, flight.",
+            "opt_4":"Landing, approach, take-off, flight",
+            "right_opt":"Approach, take-off, flight, landing"
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+    {
+        "model": "core.QuizQuestion",
+        "pk": 397,
+        "fields": {
+        "category": 28,
+        "question": "In a wedding ceremony, Grade six learners carried 2 342 chairs. They later went for 1 009 more chairs. Out of these, 1 810 were used. How many were not used?",
+        "context": "",
+        "opt_1":"1641",
+        "opt_2":"1541",
+        "opt_3":"1531",
+        "opt_4":"1631",
+        "right_opt":"1541"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 398,
+        "fields": {
+        "category": 28,
+        "question": "In an Agricultural Exhibition, there were 324 867 participants. What is the place value of digit 2 in this number?",
+        "context": "",
+        "opt_1":"Hundreds",
+        "opt_2":"Tens of thousands",
+        "opt_3":"Thousands",
+        "opt_4":"Hundreds of thousands",
+        "right_opt":"Tens of thousands"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 399,
+        "fields": {
+        "category": 28,
+        "question": "Work out the LCM of 8 and 12",
+        "context": "",
+        "opt_1":"2",
+        "opt_2":"12",
+        "opt_3":"32",
+        "opt_4":"24",
+        "right_opt":"24"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 400,
+        "fields": {
+        "category": 28,
+        "question": "Round off 43 866 to the nearest hundred",
+        "context": "",
+        "opt_1":"43900",
+        "opt_2":"43860",
+        "opt_3":"44000",
+        "opt_4":"43800",
+        "right_opt":"43900"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 401,
+        "fields": {
+        "category": 28,
+        "question": "Out of 12 864 chickens in a school, 6 028 were cocks and the rest were hens. How many hens were there?",
+        "context": "",
+        "opt_1":"18892",
+        "opt_2":"18792",
+        "opt_3":"6836",
+        "opt_4":"6736",
+        "right_opt":"6836"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 402,
+        "fields": {
+        "category": 28,
+        "question": "The distance between town X and town Y is 2 700m. How many kilometres and metres are between the two towns? ",
+        "context": "",
+        "opt_1":"20km 700m",
+        "opt_2":"27km 00m",
+        "opt_3":"2km 700m",
+        "opt_4":"270km 00m",
+        "right_opt":"2km 700m"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 403,
+        "fields": {
+        "category": 28,
+        "question": "Mwende has a square piece of cloth whose side is 18cm. What is the area of the piece of cloth?",
+        "context": "",
+        "opt_1":"36 cm squared",
+        "opt_2":"360 cm squared",
+        "opt_3":"324 cm squared",
+        "opt_4":"334 cm squared",
+        "right_opt":"324 cm squared"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 404,
+        "fields": {
+        "category": 28,
+        "question": "Kilo carried 29kg of maize while Kaloki carried 33kg of sorghum. What was the total mass carried by the two?",
+        "context": "",
+        "opt_1":"957kg",
+        "opt_2":"602kg",
+        "opt_3":"952kg",
+        "opt_4":"62kg",
+        "right_opt":"62kg"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 405,
+        "fields": {
+        "category": 28,
+        "question": "How many ¼kg packets can be obtained from 9kg?",
+        "context": "",
+        "opt_1":"36",
+        "opt_2":"18",
+        "opt_3":"4",
+        "opt_4":"24",
+        "right_opt":"36"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 406,
+        "fields": {
+        "category": 28,
+        "question": "A tuktuk covered 16km 61m while a motorbike covered 18km 95m. What was the total distance covered?",
+        "context": "",
+        "opt_1":"34km   156m",
+        "opt_2":"35km    56m",
+        "opt_3":"34km    56m",
+        "opt_4":"35km    156m",
+        "right_opt":"34km   156m"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 407,
+        "fields": {
+        "category": 28,
+        "question": "Work out: 5hrs 16mins multiplied by 7",
+        "context": "",
+        "opt_1":"35hrs      52mins",
+        "opt_2":"36hrs    112mins",
+        "opt_3":"35hrs    112mins",
+        "opt_4":"36hrs      52mins",
+        "right_opt":"36hrs      52mins"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 408,
+        "fields": {
+        "category": 28,
+        "question": "Calculate the length of one side of a square whose area is 289cm2",
+        "context": "",
+        "opt_1":"27 cm",
+        "opt_2":"14 cm",
+        "opt_3":"17 cm",
+        "opt_4":"16 cm",
+        "right_opt":"17 cm"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 409,
+        "fields": {
+        "category": 28,
+        "question": "In the first attempt, an athlete finished a marathon race in 3. 45 hours. In the second attempt, he reduced the time by 1.09 hours. What time did he take in the second attempt?",
+        "context": "",
+        "opt_1":"1. 36 hours",
+        "opt_2":"2. 36 hours",
+        "opt_3":"4. 54 hours",
+        "opt_4":"3.54 hours",
+        "right_opt":"2. 36 hours"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 410,
+        "fields": {
+        "category": 28,
+        "question": "Fractions, 3/10, 7/10, 5/10 and 9/10 were to be arranged from the smallest to the largest which of the following would be the correct arrangement?",
+        "context": "",
+        "opt_1":"9/10, 7/10, 5/10, 3/10",
+        "opt_2":"3/10, 5/10, 7/10, 9/10",
+        "opt_3":"9/10, 5/10, 7/10, 3/10",
+        "opt_4":"3/10, 7/10, 5/10, 9/10",
+        "right_opt":"3/10, 5/10, 7/10, 9/10"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 411,
+        "fields": {
+        "category": 28,
+        "question": "Work out: 361 x 18",
+        "context": "",
+        "opt_1":"6488",
+        "opt_2":"6398",
+        "opt_3":"5488",
+        "opt_4":"6498",
+        "right_opt":"6498"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 412,
+        "fields": {
+        "category": 29,
+        "question": "One hundred and eight seedlings were to be shared equally among twelve farmers. How many seedlings would each farmer get?",
+        "context": "",
+        "opt_1":"19",
+        "opt_2":"1111",
+        "opt_3":"1296",
+        "opt_4":"9",
+        "right_opt":"9"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 413,
+        "fields": {
+        "category": 29,
+        "question": "An NGO organization donated 129t 600kg of maize to be shared equally among 8 boarding schools in a sub county. What mass of maize did each school get?",
+        "context": "",
+        "opt_1":"16t  1600kg",
+        "opt_2":"15t  200kg",
+        "opt_3":"16t  200kg",
+        "opt_4":"15t  1600kg",
+        "right_opt":"16t  200kg"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 414,
+        "fields": {
+        "category": 29,
+        "question": "Petrol in a 40 litres 800ml container was emptied to fill 8 equal containers. What was the capacity of each container?",
+        "context": "",
+        "opt_1":"50 litres    10ml",
+        "opt_2":"5 litres     100ml",
+        "opt_3":"5 litres     10ml",
+        "opt_4":"50 litres    100ml",
+        "right_opt":"5 litres    100ml"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 415,
+        "fields": {
+        "category": 29,
+        "question": "Joan bought three pens each sh. 400. She later sold them for sh. 550 cach. What was her profit",
+        "context": "",
+        "opt_1":"Sh. 1 650",
+        "opt_2":"Sh. 1 200",
+        "opt_3":"Sh. 450",
+        "opt_4":"Sh. 550",
+        "right_opt":"Sh. 450"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 416,
+        "fields": {
+        "category": 29,
+        "question": "A boy stood in the field facing south. How should the boy turn in order to face east? Make a",
+        "context": "",
+        "opt_1":"Quarter turn to his left",
+        "opt_2":"Quarter turn to his right",
+        "opt_3":"Full turn to his left",
+        "opt_4":"Half turn to his left",
+        "right_opt":"Half turn to his left"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 417,
+        "fields": {
+        "category": 29,
+        "question": "What is the name of the angle?",
+        "context": "Mr Hisabati drew an angle like the one shown below.",
+        "opt_1":"Obtuse angle",
+        "opt_2":"Reflex angle",
+        "opt_3":"Acute angle",
+        "opt_4":"Right angle",
+        "right_opt":"Acute angle"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 418,
+        "fields": {
+        "category": 29,
+        "question": "How many less litres of milk were there on Wednesday than on Friday?",
+        "context": "The table below shows the sale of milk in Mwanda's farm for a period of five days. Use it to answer the following questions.",
+        "opt_1":"590 L",
+        "opt_2":"130 L",
+        "opt_3":"230 L",
+        "opt_4":"490 L",
+        "right_opt":"230 L"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 419,
+        "fields": {
+        "category": 29,
+        "question": "Which two consecutive days recorded the lowest sale of milk?",
+        "context": "The table below shows the sale of milk in Mwanda's farm for a period of five days. Use it to answer the following questions.",
+        "opt_1":"Monday and Tuesday",
+        "opt_2":"Tuesday and Wednesday",
+        "opt_3":"Wednesday and Thursday",
+        "opt_4":"Thursday and Friday",
+        "right_opt":"Monday and Tuesday"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 420,
+        "fields": {
+        "category": 29,
+        "question": "How much milk was sold on Monday, Tuesday and Thursday?",
+        "context": "The table below shows the sale of milk in Mwanda's farm for a period of five days. Use it to answer the following questions.",
+        "opt_1":"1256 L",
+        "opt_2":"1246 L",
+        "opt_3":"656 L",
+        "opt_4":"666 L",
+        "right_opt":"666 L"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 421,
+        "fields": {
+        "category": 29,
+        "question": "Which one of the following lists shows money paid by the public to a county government of Kenya?",
+        "context": "",
+        "opt_1":"Land fees, school fees, parking fee, cess",
+        "opt_2":"Market fees, cess, business permit, security fee",
+        "opt_3":"Market fees, business permit, cess, parking fee",
+        "opt_4":"Land fees, security fee, business permit, parking fee",
+        "right_opt":"Market fees, business permit, cess, parking fee"
+        }
+    },{
+        "model": "core.QuizQuestion",
+        "pk": 422,
+        "fields": {
+        "category": 29,
+        "question": "Which of the following statements does not describe a rectangle? It has",
+        "context": "",
+        "opt_1":"Four equal sides",
+        "opt_2":"Four equal angles.",
+        "opt_3":"Two pairs of equal sides.",
+        "opt_4":"Each of its angles measuring 90 Decrees",
+        "right_opt":"Four equal sides"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 423,
+        "fields": {
+        "category": 29,
+        "question": "A father bought x hens. A mother bought 16 more hens. In total, 25 hens were bought. How many hens did the father buy?",
+        "context": "",
+        "opt_1":"19",
+        "opt_2":"9",
+        "opt_3":"41",
+        "opt_4":"8",
+        "right_opt":"9"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 424,
+        "fields": {
+        "category": 29,
+        "question": "Mariarosa received x beads after their teacher divided 125 beads equally among 5 of them. How many beads did Mariarose get?",
+        "context": "",
+        "opt_1":"25",
+        "opt_2":"35",
+        "opt_3":"15",
+        "opt_4":"45",
+        "right_opt":"25"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 425,
+        "fields": {
+        "category": 29,
+        "question": "A carpenter made 32 cupboards, 18 tables and y stools. If the total number of furniture was 63, how many stools were made?",
+        "context": "",
+        "opt_1":"23",
+        "opt_2":"13",
+        "opt_3":"50",
+        "opt_4":"53",
+        "right_opt":"13"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 426,
+        "fields": {
+            "category": 29,
+            "question": "A salesperson had 24 litres of milk. She packed the milk in 500 ml and 250 ml bottles. She packed three quarters of the milk in 500 ml bottles and the rest in 250 ml bottles. What was the total number of bottles she used?",
+            "opt_1":"60",
+            "opt_2":"36",
+            "opt_3":"32",
+            "opt_4":"24",
+            "right_opt":"60"
+        }
+    },
+
+
+
+
+    {
+        "model": "core.QuizQuestion",
+        "pk": 427,
+        "fields": {
+        "category": 30,
+        "question": "Which pair of blood vessels carry blood with carbondioxide?",
+        "context": "Below is a simplified diagram of the circulatory system.",
+        "opt_1":"P, Q",
+        "opt_2":"P, S",
+        "opt_3":"R, S",
+        "opt_4":"P, R",
+        "right_opt":"R, S"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 428,
+        "fields": {
+        "category": 30,
+        "question": "Which of the following statements is true about the composition of air represented above?",
+        "context": "The pie chart below shows the composition of gases that make up air.",
+        "opt_1":"The gas marked W is used during germination",
+        "opt_2":"Gas X can be used to put out fire",
+        "opt_3":"The gas labelled Y is used to preserve soft drinks",
+        "opt_4":"Gas Z is used by legumes to make proteins",
+        "right_opt":"Gas X can be used to put out fire"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 429,
+        "fields": {
+        "category": 30,
+        "question": "Which of the following parts of a computer displays the document being typed?",
+        "context": "",
+        "opt_1":"Keyboard",
+        "opt_2":"Monitor",
+        "opt_3":"Printer",
+        "opt_4":"Mouse",
+        "right_opt":"Monitor"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 430,
+        "fields": {
+        "category": 30,
+        "question": "Which of the following statements is true?",
+        "context": "",
+        "opt_1":"A VDU is used to process data",
+        "opt_2":"A mouse has a space bar",
+        "opt_3":"A cursor shows the end of text being worked on",
+        "opt_4":"The monitor is used to produce hard copies",
+        "right_opt":"A cursor shows the end of text being worked on"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 431,
+        "fields": {
+        "category": 30,
+        "question": "Which of the following small animals are all invertebrates?",
+        "context": "",
+        "opt_1":"Newt, cockroach, spider",
+        "opt_2":"Snail, spider, mite",
+        "opt_3":"Slug, crab, frog",
+        "opt_4":"Centipede, snake, scorpion",
+        "right_opt":"Snail, spider, mite"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 432,
+        "fields": {
+        "category": 30,
+        "question": "Which of the following effects of heat on matter are as a result of increase in temperature?",
+        "context": "",
+        "opt_1":"Melting and expansion",
+        "opt_2":"Condensation and contraction",
+        "opt_3":"Freezing and evaporation",
+        "opt_4":"Evaporation and contraction",
+        "right_opt":"Melting and expansion"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 433,
+        "fields": {
+        "category": 30,
+        "question": "Which of the following is not a function of leaves?",
+        "context": "",
+        "opt_1":"Photosynthesis",
+        "opt_2":"Breathing",
+        "opt_3":"Transpiration",
+        "opt_4":"Absorption",
+        "right_opt":"Absorption"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 434,
+        "fields": {
+        "category": 30,
+        "question": "The type of heat transfer demonstrated  above is called",
+        "context": "The diagram below shows transfer of heat on matter.",
+        "opt_1":"Convection",
+        "opt_2":"Radiation",
+        "opt_3":"Conduction",
+        "opt_4":"Expansion",
+        "right_opt":"Conduction"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 435,
+        "fields": {
+        "category": 30,
+        "question": "Which of the following foods can be recommended for a person suffering from the disease?",
+        "context": "The following are signs of a certain nutritional deficiency disease:",
+        "opt_1":"Beans, tomatoes, cabbages",
+        "opt_2":"Rice, ugali, liver",
+        "opt_3":"Meat, fish, groundnuts",
+        "opt_4":"Chips, sugarcane, bananas",
+        "right_opt":"Meat, fish, groundnuts"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 436,
+        "fields": {
+        "category": 30,
+        "question": "Candle wax is able to float on water because of its",
+        "context": "",
+        "opt_1":"Weight",
+        "opt_2":"Material",
+        "opt_3":"Size",
+        "opt_4":"Shape",
+        "right_opt":"Material"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 437,
+        "fields": {
+        "category": 30,
+        "question": "Crops such as peas, greengrams and are called",
+        "context": "",
+        "opt_1":"Cereals",
+        "opt_2":"Legumes",
+        "opt_3":"Tubers",
+        "opt_4":"Vegetables",
+        "right_opt":"Legumes"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 438,
+        "fields": {
+        "category": 30,
+        "question": "Which products are represented by W, X  and Y respectively?",
+        "context": "Below is a chart showing farm animals  and their uses:",
+        "opt_1":"Milk, mutton, eggs",
+        "opt_2":"Wool, mutton, eggs",
+        "opt_3":"Mutton, meat, mohair",
+        "opt_4":"Hide, eggs, meat",
+        "right_opt":"Milk, mutton, eggs"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 439,
+        "fields": {
+        "category": 30,
+        "question": "Exposed  plant roots on a bare flat ground  is an indication of",
+        "context": "",
+        "opt_1":"Splash erosion",
+        "opt_2":"Sheet erosion",
+        "opt_3":"Gulley erosion",
+        "opt_4":"Rill erosion",
+        "right_opt":"Splash erosion"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 440,
+        "fields": {
+        "category": 30,
+        "question": "All the  following are ways of controlling soil erosion. Which one is not?",
+        "context": "",
+        "opt_1":"Using drip irrigation",
+        "opt_2":"Mulching",
+        "opt_3":"Planting cover crops",
+        "opt_4":"Building gabions",
+        "right_opt":"Using drip irrigation"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 441,
+        "fields": {
+        "category": 30,
+        "question": "Which of the following shows a pair of tiny seeded crops?",
+        "context": "",
+        "opt_1":"Sugarcane and banana",
+        "opt_2":"Onions and tomatoes",
+        "opt_3":"Pumpkin and cucumber",
+        "opt_4":"Sunflower and carrots",
+        "right_opt":"Sunflower and carrots"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 442,
+        "fields": {
+        "category": 31,
+        "question": "Which of the following is not a planting material for creeping crops?",
+        "context": "",
+        "opt_1":"Seeds",
+        "opt_2":"Hoes",
+        "opt_3":"Scissors",
+        "opt_4":"Manure, Burning candle",
+        "right_opt":"Manure, Burning candle"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 443,
+        "fields": {
+        "category": 31,
+        "question": "Which of the following is an example of creeping crops?",
+        "context": "",
+        "opt_1":"Cactus",
+        "opt_2":"Carrot",
+        "opt_3":"Passion",
+        "opt_4":"Pumpkin",
+        "right_opt":"Passion"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 444,
+        "fields": {
+        "category": 31,
+        "question": "Which of the following is a deterrent of wild animals against farming activities?",
+        "context": "",
+        "opt_1":"Scarecrow",
+        "opt_2":"Chicken",
+        "opt_3":"Mongoose",
+        "opt_4":"Bananas",
+        "right_opt":"Scarecrow"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 445,
+        "fields": {
+        "category": 31,
+        "question": "All the following are ways of conserving water in the farm except",
+        "context": "",
+        "opt_1":"Mulching",
+        "opt_2":"Shading",
+        "opt_3":"Thinning",
+        "opt_4":"Cover Cropping",
+        "right_opt":"Cover Cropping"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 446,
+        "fields": {
+        "category": 31,
+        "question": "Which of the following lists consists of accessories only?",
+        "context": "",
+        "opt_1":"Lipstick, eye pencil, deodorants",
+        "opt_2":"Deodorants, creams, nailpolish",
+        "opt_3":"Perfumes, headgears, lotion",
+        "opt_4":"Scarves, necklaces, wristbands",
+        "right_opt":"Scarves, necklaces, wristbands"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 447,
+        "fields": {
+        "category": 31,
+        "question": "A person between 13 and 19 years is",
+        "context": "",
+        "opt_1":"A young man",
+        "opt_2":"An underage",
+        "opt_3":"A small lady",
+        "opt_4":"An adolescent",
+        "right_opt":"An adolescent"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 448,
+        "fields": {
+        "category": 31,
+        "question": "Which of the following diseases is non- communicable?",
+        "context": "",
+        "opt_1":"Tuberculosis",
+        "opt_2":"Malaria",
+        "opt_3":"Epilepsy",
+        "opt_4":"Covid-19",
+        "right_opt":"Epilepsy"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 449,
+        "fields": {
+        "category": 31,
+        "question": "Which of the following is not a factor to consider when making a budget?",
+        "context": "",
+        "opt_1":"Taste and preference",
+        "opt_2":"Amount of money",
+        "opt_3":"The type of food",
+        "opt_4":"The weather of the day",
+        "right_opt":"The weather of the day"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 450,
+        "fields": {
+        "category": 31,
+        "question": "The following are factors to consider when choosing buttons. Which one is not?",
+        "context": "",
+        "opt_1":"The person you are buying the buttons for",
+        "opt_2":"The colour of the garment",
+        "opt_3":"The size of the button",
+        "opt_4":"The number of button holes",
+        "right_opt":"The person you are buying the buttons for"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 451,
+        "fields": {
+        "category": 31,
+        "question": "A sufuria is a cooking equipment that is commonly cleaned using",
+        "context": "",
+        "opt_1":"Charcoal powder",
+        "opt_2":"Steelwool",
+        "opt_3":"A sand paper",
+        "opt_4":"Egg shells",
+        "right_opt":"Steelwool"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 452,
+        "fields": {
+        "category": 31,
+        "question": "The causes of obesity are listed below. Which one is not? ",
+        "context": "",
+        "opt_1":"Excess intake of fat",
+        "opt_2":"Lack of regular exercises",
+        "opt_3":"Maintaining a healthy body weight",
+        "opt_4":"Eating junk foods",
+        "right_opt":"Maintaining a healthy body weight"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 453,
+        "fields": {
+        "category": 31,
+        "question": "Which of the following foods can be stewed?",
+        "context": "",
+        "opt_1":"Meat",
+        "opt_2":"Cassave",
+        "opt_3":"Yams",
+        "opt_4":"Cabbage",
+        "right_opt":"Meat"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 454,
+        "fields": {
+        "category": 31,
+        "question": "Which of the following is the first phase in high jump?",
+        "context": "",
+        "opt_1":"Landing",
+        "opt_2":"Take off",
+        "opt_3":"The run",
+        "opt_4":"Flight",
+        "right_opt":"The run"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 455,
+        "fields": {
+        "category": 31,
+        "question": "The following materials are used in painting except:-",
+        "context": "",
+        "opt_1":"Pencil",
+        "opt_2":"Crayon",
+        "opt_3":"Thread",
+        "opt_4":"Brush",
+        "right_opt":"Thread"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 456,
+        "fields": {
+        "category": 32,
+        "question": "Which of the following is an upper case letter?",
+        "context": "",
+        "opt_1":"a",
+        "opt_2":"b",
+        "opt_3":"H",
+        "opt_4":"g",
+        "right_opt":"H"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 457,
+        "fields": {
+        "category": 32,
+        "question": "A person who manipulates and control puppet is called:-",
+        "context": "",
+        "opt_1":"Marionette",
+        "opt_2":"Puppeteer",
+        "opt_3":"Magician",
+        "opt_4":"Acrobat",
+        "right_opt":"Puppeteer"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 458,
+        "fields": {
+        "category": 32,
+        "question": "Which of the following is not a principal of art?",
+        "context": "",
+        "opt_1":"Balance",
+        "opt_2":"Tonal value",
+        "opt_3":"Proportion",
+        "opt_4":"Overlapping",
+        "right_opt":"Overlapping"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 459,
+        "fields": {
+        "category": 32,
+        "question": "The following materials are used in painting except:-",
+        "context": "",
+        "opt_1":"Pencil",
+        "opt_2":"Crayon",
+        "opt_3":"Thread",
+        "opt_4":"Brush",
+        "right_opt":"Thread"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 460,
+        "fields": {
+        "category": 32,
+        "question": "Songs ________________________ people.",
+        "context": "Three of the following are benefits of ",
+        "opt_1":"Educate",
+        "opt_2":"Entertain",
+        "opt_3":"Console",
+        "opt_4":"Accuse",
+        "right_opt":"Accuse"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 461,
+        "fields": {
+        "category": 32,
+        "question": "Erick used the printed fabric shown below to decorate a book cover. How many motif have been used?",
+        "context": "",
+        "opt_1":"Three",
+        "opt_2":"Two",
+        "opt_3":"Nine",
+        "opt_4":"Six",
+        "right_opt":"Two"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 462,
+        "fields": {
+        "category": 32,
+        "question": "Sarah, a grade five leamer drew a hut on a hard carton. She then applied glue and mounted rice on the drawing. Sarah was making a",
+        "context": "",
+        "opt_1":"Mosaic",
+        "opt_2":"Motif",
+        "opt_3":"Collage",
+        "opt_4":"Montage",
+        "right_opt":"Mosaic"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 463,
+        "fields": {
+        "category": 32,
+        "question": "Which colour do you get when you mix red and yellow?",
+        "context": "",
+        "opt_1":"Green",
+        "opt_2":"Violet",
+        "opt_3":"Orange",
+        "opt_4":"White",
+        "right_opt":"Orange"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 464,
+        "fields": {
+        "category": 32,
+        "question": "The pattern below is used in weaving. It is called:-",
+        "context": "",
+        "opt_1":"Twinning",
+        "opt_2":"Splitting",
+        "opt_3":"Plaiting",
+        "opt_4":"Plain weaving",
+        "right_opt":"Plain weaving"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 465,
+        "fields": {
+        "category": 32,
+        "question": "The pattern above can be used to decorate a",
+        "context": "",
+        "opt_1":"Mat",
+        "opt_2":"Pot",
+        "opt_3":"Sufuria",
+        "opt_4":"T.V",
+        "right_opt":"Mat"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 466,
+        "fields": {
+        "category": 32,
+        "question": "Wind instruments are played by:-",
+        "context": "",
+        "opt_1":"Plucking",
+        "opt_2":"Blowing",
+        "opt_3":"Hitting",
+        "opt_4":"Shaking",
+        "right_opt":"Blowing"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 467,
+        "fields": {
+        "category": 32,
+        "question": "Special clothes that are worn when performing folk songs are called:-",
+        "context": "",
+        "opt_1":"Uniform",
+        "opt_2":"Costumes",
+        "opt_3":"Adornment",
+        "opt_4":"Decoration",
+        "right_opt":"Costumes"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 468,
+        "fields": {
+        "category": 32,
+        "question": "Which of the following types of song is correctly matched with the community it comes from?",
+        "context": "",
+        "opt_1":"Ramogi - Akamba",
+        "opt_2":"Isikuti - Luo",
+        "opt_3":"Mwomboko - Agikuyu",
+        "opt_4":"Kilumi - Luhya",
+        "right_opt":"Mwomboko - Agikuyu"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 469,
+        "fields": {
+        "category": 32,
+        "question": "Which of the following materials can be used to make a dancing skirt?",
+        "context": "",
+        "opt_1":"Clay soil",
+        "opt_2":"Tree leaves",
+        "opt_3":"Manilla paper",
+        "opt_4":"Sisal fibres",
+        "right_opt":"Sisal fibres"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 470,
+        "fields": {
+        "category": 32,
+        "question": "What is the use of adhesives when mounting an artwork?",
+        "context": "",
+        "opt_1":"Decoration",
+        "opt_2":"Exhibition",
+        "opt_3":"Sticking",
+        "opt_4":"Cutting",
+        "right_opt":"Sticking"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 471,
+        "fields": {
+        "category": 33,
+        "question": "The speed of a song is called:-",
+        "context": "",
+        "opt_1":"Tempo",
+        "opt_2":"Pitch",
+        "opt_3":"Rhythm",
+        "opt_4":"Volume",
+        "right_opt":"Tempo"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 472,
+        "fields": {
+        "category": 33,
+        "question": "'Natujenge taifa letu'. This statement is found in the:-",
+        "context": "",
+        "opt_1":"East Africa Anthem",
+        "opt_2":"Sacred song",
+        "opt_3":"Topical song",
+        "opt_4":"Kenya National Anthem",
+        "right_opt":"Kenya National Anthem"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 473,
+        "fields": {
+        "category": 33,
+        "question": "A piece of song performed by two people is called:-",
+        "context": "",
+        "opt_1":"Duet",
+        "opt_2":"Solo",
+        "opt_3":"Choral",
+        "opt_4":"Trio",
+        "right_opt":"Duet"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 474,
+        "fields": {
+        "category": 33,
+        "question": "Which pattern is formed by the population | 25 distribution in Nuru Area?",
+        "context": "",
+        "opt_1":"Nucleated",
+        "opt_2":"Sparse",
+        "opt_3":"Dense",
+        "opt_4":"Linear",
+        "right_opt":"Nucleated"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 475,
+        "fields": {
+        "category": 33,
+        "question": "Nuru area is headed by:-",
+        "context": "",
+        "opt_1":"Assistant County Commissioner",
+        "opt_2":"Deputy County Commissioner",
+        "opt_3":"Governor",
+        "opt_4":"Chief",
+        "right_opt":"Governor"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 476,
+        "fields": {
+        "category": 33,
+        "question": "The climate experienced in the Northern part of Nuru area is :-",
+        "context": "",
+        "opt_1":"Cool and wet",
+        "opt_2":"Hot and wet",
+        "opt_3":"Cool and dry",
+        "opt_4":"Hot and dry",
+        "right_opt":""
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 477,
+        "fields": {
+        "category": 33,
+        "question": "The feature marked x is called:-",
+        "context": "",
+        "opt_1":"Estuary",
+        "opt_2":"Delta",
+        "opt_3":"Confluence",
+        "opt_4":"Tributary",
+        "right_opt":"Delta"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 478,
+        "fields": {
+        "category": 33,
+        "question": "Which economic activity is not carried out in Nuru Area?",
+        "context": "",
+        "opt_1":"Lumbering",
+        "opt_2":"Farming",
+        "opt_3":"Tourism",
+        "opt_4":"Mining",
+        "right_opt":"Tourism"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 479,
+        "fields": {
+        "category": 33,
+        "question": "Which of the following groups consists of the plain nilotes in Kenya?",
+        "context": "",
+        "opt_1":"Agikuyu, Dawida, Abakuria",
+        "opt_2":"Maasai, Samburu, Turkana",
+        "opt_3":"Somali, Boran, Rendille",
+        "opt_4":"Arabs, Nubians, Indians",
+        "right_opt":"Maasai, Samburu, Turkana"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 480,
+        "fields": {
+        "category": 33,
+        "question": "A school routine is normally shown on",
+        "context": "",
+        "opt_1":"A timetable",
+        "opt_2":"An exercise book cover",
+        "opt_3":"The school uniform",
+        "opt_4":"The school gate",
+        "right_opt":"A timetable"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 481,
+        "fields": {
+        "category": 33,
+        "question": "Equatorial climate is always:-",
+        "context": "",
+        "opt_1":"Hot and wet",
+        "opt_2":"Hot and dry",
+        "opt_3":"Cool and wet",
+        "opt_4":"Cool and dry",
+        "right_opt":"Hot and wet"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 482,
+        "fields": {
+        "category": 33,
+        "question": "On 12th December, Kenyans celebrate:-",
+        "context": "",
+        "opt_1":"Madaraka day",
+        "opt_2":"Labour day",
+        "opt_3":"Jamhuri day",
+        "opt_4":"Mashujaa day",
+        "right_opt":"Jamhuri day"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 483,
+        "fields": {
+        "category": 33,
+        "question": "Which of the following minerals is correctly matched with the place it is found?",
+        "context": "",
+        "opt_1":"Soda ash - Magadi",
+        "opt_2":"Diatomite - Malindi",
+        "opt_3":"Salt - Kariandusi",
+        "opt_4":"Oil - Nakuru",
+        "right_opt":"Soda ash - Magadi"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 484,
+        "fields": {
+        "category": 33,
+        "question": "One of the crops below is grown in the subsistence farms. Which is it?",
+        "context": "",
+        "opt_1":"Tea",
+        "opt_2":"Flowers",
+        "opt_3":"Kales",
+        "opt_4":"Coffee",
+        "right_opt":"Kales"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 485,
+        "fields": {
+        "category": 33,
+        "question": "Which of the following is a quality of a good leader?",
+        "context": "",
+        "opt_1":"Dishonest",
+        "opt_2":"Caring",
+        "opt_3":"Cruel",
+        "opt_4":"Unjust",
+        "right_opt":"Caring"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 486,
+        "fields": {
+        "category": 34,
+        "question": "Chege a grade five pupil has been employed in a hotel. The hotel owner is practising:-",
+        "context": "",
+        "opt_1":"Child labour",
+        "opt_2":"Early marriage",
+        "opt_3":"Good citizenship",
+        "opt_4":"Child right",
+        "right_opt":"Child labour"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 487,
+        "fields": {
+        "category": 34,
+        "question": "Who among the following traditional leaders practised long distance trade?",
+        "context": "",
+        "opt_1":"Mekatilili wa menza",
+        "opt_2":"Njuri Ncheke",
+        "opt_3":"Oloibon Lenana",
+        "opt_4":"Chief Kivoi Mwendwa",
+        "right_opt":"Chief Kivoi Mwendwa"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 488,
+        "fields": {
+        "category": 34,
+        "question": "Which of the following economic activities is correctly matched with the symbol it represents?",
+        "context": "",
+        "opt_1":"Saw mill-fishing ",
+        "opt_2":"Tea- transport",
+        "opt_3":"Quarry - mining",
+        "opt_4":"Road - farming",
+        "right_opt":"Quarry - mining"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 489,
+        "fields": {
+        "category": 34,
+        "question": "Identify a historic built environment in Kenya",
+        "context": "",
+        "opt_1":"Wilson airport",
+        "opt_2":"River Tana",
+        "opt_3":"Mount Kenya",
+        "opt_4":"Fort Jesus",
+        "right_opt":"Fort Jesus"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 490,
+        "fields": {
+        "category": 34,
+        "question": "Which is the largest country in Eastern Africa?",
+        "context": "",
+        "opt_1":"Tanzania",
+        "opt_2":"Sudan",
+        "opt_3":"Somalia",
+        "opt_4":"Djibouti",
+        "right_opt":"Tanzania"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 491,
+        "fields": {
+        "category": 35,
+        "question": "Mlaraha hakuweza kuiwahi rununu yake kwa kuwa",
+        "context": "",
+        "opt_1":"Kichwa chake kilikuwa kizito",
+        "opt_2":"Ilikuwa mbali",
+        "opt_3":"Hakutaka kufanya hivyo",
+        "opt_4":"Aliogopa kuzungumza na aliyekuwa akipiga",
+        "right_opt":"Kichwa chake kilikuwa kizito"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 492,
+        "fields": {
+        "category": 35,
+        "question": "Chagua orodha ya sifa za Mlaraha kulingana na kifungu",
+        "context": "",
+        "opt_1":"Mwizi, mpole",
+        "opt_2":"Mlevi, mwizi",
+        "opt_3":"Mjeuri, mlevi",
+        "opt_4":"Mwizi, katili.",
+        "right_opt":"Mlevi, mwizi"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 493,
+        "fields": {
+        "category": 35,
+        "question": "Ni kweli kuwa waliobisha mlango walikuwa",
+        "context": "",
+        "opt_1":"Wenzake Mlaraha katika wizi.",
+        "opt_2":"Majirani waliotaka kumjulia hali Miaraha",
+        "opt_3":"Maafisa wa polisi",
+        "opt_4":"Waumini wa dhehebu aliloshiriki",
+        "right_opt":"Maafisa wa polisi"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 494,
+        "fields": {
+        "category": 35,
+        "question": "Methali gani inayoweza kutumika kufupishia kisa hiki?",
+        "context": "",
+        "opt_1":"Pwagu hupata pwaguzi",
+        "opt_2":"Mgaagaa na upwa hali wali mkavu",
+        "opt_3":"Kawia ufike",
+        "opt_4":"Siku za mwizi ni arubaini",
+        "right_opt":"Siku za mwizi ni arubaini"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 495,
+        "fields": {
+        "category": 35,
+        "question": "Mwandishi ametaja njia ngapi za kukabiliana na uhalifu?",
+        "context": "",
+        "opt_1":"Tano",
+        "opt_2":"Nne",
+        "opt_3":"Mbili",
+        "opt_4":"Tatu",
+        "right_opt":"Tatu"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 496,
+        "fields": {
+        "category": 35,
+        "question": "Kulingana na habari hii, kamera za siri zinaweza kudhibiti uhalifu",
+        "context": "",
+        "opt_1":"Nyumbani",
+        "opt_2":"Afisini",
+        "opt_3":"Shuleni",
+        "opt_4":"Sokoni",
+        "right_opt":"Afisini"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 497,
+        "fields": {
+        "category": 35,
+        "question": "Kwa jumla, jukumu la kudhibiti uhalifu ni jukumu la nani?",
+        "context": "",
+        "opt_1":"Serikali",
+        "opt_2":"Watu wazima",
+        "opt_3":"Kila mmoja",
+        "opt_4":"Wazazi",
+        "right_opt":"Kila mmoja"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 498,
+        "fields": {
+        "category": 35,
+        "question": "Chagua kauli isiyo sahihi kulingana na ufahamu",
+        "context": "",
+        "opt_1":"Shughuli za kimichezo si muhimu katika kuijenga miili yetu",
+        "opt_2":"Michezo haichangii katika kujenga miili yetu pekee",
+        "opt_3":"Wakati mwingine michezo huandaliwa baina ya shule mbalimbali",
+        "opt_4":"Baadhi ya watu hutumia michezo kama njia ya kujipatia riziki",
+        "right_opt":"Shughuli za kimichezo si muhimu katika kuijenga miili yetu"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 499,
+        "fields": {
+        "category": 35,
+        "question": "Kulingana na habari hii, uzito wa mwili hatimaye huweza kusababisha",
+        "context": "",
+        "opt_1":"Mauti",
+        "opt_2":"Uvivu",
+        "opt_3":"Maradhi ya ngozi",
+        "opt_4":"Maradhi ya moyo",
+        "right_opt":"Maradhi ya moyo"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 500,
+        "fields": {
+        "category": 35,
+        "question": "Nchi yetu inapopata nishani na medali",
+        "context": "",
+        "opt_1":"Wananchi wengi hujiunga na spoti",
+        "opt_2":"Hadhi yake kimichezo huinuka",
+        "opt_3":"Hupoteza heshima yake kimichezo ",
+        "opt_4":"Huwa miongoni mwa mataifa yaliyotajirika",
+        "right_opt":"Hadhi yake kimichezo huinuka"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 501,
+        "fields": {
+        "category": 35,
+        "question": "Kulingana na maelezo ya mwalimu, mazingira machafu yana madhara gani? Huweza",
+        "context": "",
+        "opt_1":"Kuchafua vyanzo vya maji.",
+        "opt_2":"Kusababisha magonjwa",
+        "opt_3":"Kudumisha afya bora",
+        "opt_4":"Kutukinga dhidi ya magonjwa.",
+        "right_opt":"Kusababisha magonjwa"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 502,
+        "fields": {
+        "category": 35,
+        "question": "Peru alipigiwa makofi kwa sababu",
+        "context": "",
+        "opt_1":"Alilijibu swali la mwanafunzi mwenzake kwa usahihi",
+        "opt_2":"Alikuwa mwanafunzi bora darasani mwao",
+        "opt_3":"Alijaribu kulijibu swali la Sofia",
+        "opt_4":"Alishindwa kulijibu swali la Sofia",
+        "right_opt":"Alilijibu swali la mwanafunzi mwenzake kwa usahihi"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 503,
+        "fields": {
+        "category": 35,
+        "question": "Kulingana na mazungumzo haya, mbolea za madukani zikitumika kupita kiasi ",
+        "context": "",
+        "opt_1":"Huweza kusababisha hali mbaya ya anga",
+        "opt_2":"Huweza kuchafua hewa",
+        "opt_3":"Huathiri udongo na vyanzo vya maji",
+        "opt_4":"Huchafua pakubwa vyanzo vya maji",
+        "right_opt":"Huathiri udongo na vyanzo vya maji"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 504,
+        "fields": {
+        "category": 35,
+        "question": "Vyanzo vya maji vínapoathirika",
+        "context": "",
+        "opt_1":"Wanyama wa porini huangamia",
+        "opt_2":"Nyuni wa angani hufa",
+        "opt_3":"Wanadamu hupata taabu",
+        "opt_4":"Wanyama wa majini huathirika",
+        "right_opt":"Wanyama wa majini huathirika"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 505,
+        "fields": {
+        "category": 35,
+        "question": "Chanzo gani cha maji hakijatajwa katika mazungumzo haya?",
+        "context": "",
+        "opt_1":"Mito",
+        "opt_2":"Mvua",
+        "opt_3":"Mabwawa",
+        "opt_4":"Maziwa",
+        "right_opt":"Mvua"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 506,
+        "fields": {
+        "category": 36,
+        "question": "Jaza pengo la 16 na neno linalofaa",
+        "context": "",
+        "opt_1":"Mingi",
+        "opt_2":"Chache",
+        "opt_3":"Zote",
+        "opt_4":"Kadhaa",
+        "right_opt":"Kadhaa"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 507,
+        "fields": {
+        "category": 36,
+        "question": "Jaza pengo la 17 na neno linalofaa",
+        "context": "",
+        "opt_1":"Elimu",
+        "opt_2":"Makao",
+        "opt_3":"Mavazi",
+        "opt_4":"Maji",
+        "right_opt":"Elimu"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 508,
+        "fields": {
+        "category": 36,
+        "question": "Jaza pengo la 18 na neno linalofaa",
+        "context": "",
+        "opt_1":"Sababu",
+        "opt_2":"Maana",
+        "opt_3":"Ili",
+        "opt_4":"Ndipo",
+        "right_opt":"Sababu"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 509,
+        "fields": {
+        "category": 36,
+        "question": "Jaza pengo la 19 na neno linalofaa",
+        "context": "",
+        "opt_1":"Wowote",
+        "opt_2":"Yeyote",
+        "opt_3":"Yoyote",
+        "opt_4":"Wote",
+        "right_opt":"Yeyote"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 510,
+        "fields": {
+        "category": 36,
+        "question": "Jaza pengo la 20 na neno linalofaa",
+        "context": "",
+        "opt_1":"Kuenda",
+        "opt_2":"Kufika",
+        "opt_3":"Kusomesha",
+        "opt_4":"Kuanguka",
+        "right_opt":"Kuenda"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 511,
+        "fields": {
+        "category": 36,
+        "question": "Chagua kitenzi kilicholinganishwa visivyo na kinyume chake",
+        "context": "",
+        "opt_1":"Funga  fungua",
+        "opt_2":"Shona  shonua",
+        "opt_3":"Nuna   tabasamu",
+        "opt_4":"Lia    cheka",
+        "right_opt":"Shona  shonua"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 512,
+        "fields": {
+        "category": 36,
+        "question": "Mariamu ana maneno mengi kama",
+        "context": "Kamilisha tashbihi hii:",
+        "opt_1":"Chiriku",
+        "opt_2":"Tausi",
+        "opt_3":"Kasuku",
+        "opt_4":"Njiwa",
+        "right_opt":"Kasuku"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 513,
+        "fields": {
+        "category": 36,
+        "question": "Ndizi hizi ni ndogo.",
+        "context": "Chagua ukubwa wa:",
+        "opt_1":"Dizi hili ni dogo",
+        "opt_2":"Kidizi hiki ni kidogo",
+        "opt_3":"Madizi haya ni madogo",
+        "opt_4":"Vidizi hivi ni vidogo",
+        "right_opt":"Madizi haya ni madogo"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 514,
+        "fields": {
+        "category": 36,
+        "question": "Wewe ulikuwa mgonjwa",
+        "context": "Chagua ukanusho wa sentensi ifuatayo:",
+        "opt_1":"Wewe haukuwa mgonjwa",
+        "opt_2":"Wewe hujawa mgonjwa",
+        "opt_3":"Wewe huwi mgonjwa",
+        "opt_4":"Wewe hukuwa mgonjwa",
+        "right_opt":"Wewe hukuwa mgonjwa"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 515,
+        "fields": {
+        "category": 36,
+        "question": "Chagua sentensi iliyo katika hali timifu",
+        "context": "",
+        "opt_1":"Mboso atauimba wimbo mpya",
+        "opt_2":"Kadogo amemaliza kuandika",
+        "opt_3":"Upepo haukuvuma kwa fujo",
+        "opt_4":"Walimu wanazungumza mkutanoni",
+        "right_opt":"Kadogo amemaliza kuandika"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 516,
+        "fields": {
+        "category": 36,
+        "question": "Ufagio ulinunuliwa sokoni.",
+        "context": "Chagua wingi wa sentensi ifuatayo:",
+        "opt_1":"Fagio zilinunuliwa masokoni",
+        "opt_2":"Ufagio zilinunuliwa sokoni",
+        "opt_3":"Fagio ulinunuliwa masokoni",
+        "opt_4":"Ufagio ulinunuliwa masokoni",
+        "right_opt":"Fagio zilinunuliwa masokoni"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 517,
+        "fields": {
+        "category": 36,
+        "question": "Chagua orodha ya nomino zilizo katika ngeli tofauti",
+        "context": "",
+        "opt_1":"Cheo, chupa",
+        "opt_2":"Magari, maua",
+        "opt_3":"Kiwavi, kipofu",
+        "opt_4":"Mitego, mikoba",
+        "right_opt":"Cheo, chupa"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 518,
+        "fields": {
+        "category": 36,
+        "question": "Ni sentensi gani iliyo katika nafsi ya pili?",
+        "context": "",
+        "opt_1":"Mlitutembelea jana kwa sherehe",
+        "opt_2":"Alinunuliwa mwanasesere maridadi.",
+        "opt_3":"Nimeamua kufanya bidii.",
+        "opt_4":"Mwalimu aliyekuwa darasani ametoka.",
+        "right_opt":"Mlitutembelea jana kwa sherehe"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 519,
+        "fields": {
+        "category": 36,
+        "question": "Chagua methali iliyo tofauti na nyingine kimatumizi.",
+        "context": "",
+        "opt_1":"Kidole kimoja hakivunji chawa",
+        "opt_2":"Umoja ni nguvu utengano ni udhaifu.",
+        "opt_3":"Mkono mmoja haumlei mwana",
+        "opt_4":"Mgaagaa na upwa hali wali mkavu",
+        "right_opt":"Mgaagaa na upwa hali wali mkavu"
+        }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 520,
+        "fields": {
+        "category": 36,
+        "question": "Chagua orodha ya majina ambayo ni visawe.",
+        "context": "",
+        "opt_1":"Runinga, redio",
+        "opt_2":"Ndovu, Pombe",
+        "opt_3":"Mbung'o, ndorobo",
+        "opt_4":"Ugonjwa, malaria",
+        "right_opt":"Mbung'o, ndorobo"
+        }
+    }
+
+]

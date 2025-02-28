@@ -1,0 +1,49 @@
+{% extends "core/base3.html" %}
+{% load static %}
+{% block content %}
+
+<section>
+
+    <div class="blog-div-one">
+      <div></div>
+      <div>
+        {% if not categories %}
+        <div class="alert alert-primary" role="alert" style="margin-top: 1rem;">
+            Create At Least One Categoy To Get Started. 
+          </div>
+          {% else %}
+
+
+        <div style="padding-top: 0rem;padding-left: 1rem;padding-right: 1rem;display: flex;  flex-wrap: wrap;">
+
+           
+             
+          {% for obj in categories %}
+          <div class="card" style="width: 22rem;margin-left: 1rem; margin-top: 1rem;">
+            {% if obj.image %}
+            <img src="{{ obj.image.url }}" class="card-img-top" alt="...">
+            {% endif %}
+            <div class="card-body">
+              <a href="#" class="card-title">{{ obj.title }}</a>
+                              
+            </div>
+          </div>
+          {% endfor %}
+        
+
+       
+        </div>
+
+        {% endif %}
+        
+      </div>
+      <div></div>
+    </div>
+
+    
+
+  </section>
+
+
+{% endblock %}
+  

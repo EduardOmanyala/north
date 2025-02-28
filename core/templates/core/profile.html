@@ -1,0 +1,44 @@
+{% extends "core/base3.html" %}
+{% load static %}
+{% block content %}
+<section>
+    <div>
+        <h6 class="joinbanner" style="background: linear-gradient(109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );">Account Details</h6>  
+    </div>
+    
+    <div class="profilediv">
+        <div></div>
+        <div>
+    
+            <div class="fdgvdsf44223ghj">
+                <div class="row4545hhh">
+                   
+                    <div class="columnmprofile">
+                      
+                      <div class="cardfgfdsg555">
+                        <span class="icon fa fa-user fa-3x"></span>
+                        <br>
+                        <h5>Name: &nbsp;{{user.first_name}}&nbsp;{{user.last_name}}</h5>
+                      <br>
+                      <h6>Email:&nbsp;{{user.email}}</h6> 
+                        
+                      </div>
+                  
+                    </div>
+                  
+                    <button type="button" onclick="location.href=#" class="btn2 btn btn-primary btn-lg">Update Profile</button>
+                    <br><br>
+                  </div>
+            </div>
+    
+    
+      
+            
+        </div>
+        <div></div>
+    </div> 
+</section>
+{% endblock %}
+
+      
+  

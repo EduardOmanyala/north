@@ -1,0 +1,40 @@
+{% extends "core/base3.html" %}
+{% load static %}
+{% block content %}
+
+    <section>
+
+        <div class="blog-div-one">
+            <div></div>
+            <div>
+
+        <h4 style="margin-top: 1%; margin-bottom: 1%;">New Post</h4>
+        <div class="alert alert-primary" role="alert">
+            For Posts with a <strong>Type of Main:</strong> Images of <strong> at least 1920 x 1080</strong> must be uploaded
+          </div>
+        {% load crispy_forms_tags %}
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form.media }}
+            {{ form|crispy }}
+            <br>
+            <button type="submit" class="btn btn-primary mb-5" style="width: 100%;color:black;">Post</button>
+            
+          </form>
+
+
+
+
+            </div>
+            <div></div>
+        </div>
+
+        
+
+
+
+    </section>
+
+
+{% endblock %}
+  

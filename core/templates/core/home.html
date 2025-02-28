@@ -1,0 +1,268 @@
+{% extends "core/base3.html" %}
+{% load static %}
+{% block content %}
+
+      <!-- Swiper-->
+      <section class="section swiper-container swiper-slider swiper-slider-corporate swiper-pagination-style-2" data-loop="true" data-autoplay="5000" data-simulate-touch="true" data-nav="false" data-direction="vertical">
+        <div class="swiper-wrapper text-left">
+
+          {% for obj in mains %}
+          {% if obj.image %}
+          <div class="swiper-slide context-dark" data-slide-bg="{{ obj.image.url }}">
+            <div class="swiper-slide-caption section-md">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-10" style="background-color: rgba(0, 0, 0, 0.2);padding-bottom:1rem;">
+                   
+                    <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span></span><span class="font-weight-bold">{{ obj.title|truncatewords:8 }}</span></h2><a class="button button-default-outline button-ujarak" href="{% url 'post-detail' obj.slug obj.id %}" data-caption-animate="fadeInLeft" data-caption-delay="0">Read More</a>
+              
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+          {% endfor %}
+
+
+        </div>
+        <!-- Swiper Pagination-->
+        <div class="swiper-pagination"></div>
+      </section>
+      <!-- Section Box Categories-->
+    <section>
+
+      <div class="blog-div-one">
+        <div></div>
+        <div>
+
+
+
+          <div style="padding-top: 0rem;padding-left: 1rem;padding-right: 1rem;display: flex;  flex-wrap: wrap;">
+
+
+            {% for obj in ordinary %}
+            <div class="card" style="width: 22rem;margin-left: 1rem; margin-top: 1rem;">
+              {% if obj.image %}
+              <img src="{{ obj.image.url }}" class="card-img-top" alt="...">
+              {% endif %}
+              <div class="card-body">
+                <a style="color: black;" href="{% url 'post-detail' obj.slug obj.id %}" class="card-title">{{ obj.title|truncatewords:12 }}</a>
+                <span class="badge badge-pill badge-primary">Primary</span>
+              </div>
+            </div>
+            {% endfor %}
+
+         
+
+
+            
+    
+    
+          </div>
+
+
+
+          
+        </div>
+        <div></div>
+      </div>
+
+      
+
+    </section>
+
+
+
+      <!-- Discover New Horizons-->
+      <section class="section section-sm section-first bg-default text-md-left">
+        {% for obj in featured %}
+        <div class="container">
+          <div class="row row-50 align-items-center justify-content-center justify-content-xl-between">
+            {% if obj.image %}
+            <div class="col-lg-6 text-center wow fadeInUp"><img src="{{ obj.image.url }}" alt="" width="556" height="382"/>
+            </div>
+            {% endif %}
+            <div class="col-lg-6 wow fadeInRight" data-wow-delay=".1s">
+              <div class="box-width-lg-470">
+                <h4>{{ obj.title|truncatewords:10 }}</h4>
+                <!-- Bootstrap tabs-->
+                <div class="tabs-custom tabs-horizontal tabs-line tabs-line-big tabs-line-style-2 text-center text-md-left" id="tabs-7">
+                  <!-- Nav tabs-->
+                  
+                  <!-- Tab panes-->
+                  <div class="tab-content">
+                    <div class="tab-pane fade show active" id="tabs-7-1">
+                      <p>Test Prep is committed to bringing our clients the best in value and quality in exam preparation. We are passionate about academics and giving our clients the skills they need to excel.</p>
+                      <div class="group-md group-middle"><a class="button button-black-outline button-md" href="{% url 'post-detail' obj.slug obj.id %}">Read More</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </section>
+      <!--	Our Services-->
+
+
+
+
+
+      <section>
+
+        <div class="blog-div-one">
+          <div></div>
+          <div>
+  
+
+            <div style="padding-top: 0rem;padding-left: 1rem;padding-right: 1rem;display: flex;  flex-wrap: wrap;">
+  
+  
+              {% for obj in ordinary %}
+              <div class="card" style="width: 22rem;margin-left: 1rem; margin-top: 1rem;">
+                {% if obj.image %}
+                <img src="{{ obj.image.url }}" class="card-img-top" alt="...">
+                {% endif %}
+                <div class="card-body">
+                  <a href="{% url 'post-detail' obj.slug obj.id %}" class="card-title">{{ obj.title|truncatewords:10 }}</a>
+                                  
+                </div>
+              </div>
+              {% endfor %}
+
+            </div>
+  
+  
+          </div>
+          <div></div>
+        </div>  
+      </section>
+      
+
+
+
+      <!-- Hot tours-->
+      <section class="section section-sm bg-default">
+        <div class="container">
+          <h3 class="oh-desktop" style="text-align: center;"><span class="d-inline-block wow slideInDown" style="text-align: center;">Featured</span></h3>
+          <div class="row row-sm row-40 row-md-50">
+
+            {% for obj in featured2 %}
+            <div class="col-sm-6 col-md-12 wow fadeInRight">
+              <!-- Product Big-->
+              <article class="product-big">
+                <div class="unit flex-column flex-md-row align-items-md-stretch">
+                  {% if obj.image %}
+                  <div class="unit-left"><a class="product-big-figure" href="#"><img src="{{ obj.image.url }}" alt="" width="600" height="366"/></a></div>
+                  {% endif %}
+                  <div class="unit-body">
+                    <div class="product-big-body">
+                      <h5 class="product-big-title"><a href="#">{{ obj.title|truncatewords:10 }}</a></h5>
+                      <div class="group-sm group-middle justify-content-start">
+                      <p class="product-big-text">Get access to a limited number of possible test questions that can help you understand what topics are usually tested</p><a class="button button-black-outline button-ujarak" href="{% url 'post-detail' obj.slug obj.id %}">Read More</a>
+                      <div class="product-big-price-wrap"><span class="product-big-price">New</span></div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+            {% endfor %}
+
+
+
+
+
+          </div>
+        </div>
+      </section>
+      <!-- Different People-->
+
+
+
+
+      <section>
+
+        <div class="blog-div-one">
+          <div></div>
+          <div>
+  
+  
+  
+            <div class="infinite-container" style="padding-top: 0rem;padding-left: 1rem;padding-right: 1rem;display: flex;  flex-wrap: wrap;">
+  
+  
+              {% for obj in posts %}
+              <div class="card infinite-item" style="width: 22rem;margin-left: 1rem; margin-top: 1rem;">
+                {% if obj.image %}
+                <img src="{{ obj.image.url }}" class="card-img-top" alt="...">
+                {% endif %}
+                <div class="card-body">
+                  <a href="{% url 'post-detail' obj.slug obj.id %}" class="card-title">{{ obj.title|truncatewords:10 }}</a>
+                                  
+                </div>
+              </div>
+              {% endfor %}
+              {% if page.has_next %}
+              <a href="infinite-more-link">Next</a>
+              {% endif %}
+
+
+  
+  
+  
+            
+          </div>
+          <div></div>
+        </div>
+  
+        
+  
+      </section>
+
+
+
+
+
+
+
+
+
+
+      
+      <!-- Section Subscribe-->
+      <section class="section bg-default text-center offset-top-50">
+        <div class="parallax-container" data-parallax-img="{% static 'core/images2/graduation3.jpg' %}">
+          <div class="parallax-content section-xl section-inset-custom-1 context-dark bg-overlay-2-21">
+            <div class="container">
+              <h2 class="heading-2 oh font-weight-normal wow slideInDown"><span class="d-block font-weight-semi-bold">Hundreds of Test Questions</span><span class="d-block font-weight-light">are Waiting for You!</span></h2>
+              <p class="text-width-medium text-spacing-75 wow fadeInLeft" data-wow-delay=".1s">Our platform offers students the best possible revision materials that significantly increases their chances of passing their exams!</p><a class="button button-secondary button-pipaluk" href="#">Get Started Now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--	Instagrram wondertour-->
+
+
+
+      <script src="{% static "core/js/jquery.waypoints.min.js" %}"></script>
+      <script src="{% static "core/js/infinite.min.js" %}"></script>
+      <script>
+          var infinite = new Waypoint.Infinite({
+              element: $('.infinite-container')[0],
+  
+              offset: 'bottom-in-view',
+  
+              onBeforePageLoad: function () {
+                  $('.loading').show();
+              },
+              onAfterPageLoad: function () {
+                  $('.loading').hide();
+              }
+  
+          });
+      </script>
+
+{% endblock %}
+  

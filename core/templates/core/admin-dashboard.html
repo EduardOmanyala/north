@@ -1,0 +1,49 @@
+{% extends "core/base3.html" %}
+{% load static %}
+{% block content %}
+
+    <section>
+
+        <div class="blog-div-two">
+            <div></div>
+            <div style="min-height: 100vh;padding-top: 2rem;">
+            <br>
+           
+
+            <h5 class="card-title">{{ count }}</h5><br>
+
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">New Post</h5><br>
+                      <a href="{% url 'post' %}"  class="btn btn-primary">Create Post</a>
+                    </div>
+                  </div>
+
+                  <br>
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">New Category</h5><br>
+                      <a href="{% url 'category-create' %}" class="btn btn-primary">Create Category</a>
+                    </div>
+                  </div>
+
+
+            
+                  <br> 
+
+        
+
+
+            </div>
+            <div></div>
+        </div>
+
+        
+
+
+
+    </section>
+
+
+{% endblock %}
+  

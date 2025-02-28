@@ -1,0 +1,9 @@
+.blog-div-one {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+
+.blog-div-two {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}

@@ -1,0 +1,60 @@
+{% extends "core/base3.html" %}
+{% load static %}
+{% block content %}
+
+    <section>
+
+        <div class="blog-div-one">
+            <div></div>
+            <div>
+        <div style="min-height: 100vh;padding-top: 2rem;">
+
+
+        {% load crispy_forms_tags %}
+        <form method="GET" action="{% url 'search' %}">
+            <input type="text" class="form-control mr-sm-2" name="q" value="{{ query }}" placeholder="Search">
+        </form>
+
+        <div style="padding-top: 2rem;">
+
+            {% if results %}
+            {% for obj in results %}
+            <div class="card" style="margin-bottom: 2rem;">
+                <div class="card-body">
+                  <a href="{% url 'post-detail' obj.slug obj.id %}" class="card-title">{{ obj.title }}</a>
+                  <p class="card-text">{{ obj.main|safe|truncatewords:12 }}</p>
+                </div>
+              </div>
+            {% endfor %}
+            {% else %}
+            {% if query %}
+            <p>No results found.</p>
+            {% else %}
+            <p></p>
+            {% endif %}
+            {% endif %}
+
+
+
+
+
+        </div>
+        
+
+
+
+
+    </div>
+            </div>
+            <div></div>
+        </div>
+
+        
+
+
+
+    </section>
+
+
+{% endblock %}
+  

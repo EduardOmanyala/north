@@ -1,0 +1,220 @@
+[
+    {
+      "model": "core.QuizQuestion",
+      "pk": 1,
+      "fields": {
+        "category": 2,
+        "question": "What are Dim Lights?",
+        "opt_1":"Lights that are to be used at all times, as one should not risk blinding other drivers",
+        "opt_2":"Lights which are switched on when it is getting dark. They are also switched on for a short distance viewing of oncoming vehicles",
+        "opt_3":"Lights found inside the vehicle cabin that serve those inside the vehicle",
+        "opt_4":"Lights that are used to indicate one's intention to turn",
+        "opt_5":"",
+        "opt_6":"",
+        "opt_7":"",
+        "right_opt":"Lights which are switched on when it is getting dark. They are also switched on for a short distance viewing of oncoming vehicles"
+      }
+    },
+    {
+        "model": "core.QuizQuestion",
+        "pk": 2,
+        "fields": {
+          "category": 2,
+          "question": "What are parking dim lights?",
+          "opt_1":"Lights that are turned on when a vehicle is at a stop",
+          "opt_2":"Lights that indicates one's intention to park their vehicle",
+          "opt_3":"Lights used in low visibility conditions where a lot of light is necessary",
+          "opt_4":"Lights that are switched on at 6: 45 AM or when it is raining or dusty.",
+          "opt_5":"",
+          "opt_6":"",
+          "opt_7":"",
+          "right_opt":"Lights that are switched on at 6: 45 AM or when it is raining or dusty."
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 3,
+        "fields": {
+          "category": 2,
+          "question": "What are full lights?",
+          "opt_1":"Lights used in at night",
+          "opt_2":"Lights used on highways to enable the driver see further",
+          "opt_3":"Lights that are to be used at all times irrespective of the environmental conditions",
+          "opt_4":"Lights that are used to indicate one's intention to turn",
+          "opt_5":"",
+          "opt_6":"",
+          "opt_7":"",
+          "right_opt":"Lights used on highways to enable the driver see further"
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 4,
+        "fields": {
+          "category": 2,
+          "question": "What are hazard lights?",
+          "opt_1":"These are vehicle lights that flash at the front and back of the car. They are switched on when they is a hazard or danger.",
+          "opt_2":"Hazard lights are used to indicate that one needs to stop immediately",
+          "opt_3":"They can also be used when overtaking at high speed",
+          "opt_4":"They can best be used at night when visibility is high",
+          "opt_5":"",
+          "opt_6":"",
+          "opt_7":"",
+          "right_opt":"These are vehicle lights that flash at the front and back of the car. They are switched on when they is a hazard or danger."
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 5,
+        "fields": {
+          "category": 2,
+          "question": "What are Indicator lights?",
+          "opt_1":"Lights used to signal other drivers of one's intention to stop",
+          "opt_2":"Lights that turn on automatically when one applies the brakes",
+          "opt_3":"Lights that are only used when its necessary to alert other drivers that one is turning",
+          "opt_4":"Lights that are used to provide signals to other users when changing lanes, reversing and parking.",
+          "opt_5":"",
+          "opt_6":"",
+          "opt_7":"",
+          "right_opt":"Lights that are used to provide signals to other users when changing lanes, reversing and parking."
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 6,
+        "fields": {
+          "category": 2,
+          "question": "What are brake lights?",
+          "opt_1":"Lights that are only used when its necessary to alert other drivers that one is turning",
+          "opt_2":"These are lights that indicate the vehicle is applying brakes.",
+          "opt_3":"Lights that generally indicate danger",
+          "opt_4":"Lights that are only used in low visibility conditions",
+          "opt_5":"",
+          "opt_6":"",
+          "opt_7":"",
+          "right_opt":"These are lights that indicate the vehicle is applying brakes."
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 7,
+        "fields": {
+          "category": 2,
+          "question": "When can you turn on the lights during day time?",
+          "opt_1":"When its foggy",
+          "opt_2":"During heavy rainfall",
+          "opt_3":"When its misty",
+          "opt_4":"During emergency",
+          "opt_5":"In all the above situations",
+          "opt_6":"",
+          "opt_7":"",
+          "right_opt":"In all the above situations"
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 8,
+        "fields": {
+          "category": 2,
+          "question": "What is a vehicle?",
+          "opt_1":"A four wheeled machine used for transportation",
+          "opt_2":"A form of transportation",
+          "opt_3":"A type of industrial machine",
+          "opt_4":"An automobile power driven machine",
+          "right_opt":"an automobile power driven machine"
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 9,
+        "fields": {
+          "category": 2,
+          "question": "What is a lane?",
+          "opt_1":"A path used by pedestrians",
+          "opt_2":"Is a type of road",
+          "opt_3":"It is a path to be followed by the vehicle",
+          "opt_4":"Is a road made of tarmac",
+          "right_opt":"It is a path to be followed by the vehicle"
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 10,
+        "fields": {
+          "category": 2,
+          "question": "Who is a pedestrian?",
+          "opt_1":"Any road user",
+          "opt_2":"A motorcylce rider",
+          "opt_3":"A person who does not own a car",
+          "opt_4":"Road users on foot",
+          "right_opt":"Road users on foot"
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 11,
+        "fields": {
+          "category": 2,
+          "question": "Kenyan drivers are supposed to drive on which side of the road?",
+          "opt_1":"Always keep left unless overtaking",
+          "opt_2":"Always keep right unless overtaking ",
+          "opt_3":"Drivers are free to switch to their preffered side",
+          "opt_4":"None of the above is correct",
+          "right_opt":"Always keep left unless overtaking"
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 12,
+        "fields": {
+          "category": 2,
+          "question": "Which side do you overtake from in Kenya?",
+          "opt_1":"From the left side",
+          "opt_2":"From the right side",
+          "opt_3":"From any side, depending on traffic conditions",
+          "opt_4":"All the above are true",
+          "right_opt":"From the right side"
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 13,
+        "fields": {
+          "category": 2,
+          "question": "Which one of the following is NOT one of the three documents which must be valid before you are allowed to drive?",
+          "opt_1":"Valid driving license",
+          "opt_2":"Valid Identification Card",
+          "opt_3":"Valid insurance certificate",
+          "opt_4":"Valid vehicle inspection certificate",
+          "right_opt":"Valid Identification Card"
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 14,
+        "fields": {
+          "category": 2,
+          "question": "Which category of vehicles do NOT have a right of way?",
+          "opt_1":"Ambulance with siren",
+          "opt_2":"Fire engine with a siren",
+          "opt_3":"Public Service Vehicles",
+          "opt_4":"Presidential escort with siren",
+          "opt_5":"Police car with a siren",
+          "right_opt":"Public Service Vehicles"
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 15,
+        "fields": {
+          "category": 2,
+          "question": "What is the maximum driving speed limit in town?",
+          "opt_1":"50Km/h",
+          "opt_2":"80Km/h",
+          "opt_3":"70Km/h",
+          "opt_4":"100Km/h",
+          "right_opt":"50Km/h"
+        }
+      }
+      
+  ]

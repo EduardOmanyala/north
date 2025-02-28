@@ -1,0 +1,111 @@
+{% extends "core/base3.html" %}
+{% load static %}
+{% block content %}
+
+    <section>
+
+        <div class="blog-div-one">
+            <div></div>
+            <div>
+
+
+        <h4 style="margin-top: 1%; margin-bottom: 1%;text-align: center;">{{ post.title}} </h4>
+        {% if post.image %}
+        <img src="{{ post.image.url }}" style="min-width: 70%; max-width: 90%; height: auto;" alt="...">
+        {% endif %}
+        {% if post.main %}
+        <p style="text-align: left;">{{ post.main|safe}}</p>
+        {% endif %}
+
+
+        {% if request.user == post.user %}
+        <a href="{% url 'post-update' post.slug post.id %}" class="btn btn-primary btn-lg" style="width: 100%; margin-bottom:1rem;" role="button">Edit</a>
+        <button type="button" class="btn btn-primary" style="width: 100%;margin-bottom:1rem;background-color:red;"  data-toggle="modal" data-target="#exampleModal">
+            Delete
+          </button>
+
+        <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Confirm Deletion</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Are you sure you want to delete this post? Action cannot be undone. 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+          <button OnClick=" location.href='{% url 'post-delete' post.id %}' " type="button" class="btn btn-primary">Delete</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+        {% endif %}
+
+
+
+            </div>
+            <div></div>
+        </div>
+
+        
+
+
+
+    </section>
+    <br><hr>
+
+    <section>
+      <div class="blog-div-one">
+        <div></div>
+      <div>
+
+
+
+        <div style="padding-top: 0rem;padding-left: 1rem;padding-right: 1rem;display: flex;  flex-wrap: wrap;">
+
+
+          {% for obj in related %}
+          <div class="card" style="width: 22rem;margin-left: 1rem; margin-top: 1rem;">
+            {% if obj.image %}
+            <img src="{{ obj.image.url }}" class="card-img-top" alt="...">
+            {% endif %}
+            <div class="card-body">
+              <a style="color: black;" href="{% url 'post-detail' obj.slug obj.id %}" class="card-title">{{ obj.title|truncatewords:12 }}</a>
+              <span class="badge badge-pill badge-primary">Primary</span>
+            </div>
+          </div>
+          {% endfor %}
+
+       
+
+
+          
+  
+  
+        </div>
+
+
+
+        
+      </div>
+      <div></div>
+      </div>
+
+
+
+
+
+    </section>
+
+
+{% endblock %}
+  

@@ -1,0 +1,322 @@
+[
+    {
+        "model": "core.QuizQuestion",
+        "pk": 101,
+        "fields": {
+          "category": 8,
+          "question": "What is the maximum driving speed limit in town?",
+          "opt_1":"50Km/h",
+          "opt_2":"80Km/h",
+          "opt_3":"70Km/h",
+          "opt_4":"100Km/h",
+          "right_opt":"50Km/h"
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 102,
+        "fields": {
+          "category": 8,
+          "question": "What distance should you keep between two moving vehicles in town?",
+          "opt_1":"A reasonable distance as judged by a driver",
+          "opt_2":"You should see the behind wheels or the number plate of the vehicle infront",
+          "opt_3":"At least two metres",
+          "opt_4":"At least two vehicle lengths",
+          "right_opt":"You should see the behind wheels or the number plate of the vehicle infront"
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 103,
+        "fields": {
+          "category": 8,
+          "question": "The following are common mistakes made when approaching a round about, EXCEPT ONE, identify it.",
+          "opt_1":"Approaching the roundabout with wrong lane",
+          "opt_2":"Changing lanes on the roundabout",
+          "opt_3":"Checking for traffic on one's right side",
+          "opt_4":"Leaving the roundabout the wrong lane",
+          "opt_5":"Observing traffic from wrong side",
+          "right_opt":"Checking for traffic on one's right side"
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 104,
+        "fields": {
+          "category": 8,
+          "question": "What is the different between a street and an avenue?",
+          "opt_1":"A street is usually larger than an avenue",
+          "opt_2":"Avenues have lower speed limits when compared to streets",
+          "opt_3":"A street is where buildings are on both sides of the road, while an Avenue is where vegetation is on both sides of the road",
+          "opt_4":"Both streets and avenues are parallell to each other and not perpendicular",
+          "right_opt":"A street is where buildings are on both sides of the road, while an Avenue is where vegetation is on both sides of the road"
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 105,
+        "fields": {
+          "category": 8,
+          "question": "What is the difference between heavy and light commercial vehicles?",
+          "opt_1":"Heavy commercial vehicle are those vehicles which are exceeding 3.05 tonnes tire weight and light commercial vehicle have less than that weight",
+          "opt_2":"Heavy commercial vehicle are those vehicles which are exceeding 5.05 tonnes tire weight and light commercial vehicle have less than that weight",
+          "opt_3":"Heavy commercial vehicle are those vehicles which are exceeding 2.05 tonnes tire weight and light commercial vehicle have less than that weight",
+          "opt_4":"Heavy commercial vehicle are those vehicles which are exceeding 1.05 tonnes tire weight and light commercial vehicle have less than that weight",
+          "opt_5":"",
+          "opt_6":"",
+          "opt_7":"",
+          "right_opt":"Heavy commercial vehicle are those vehicles which are exceeding 3.05 tonnes tire weight and light commercial vehicle have less than that weight"
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 106,
+        "fields": {
+          "category": 8,
+          "question": "What is the meaning of a PDL?",
+          "opt_1":"Practice driving license",
+          "opt_2":"Private driving license",
+          "opt_3":"Provisional driving license",
+          "opt_4":"Public driving license",
+          "right_opt":"Provisional driving license"
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 107,
+        "fields": {
+          "category": 8,
+          "question": "Which of the following maximum speed limits is NOT legal when applied on a highway?",
+          "opt_1":"Cars - 110Km/h",
+          "opt_2":"Pickups/lorries - 80Km/h",
+          "opt_3":"Motorcycles - 50Km/h",
+          "opt_4":"Trailers  - 65Km/h",
+          "right_opt":"Motorcycles - 50Km/h"
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 108,
+        "fields": {
+          "category": 8,
+          "question": "Class A signs are subdivided into THREE main groups, Which of the following is NOT among them?",
+          "opt_1":"Priority signs(stop sign)",
+          "opt_2":"Compulsory signs(all vehicles must keep left)",
+          "opt_3":"Regulatory signs(no entry)",
+          "opt_4":"Warning signs (stop)",
+          "right_opt":"Warning signs (stop)"
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 109,
+        "fields": {
+          "category": 9,
+          "question": "Which category of vehicles do NOT have a right of way?",
+          "opt_1":"Ambulance with siren",
+          "opt_2":"Fire engine with a siren",
+          "opt_3":"Public Service Vehicles",
+          "opt_4":"Presidential escort with siren",
+          "opt_5":"Police car with a siren",
+          "right_opt":"Public Service Vehicles"
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 110,
+        "fields": {
+          "category": 9,
+          "question": "How should a driver control himself in an uncontrolled roundabout?",
+          "opt_1":"You should make sure there is no oncoming vehicle from the left side of the round about",
+          "opt_2":"You should make sure there is no oncoming vehicle from any side of the round about",
+          "opt_3":"Be patient and follow other vehicles",
+          "opt_4":"You should make sure there is no oncoming vehicle from the right side of the round about",
+          "right_opt":"You should make sure there is no oncoming vehicle from the right side of the round about"
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 111,
+        "fields": {
+          "category": 9,
+          "question": "Describe your approach at a pedestrian crossing?",
+          "opt_1":"Alert and at a speed of which he can control and stop incase of emergency",
+          "opt_2":"Alert but at a reasonable speed if there is no traffic",
+          "opt_3":"Alert but at a slow speed",
+          "opt_4":"All of the above are true",
+          "right_opt":"Alert and at a speed of which he can control and stop incase of emergency"
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 112,
+        "fields": {
+          "category": 9,
+          "question": "What is a hard shoulder way?",
+          "opt_1":"A lane reserved for emergency vehicles such as ambulances",
+          "opt_2":"An emergency lane that runs along the left-hand side of a motorway carriageway",
+          "opt_3":"A lane reserved for personal cars and public transport vehicles",
+          "opt_4":"A lane for high speed vehicles on a highway",
+          "right_opt":"an emergency lane that runs along the left-hand side of a motorway carriageway"
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 113,
+        "fields": {
+          "category": 9,
+          "question": "What is hazard demarcation?",
+          "opt_1":"Signs that generally indicate danger",
+          "opt_2":"Are reflective plates attached at the edge of the bridge to show then width on the bridge at night",
+          "opt_3":"Signs placed on the road when one's vehicle breaks down",
+          "opt_4":"Areas of a road that are closed off due to repairs that are in progress",
+          "right_opt":"Are reflective plates attached at the edge of the bridge to show then width on the bridge at night"
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 114,
+        "fields": {
+          "category": 9,
+          "question": "What is the use of speed governors and safety belts?",
+          "opt_1":"To comply with traffic rules and requirements",
+          "opt_2":"To improve safety for road users",
+          "opt_3":"To minimize casualties in case of an accident",
+          "opt_4":"To maintain a specific speed given on highway according to the vehicle you are driving and to reduce the number of injuries during accidents",
+          "right_opt":"To maintain a specific speed given on highway according to the vehicle you are driving and to reduce the number of injuries during accidents"
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 115,
+        "fields": {
+          "category": 9,
+          "question": "When are you not allowed to drive despite having the three valid required documents?",
+          "opt_1":"When medicated",
+          "opt_2":"When you are sick",
+          "opt_3":"Drunk",
+          "opt_4":"In all the above situations",
+          "right_opt":"In all the above situations"
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 116,
+        "fields": {
+          "category": 9,
+          "question": "The following are the THREE ways one should HOOT, EXCEPT?",
+          "opt_1":"Thrice means an alert signal",
+          "opt_2":"Once means warning",
+          "opt_3":"Twice means greeting",
+          "opt_4":"Several times means abusing",
+          "right_opt":"Thrice means an alert signal"
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 117,
+        "fields": {
+          "category": 10,
+          "question": "Which side do you overtake from in Kenya?",
+          "opt_1":"From the left side",
+          "opt_2":"From the right side",
+          "opt_3":"From any side, depending on traffic conditions",
+          "opt_4":"All the above are true",
+          "right_opt":"From the right side"
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 118,
+        "fields": {
+          "category": 10,
+          "question": "What do you do before getting out of the vehicle?",
+          "opt_1":"Turn the vehicle off and remove your seat belt",
+          "opt_2":"Pull up the handbrake",
+          "opt_3":"Check the side mirror or look over your right shoulder",
+          "opt_4":"Make sure the car is locked",
+          "opt_5":"",
+          "opt_6":"",
+          "opt_7":"",
+          "right_opt":"Check the side mirror or look over your right shoulder"
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 119,
+        "fields": {
+          "category": 10,
+          "question": "Which is the strongest gear on a vehicle and why?",
+          "opt_1":"Gear One - the lowest gear",
+          "opt_2":"Reverse gear because it has no any other alternative gear",
+          "opt_3":"Gear Three - One of the highest in most vehicles",
+          "opt_4":"All gears have the same power",
+          "right_opt":"Reverse gear because it has no any other alternative gear"
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 120,
+        "fields": {
+          "category": 10,
+          "question": "Which signs have the apex facing upwards?",
+          "opt_1":"Information signs",
+          "opt_2":"Priority signs",
+          "opt_3":"Mandatory and regulatory signs",
+          "opt_4":"Warning signs",
+          "right_opt":"Warning signs"
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 121,
+        "fields": {
+          "category": 10,
+          "question": "What is the main purpose of a Vehicle inspection certificate ",
+          "opt_1":"To show the road worthiness of a vehicle",
+          "opt_2":"To ensure a vehicle has all required modifications",
+          "opt_3":"To earn revenue for the traffic department",
+          "opt_4":"To assure the public about the quality of a vehicle",
+          "right_opt":"To show the road worthiness of a vehicle"
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 122,
+        "fields": {
+          "category": 10,
+          "question": "As a driver, when you come across river bed crossing explain how do you cross it?",
+          "opt_1":"Use judgment to determine if its safe to cross",
+          "opt_2":"Ask people in the area if its safe to cross",
+          "opt_3":"One has to know how deep is the river before you cross by deeping the stick in the water",
+          "opt_4":"If you are using a powerful vehicle just cross",
+          "right_opt":"One has to know how deep is the river before you cross by deeping the stick in the water"
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 123,
+        "fields": {
+          "category": 10,
+          "question": "What is the Highway Code?",
+          "opt_1":"The highway code is a booklet that records all traffic violations a driver makes",
+          "opt_2":"Highway code is a booklet checked and passed by the parliament for rules of road users in Kenya",
+          "opt_3":"The highway code is part of one's drivers license",
+          "opt_4":"Includes laws put in place by traffic officers to control vehicle flow",
+          "right_opt":"Highway code is a booklet checked and passed by the parliament for rules of road users in Kenya"
+        }
+      },
+      {
+        "model": "core.QuizQuestion",
+        "pk": 124,
+        "fields": {
+          "category": 10,
+          "question": "Why do we observe regulatory signs?",
+          "opt_1":"To minimize the possibility of accidents",
+          "opt_2":"Because traffic laws require that they be observed",
+          "opt_3":"For efficient traffic flow",
+          "opt_4":"Its good practice while driving",
+          "right_opt":"Because they are signs to be observed"
+        }
+      }
+]
