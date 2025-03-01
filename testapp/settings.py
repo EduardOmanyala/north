@@ -12,7 +12,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', cast=bool)
 
-ALLOWED_HOSTS = ['the-northstar.com','the-northstar.com']
+ALLOWED_HOSTS = ['the-northstar.com','www.the-northstar.com']
 #ALLOWED_HOSTS = []
 
 
@@ -170,4 +170,5 @@ MPESA_INITIATOR_SECURITY_CREDENTIAL = config('MPESA_INITIATOR_SECURITY_CREDENTIA
 
 
 AUTO_LOGOUT = {'IDLE_TIME': 36000, 'REDIRECT_TO_LOGIN_IMMEDIATELY': True, 'MESSAGE': 'The session has expired. Please login again to continue.',}
+
 
