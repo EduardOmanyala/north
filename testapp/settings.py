@@ -90,7 +90,6 @@ DATABASES = {
         'PASSWORD': config('DATABASEPASSWORD'),
         'HOST': 'localhost',
         'PORT': '',
-        'OPTIONS': {'options': '-c search_path=myschema,public'}
     }
 }
 
