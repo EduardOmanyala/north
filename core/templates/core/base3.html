@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
-    <title>Home</title>
+    <title>{% block title %}{% endblock %}</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -146,19 +146,19 @@
                       <li>
                         <div class="unit">
                           <div class="unit-left"><span class="icon fa fa-phone"></span></div>
-                          <div class="unit-body"><a class="link-phone" href="tel:#">+254 717-54-90-37</a></div>
+                          <div class="unit-body"><a class="link-phone" href="tel:#">+254 777-77-77-77</a></div>
                         </div>
                       </li>
                       <li>
                         <div class="unit">
                           <div class="unit-left"><span class="icon fa fa-envelope"></span></div>
-                          <div class="unit-body"><a class="link-aemail" href="mailto:#">testprep@testprepken.com</a></div>
+                          <div class="unit-body"><a class="link-aemail" href="mailto:#">email@email.com</a></div>
                         </div>
                       </li>
                       <li>
                         <div class="unit">
                           <div class="unit-left"><span class="icon fa fa-location-arrow"></span></div>
-                          <div class="unit-body"><a class="link-location" href="#">Bamburi Road, Bamburi, Mombasa</a></div>
+                          <div class="unit-body"><a class="link-location" href="#">Location Road, Location, Country</a></div>
                         </div>
                       </li>
                     </ul>
@@ -170,19 +170,14 @@
                   <div class="wow slideInDown" data-wow-delay="0s">
                     <h6 class="text-spacing-100 text-uppercase">Popular news</h6>
                     <!-- Post Minimal 2-->
+                    {% for obj in mainsfooter %}
                     <article class="post post-minimal-2">
-                      <p class="post-minimal-2-title"><a href="#">New CBC syllabus to fully take effect from 2023</a></p>
+                      <p class="post-minimal-2-title"><a href="{% url 'post-detail' obj.id obj.slug %}">{{ obj.title }}</a></p>
                       <div class="post-minimal-2-time">
-                        <time datetime="2019-05-04">May 04, 2023</time>
+                        <time datetime="2019-05-04">{{ obj.created_at|date:"F d, Y" }}</time>
                       </div>
                     </article>
-                    <!-- Post Minimal 2-->
-                    <article class="post post-minimal-2">
-                      <p class="post-minimal-2-title"><a href="#">Breakdown of the CBC syllabus in detail</a></p>
-                      <div class="post-minimal-2-time">
-                        <time datetime="2019-05-04">May 04, 2023</time>
-                      </div>
-                    </article>
+                    {% endfor  %}
                   </div>
                 </div>
               </div>
@@ -191,10 +186,12 @@
                   <div class="wow slideInLeft" data-wow-delay="0s">
                     <h6 class="text-spacing-100 text-uppercase">Quick links</h6>
                     <ul class="row-6 list-0 list-marked list-marked-md list-marked-secondary list-custom-2">
-                      <li><a href="{% url 'about' %}">About us</a></li>
-                      <li><a href="#">Our Tests</a></li>
-                      <li><a href="{% url 'about' %}">Our Team</a></li>
-                      <li><a href="#">Gallery</a></li>
+
+
+                      {% for obj in catListMain %}
+                      <li><a href="{% url 'cat-posts' obj.id obj.slug %}">{{ obj.title }}</a>
+                      </li>
+                      {% endfor  %}  
                       <li><a href="{% url 'admin-dashboard' %}">Staff</a></li>
                     </ul>
                     <div class="group-md group-middle justify-content-sm-start"><a class="button button-lg button-primary button-ujarak" href="#">Get in touch</a></div>
@@ -219,7 +216,7 @@
               </div>
               <div class="col-sm-6 col-md-4 order-sm-first">
                 <!-- Rights-->
-                <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>Testprep Kenya</span>. All Rights Reserved.</p>
+                <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>NorthStar Publications</span>. All Rights Reserved.</p>
               </div>
               <div class="col-sm-6 col-md-4 text-md-right">
                 <p class="rights"><a href="#">Privacy Policy</a></p>

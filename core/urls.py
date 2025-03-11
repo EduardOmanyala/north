@@ -6,7 +6,7 @@ urlpatterns = [
     path('', core_views.home, name='home'),
 
     path('post', core_views.post, name='post'),
-    path('<str:slug>/<int:id>', core_views.post_detail, name='post-detail'),
+    path('<int:id>/<str:slug>/', core_views.post_detail, name='post-detail'),
     path('update/<str:slug>/<int:id>', core_views.post_update, name='post-update'),
     path('delete/post/<int:id>', core_views.delete_post, name='post-delete'),
 

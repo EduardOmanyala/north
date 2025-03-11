@@ -44,7 +44,6 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django_auto_logout.middleware.auto_logout',
-    'core.middleware.TrackGetRequestMiddleware',
 ]
 
 AUTH_USER_MODEL = 'custom_user.User'
@@ -169,6 +168,6 @@ MPESA_INITIATOR_USERNAME = config('MPESA_INITIATOR_USERNAME')
 MPESA_INITIATOR_SECURITY_CREDENTIAL = config('MPESA_INITIATOR_SECURITY_CREDENTIAL')
 
 
-AUTO_LOGOUT = {'IDLE_TIME': 36000, 'REDIRECT_TO_LOGIN_IMMEDIATELY': True, 'MESSAGE': 'The session has expired. Please login again to continue.',}
+AUTO_LOGOUT = {'IDLE_TIME': 360000, 'REDIRECT_TO_LOGIN_IMMEDIATELY': True, 'MESSAGE': 'The session has expired. Please login again to continue.',}
 
 

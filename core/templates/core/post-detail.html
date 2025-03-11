@@ -1,10 +1,11 @@
 {% extends "core/base3.html" %}
 {% load static %}
+{% block title %}{{ post.title }}{% endblock %}
 {% block content %}
 
     <section>
 
-        <div class="blog-div-one">
+        <div class="blog-div-three">
             <div></div>
             <div>
 
@@ -79,7 +80,7 @@
             <img src="{{ obj.image.url }}" class="card-img-top" alt="...">
             {% endif %}
             <div class="card-body">
-              <a style="color: black;" href="{% url 'post-detail' obj.slug obj.id %}" class="card-title">{{ obj.title|truncatewords:12 }}</a>
+              <a style="color: black;" href="{% url 'post-detail' obj.id obj.slug %}" class="card-title">{{ obj.title|truncatewords:12 }}</a>
               <span class="badge badge-pill badge-primary">Primary</span>
             </div>
           </div>

@@ -94,7 +94,7 @@ def post(request):
                 obj = form.save(commit=False)
                 obj.user = request.user
                 obj.save()
-                return redirect('post-detail', obj.slug, obj.id)
+                return redirect('post-detail', obj.id, obj.slug)
             else:
                 form = PostForm()
             return render(request, 'core/post.html', {'form':form, })
@@ -102,9 +102,9 @@ def post(request):
             return render(request, 'core/post.html', {'form':form, 'cats':cats})
     
 
-def post_detail(request, id, slug):
-    post = Blog.objects.get(slug=slug, id=id)
-    return render(request, 'core/post-detail.html', {'post':post, })
+# def post_detail(request, id, slug):
+#     post = Blog.objects.get(slug=slug, id=id)
+#     return render(request, 'core/post-detail.html', {'post':post, })
 
 
 @login_required
@@ -115,7 +115,7 @@ def post_update(request, id, slug):
          if form.is_valid():
              #obj = form.save(commit=False)
              form.save()
-             return redirect('post-detail', post.slug, post.id) 
+             return redirect('post-detail', post.id, post.slug) 
      else:
          form = PostForm(instance=post)
      return render(request, 'core/post.html',  {'form': form})
@@ -123,7 +123,7 @@ def post_update(request, id, slug):
     
 
 def post_detail(request, id, slug):
-    post = Blog.objects.get(slug=slug, id=id)
+    post = Blog.objects.get(id=id, slug=slug)
     related = Blog.objects.filter(category=post.category).exclude(id=post.id).order_by('-created_at')[:9]
     return render(request, 'core/post-detail.html', {'post':post, 'related':related })
 
@@ -170,8 +170,8 @@ def categoryPosts(request, id, slug):
     cat = Category.objects.get(id=id, slug=slug)
     categoryPosts = Blog.objects.filter(category=cat.id).order_by('-created_at')[:20]
     #categoryPosts = Blog.objects.all()
-    active_styler = 'rd-nav-item active'
-    return render(request, 'core/category-posts.html', {'categoryPosts': categoryPosts, 'activestyler2':active_styler })
+    catName = cat.title
+    return render(request, 'core/category-posts.html', {'categoryPosts': categoryPosts, 'catName':catName })
 
 
 @login_required
