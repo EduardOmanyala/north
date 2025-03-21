@@ -36,12 +36,11 @@ class Category(models.Model):
 
 class Blog(models.Model):
     type = models.CharField(max_length=200, choices=TYPE_CHOICES, default='Ordinary')
-    title = models.TextField()
-    title2 = models.CharField(max_length=255, default='Ordinary')
+    title = models.TextField(max_length=200)
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
     image = models.ImageField(upload_to='post-images/', blank=True, null=True)
     main = HTMLField(blank=True, null=True)
-    slug = models.SlugField(null=True, blank=True, unique=False)
+    slug = models.SlugField(max_length=230, null=True, blank=True, unique=False)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     created_at = models.DateTimeField(auto_now_add=True)
 
