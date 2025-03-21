@@ -26,7 +26,7 @@ class UserRegisterForm(UserCreationForm):
 class PostForm(forms.ModelForm):
     class Meta:
         model = Blog
-        fields = ['type', 'title', 'new_title', 'category', 'image', 'main']
+        fields = ['type', 'title', 'category', 'image', 'main']
 
 
 
