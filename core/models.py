@@ -36,7 +36,7 @@ class Category(models.Model):
 
 class Blog(models.Model):
     type = models.CharField(max_length=200, choices=TYPE_CHOICES, default='Ordinary')
-    title = models.TextField(max_length=200)
+    title = models.CharField(max_length=200)
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
     image = models.ImageField(upload_to='post-images/', blank=True, null=True)
     main = HTMLField(blank=True, null=True)
