@@ -36,8 +36,8 @@ class Category(models.Model):
 
 class Blog(models.Model):
     type = models.CharField(max_length=200, choices=TYPE_CHOICES, default='Ordinary')
-    #title = models.CharField(max_length=200)
-    title = models.CharField(max_length=255)
+    title = models.CharField(max_length=200)
+    title2 = models.CharField(max_length=255, default='Ordinary')
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
     image = models.ImageField(upload_to='post-images/', blank=True, null=True)
     main = HTMLField(blank=True, null=True)
@@ -50,7 +50,7 @@ class Blog(models.Model):
 
     def save(self, *args, **kwargs):
         #self.slug = self.generate_slug()
-        self.slug = slugify(self.title)
+        self.slug = slugify(self.title2)
         return super().save(*args, **kwargs)
     
 
