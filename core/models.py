@@ -50,7 +50,7 @@ class Blog(models.Model):
 
     def save(self, *args, **kwargs):
         #self.slug = self.generate_slug()
-        self.slug = slugify(self.new_title)
+        self.slug = slugify(self.title)
         return super().save(*args, **kwargs)
     
 
