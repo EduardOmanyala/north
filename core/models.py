@@ -4,6 +4,7 @@ from tinymce.models import HTMLField
 import string  
 import random 
 from django.utils.text import slugify
+from django.urls import reverse
 
 
 TYPE_CHOICES = (
@@ -28,6 +29,9 @@ class Category(models.Model):
         #self.slug = self.generate_slug()
         self.slug = slugify(self.title)
         return super().save(*args, **kwargs)
+    
+    def get_absolute_url(self):
+        return reverse('cat-posts', kwargs={'id': self.id, 'slug': self.slug})
 
 
 class Blog(models.Model):

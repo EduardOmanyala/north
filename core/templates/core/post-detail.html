@@ -12,7 +12,9 @@
 
         <h4 style="margin-top: 1%; margin-bottom: 1%;text-align: center;">{{ post.title}} </h4>
         {% if post.image %}
+        <div style="display: flex; justify-content: center; align-items: center;">
         <img src="{{ post.image.url }}" style="min-width: 70%; max-width: 90%; height: auto;" alt="...">
+        </div>
         {% endif %}
         {% if post.main %}
         <p style="text-align: left;">{{ post.main|safe}}</p>
