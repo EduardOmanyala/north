@@ -1,0 +1,42 @@
+{% extends "analytics/base2.html" %}
+{% load static %}
+{% block content %}
+{% load humanize %}
+
+
+<div class="create-new2">
+    <div class="dontdisp">
+
+        <div class="sidebar-widget widget-category-2 mb-30 pl-2">
+            <br>
+            <h5 class="section-title style-1 mb-30">Menu</h5>
+            {% include "analytics/partials/sidemenu.html" %}
+        </div>
+
+
+    </div>
+    
+    
+    <div style="padding-left: 2rem; ">
+        <br>
+        <h6 class="section-title style-1 mb-30">Messages</h6>
+
+        {% for umessage in umessages %}
+
+        <div class="alert alert-primary mb-1">
+            <P>{{ umessage.content|safe|truncatechars:30  }}</p>
+            <p>click to View Message <a href="{% url 'admin-user-messages' umessage.user.id %}" class="alert-link">View</a>.</p>
+          </div>
+     
+        
+        {% endfor %}
+        <br>
+      
+</div>
+
+</div>
+
+                                 
+    
+
+{% endblock content %}

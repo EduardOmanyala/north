@@ -1,0 +1,33 @@
+{% load static %}
+<ul>
+                                
+    <li style="background-color: DarkTurquoise;">
+        <a href="{% url 'task-create' %}" style="color:white;"> <img src="{% static 'analytics/imgs/create.png' %}" alt="" style="width: 30px; height: 30px; object-fit: cover; border-radius: 10px;" />Create New</a>
+    </li>
+    <li>
+       <a href="{% url 'completeornot' 'true' %}"> <img src="{% static 'analytics/imgs/check1.png' %}" alt="" style="width: 30px; height: 30px; object-fit: cover; border-radius: 50%;" />Complete</a><span class="count">{{ comp }}</span>
+    </li>
+    <li>
+        <a href="{% url 'task-listview-admin' %}"> <img src="{% static 'analytics/imgs/sync.png' %}" alt="" style="width: 30px; height: 30px; object-fit: cover; border-radius: 50%;" />In Progress</a><span class="count">{{ prog }}</span>
+    </li>
+    <li>
+        <a href="{% url 'subjectCategories-admin' 'Excel' %}"> <img src="{% static 'analytics/imgs/excel.png' %}" alt="" style="width: 30px; height: 30px; object-fit: cover; border-radius: 50%;" />Excel</a><span class="count">{{ excel }}</span>
+    </li>
+    <li>
+        <a href="{% url 'subjectCategories-admin' 'SPSS' %}"> <img src="{% static 'analytics/imgs/spss.png' %}" alt="" style="width: 30px; height: 30px; object-fit: cover; border-radius: 50%;" />SPSS</a><span class="count">{{ spss }}</span>
+    </li>
+    <li>
+        <a href="{% url 'subjectCategories-admin' 'Python' %}"> <img src="{% static 'analytics/imgs/python.png' %}" alt="" style="width: 30px; height: 30px; object-fit: cover; border-radius: 50%;" />Python</a><span class="count">{{ python }}</span>
+    </li>
+    <li>
+        <a href="{% url 'subjectCategories-admin' 'Matlab' %}"> <img src="{% static 'analytics/imgs/math.png' %}" alt="" style="width: 30px; height: 30px; object-fit: cover; border-radius: 50%;" />Matlab</a><span class="count">{{ mat }}</span>
+    </li>
+    <li>
+        <a href="{% url 'subjectCategories-admin' 'R' %}"> <img src="{% static 'analytics/imgs/r.png' %}" alt="" style="width: 30px; height: 30px; object-fit: cover; border-radius: 50%;" />R</a><span class="count">{{ r }}</span>
+    </li>
+    <li>
+        <a href="{% url 'subjectCategories-admin' 'Machine Learning' %}"> <img src="{% static 'analytics/imgs/ml.png' %}" alt="" style="width: 30px; height: 30px; object-fit: cover; border-radius: 50%;" />Machine Learning</a><span class="count">{{ ml }}</span>
+    </li>
+    
+    
+</ul>

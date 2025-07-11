@@ -1,9 +1,38 @@
-{% extends "core/base3.html" %}
 {% load static %}
-{% block title %}Login{% endblock %}
-{% block content %}
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <title>{% block title %}{% endblock %}</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <link rel="icon" href="{% static 'core/images/favicon.ico' %}" type="image/x-icon">
+    <!-- Stylesheets-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat:400,500,600,700%7CPoppins:400%7CTeko:300,400">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    /> -->
+    <link rel="stylesheet" href="{% static 'analytics/assets/css/customstyles.css' %}" />
+    <link rel="stylesheet" href="{% static 'core/css/blogone.css' %}">
+    <link rel="stylesheet" href="{% static 'core/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'core/css/fonts.css' %}">
+    <link rel="stylesheet" href="{% static 'core/css/billing.css' %}">
+    <link rel="stylesheet" href="{% static 'core/css/order.css' %}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+
+
+    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+  </head>
+  <body>
 <section>
-    <div class="crazxydiv">
+    <div style="margin-top: 4rem;" class="crazxydiv">
         <div></div>
         <div>
             <div class="crazxydiv2">
@@ -22,5 +51,12 @@
     </div> 
 </section>
 
-{% endblock %}
+
+    <!-- Javascript-->
+    <script src="{% static 'core/js/core.min.js' %}"></script>
+    <script src="{% static 'core/js/script.js' %}"></script>
+    <script src="{% static 'core/js/sidebar.js' %}"></script>
+
+</body>
+</html>
   

@@ -12232,7 +12232,7 @@ html.tablet .ui-to-top {
 
 .rd-navbar-static .rd-nav-item > .rd-navbar-submenu-toggle {
 	display: none;
-	margin-left: 4px;
+	margin-left: 1px;
 	font-family: "Material Design Icons";
 	font-size: 16px;
 	cursor: pointer;
@@ -12254,7 +12254,7 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-static .rd-nav-item + .rd-nav-item {
-	margin-left: 42px;
+	margin-left: 45px;
 }
 
 .rd-navbar-static .rd-nav-link {
@@ -12298,7 +12298,7 @@ html.tablet .ui-to-top {
 	left: 100%;
 	z-index: 2;
 	margin-top: -15px;
-	margin-left: 15px;
+	
 	transform: translate3d(30px, 0, 0);
 }
 
@@ -13073,7 +13073,7 @@ html.tablet .ui-to-top {
 
 .rd-navbar-fixed .rd-navbar-brand {
 	position: relative;
-	margin-left: 6px;
+	margin-left: 1px;
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;

@@ -1,0 +1,94 @@
+ {% load static %}
+ <div class="right-elemens pr-2 pb-1">
+            <button class="buttan-23" role="button" onclick="window.location.href='{% url 'task-create' %}'">Create</button>
+            
+            <div class="dropdown">
+            <button type="button" class="icon-button">
+                <span class="dropbtn dropbtn2 material-icons" onclick="toggleDropdown('dropdownMenu3')" style="cursor: pointer;">mail</span>
+                <span class="icon-button__badge" id="message-count" style="font-size: 0.8rem; color: white;"><strong></strong></span>
+              </button>
+
+              <div class="dropdown-content mt-2" id="dropdownMenu3">
+              
+                <div>
+                 <a href="#"></a>
+                </div>
+                
+                <hr>
+                <div>
+                  <a href="#">View All</a>
+                </div>
+               </div>
+
+            </div>
+              
+
+              <audio id="notification-sound" src="{% static 'analytics/notify.mp3' %}" preload="auto"></audio>
+         
+              <div class="dropdown">
+                <button type="button" class="icon-button">
+                <span class="dropbtn dropbtn2 material-icons" onclick="toggleDropdown('dropdownMenu')" style="cursor: pointer;">notifications</span>
+            
+               
+                <span class="icon-button__badge" id="notification-count" style="font-size: 0.8rem; color: white;"><strong></strong></span>
+             
+              </button>
+              <div class="dropdown-content mt-2" id="dropdownMenu">
+              
+                <div>
+                 <a href="#"></a>
+                </div>
+                
+                <hr>
+                <div>
+                  <a href="#">View All</a>
+                </div>
+               </div>
+            </div>
+
+
+
+
+
+               
+              <div class="dropdown">
+                <button class="dropbtn buttan-23" onclick="toggleDropdown('dropdownMenu2')" role="button">Menu</button>
+                <div class="dropdown-content mt-2" id="dropdownMenu2">
+                 <div>
+                  <a href="#"> <span class="material-icons" style="vertical-align: middle;color: gray;">autorenew</span>&nbsp;In Progress</a>
+                 </div>
+                 <div>
+                  <a href="#"> <span class="material-icons" style="vertical-align: middle;color: gray;">check_circle</span>&nbsp;Complete</a>
+                </div>
+                <div>
+                    <a href="#"> <span class="material-icons" style="vertical-align: middle;color: gray;">loupe</span>&nbsp;Create New</a>
+                  </div>
+                  <div>
+                    <a href="#"> <span class="material-icons" style="vertical-align: middle;color: gray;">help</span>&nbsp;How it Works</a>
+                  </div>
+                <div>
+                  <a href="#"> <span class="material-icons" style="vertical-align: middle;color: gray;">mail</span>&nbsp;Message Us</a>
+                </div>
+                <div>
+                    <a href="#"> <span class="material-icons" style="vertical-align: middle;color: gray;">toll</span>&nbsp;Refund Policy</a>
+                  </div>
+                <div>
+                    <a href="#"> <span class="material-icons" style="vertical-align: middle;color: gray;">person</span>&nbsp;Profile</a>
+                  </div>
+                  <hr>
+                <div>
+                  <form method="post" action="{% url 'logout' %}" style="display: inline;">
+                  {% csrf_token %}
+                  <button type="submit" style="background: none; border: none; padding: 0; margin: 0; font: inherit; color: gray; cursor: pointer;">
+                    <span class="material-icons" style="vertical-align: middle;">exit_to_app</span>&nbsp;Logout
+                  </button>
+                </form>
+                </div>
+                  
+                </div>
+              </div>
+
+
+
+
+        </div>

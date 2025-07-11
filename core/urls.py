@@ -3,7 +3,7 @@ from django.contrib.auth import views as auth_views
 from core import views as core_views
 
 urlpatterns = [
-    path('', core_views.home, name='home'),
+    path('home', core_views.home, name='home1'),
 
     path('post', core_views.post, name='post'),
     path('<int:id>/<str:slug>/', core_views.post_detail, name='post-detail'),

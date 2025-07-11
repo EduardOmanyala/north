@@ -1,0 +1,68 @@
+{% extends "analytics/base2.html" %}
+{% load static %}
+{% block content %}
+{% load humanize %}
+
+
+<div class="create-new2">
+    <div class="dontdisp">
+
+        <div class="sidebar-widget widget-category-2 mb-30 pl-2">
+            <br>
+            <h5 class="section-title style-1 mb-30">Menu</h5>
+            {% include "analytics/partials/sidemenu.html" %}
+        </div>
+
+
+    </div>
+    
+    
+    <div style="padding-left: 2rem; ">
+        <br>
+        <h6 class="section-title style-1 mb-30">Messages</h6>
+
+        {% for umessage in umessages %}
+        {% if umessage.isAdmin == False %}
+        <div class="mb-1" style="display: flex; justify-content: flex-start;">
+            <div class="alert alert-primary" style="width:50%;">
+                <p>{{ umessage.content|safe }}</p>
+                <p class="text-right small">{{ umessage.created_at|naturaltime }}</p>
+            </div>
+        </div>
+        {% else %}
+        <div class="mb-1" style="display: flex; justify-content: flex-end;">
+            <div class="alert alert-secondary" style="width:50%;">
+                <p>{{ umessage.content|safe }}</p>
+                <p class="text-right small">{{ umessage.created_at|naturaltime }}</p>
+            </div>
+          </div>
+        {% endif %}
+        
+        {% endfor %}
+        <br>
+        <div>
+            <h6 >New Message</h6>
+        {% load crispy_forms_tags %}
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ message_form|crispy }}
+            {{ message_form.media }}
+            <button type="submit" class="btn btn-primary btn-lg btn-block">Post</button>
+            <br><br>
+        </form>
+    </div>
+    
+
+  
+
+
+
+
+</div>
+
+</div>
+
+                                 
+    
+
+{% endblock content %}

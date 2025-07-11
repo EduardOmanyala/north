@@ -18,6 +18,7 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     /> -->
+    <link rel="stylesheet" href="{% static 'analytics/assets/css/customstyles.css' %}" />
     <link rel="stylesheet" href="{% static 'core/css/blogone.css' %}">
     <link rel="stylesheet" href="{% static 'core/css/style.css' %}">
     <link rel="stylesheet" href="{% static 'core/css/fonts.css' %}">
@@ -58,7 +59,7 @@
                   <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                   <!-- RD Navbar Brand-->
                   <div class="rd-navbar-brand">
-                    <!--Brand--><a class="brand" href="{% url 'home' %}"><img src="{% static 'core/images3/logofin2.png' %}" alt="" width="225" height="18"/></a>
+                    <!--Brand--><a class="brand" href="{% url 'home' %}"><img src="{% static 'core/images3/logofin3.png' %}" alt="" width="225" height="18"/></a>
                   </div>
                 </div>
                 
@@ -233,5 +234,5 @@
     <script src="{% static 'core/js/script.js' %}"></script>
     <script src="{% static 'core/js/sidebar.js' %}"></script>
   </body>
-  {{ redirect_to_login_immediately }}
+
 </html>

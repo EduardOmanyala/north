@@ -1,0 +1,235 @@
+{% extends "analytics/base2.html" %}
+{% load static %}
+{% block content %}
+<style>
+   
+        
+        .horizontal-timeline .items {
+        border-top: 2px solid #ddd;
+        }
+        
+        .horizontal-timeline .items .items-list {
+        position: relative;
+        margin-right: 0;
+        }
+        
+        .horizontal-timeline .items .items-list:before {
+        content: "";
+        position: absolute;
+        height: 8px;
+        width: 8px;
+        border-radius: 50%;
+        background-color: #ddd;
+        top: 0;
+        margin-top: 0;
+        }
+        
+        .horizontal-timeline .items .items-list {
+        padding-top: 0;
+        }
+
+</style>
+
+
+<div class="create-new2">
+    <div class="dontdisp">
+
+        <div class="sidebar-widget widget-category-2 mb-30 pl-2">
+            <br>
+            <h5 class="section-title style-1 mb-30">Menu</h5>
+            {% include "analytics/partials/sidemenu.html" %}
+        </div>
+
+
+    </div>
+    
+    
+    <div style="padding-left: 2rem; ">
+        <br><br><hr>
+        
+         <section>
+            <div class="container">
+              <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-lg-8 col-xl-6">
+                  <div class="card border-top border-bottom border-4" style="border-color:  #3BB77E !important;">
+                    <div class="card-body p-5">
+          
+                      <p class="lead fw-bold mb-5" style="color:  #3BB77E;">Confirm Order</p>
+          
+                      <div class="row">
+                        <div class="col mb-3">
+                          <p class="small text-muted mb-1">Date</p>
+                          <p>{{ task.created_at }}</p>
+                        </div>
+                        <div class="col mb-3">
+                          <p class="small text-muted mb-1">Order No.</p>
+                          <p>012j1gvs356c</p>
+                        </div>
+                      </div>
+          
+                      <div class="mx-n5 px-5 py-4" style="background-color: #f2f2f2;">
+                        <div class="row">
+                          <div class="col-md-8 col-lg-9">
+                            <p>{{ task.type }} Project</p>
+                          </div>
+                          <div class="col-md-4 col-lg-3">
+                            <p>${{ task.default_price }}</p>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-8 col-lg-9">
+                            <p class="mb-0">V.A.T</p>
+                          </div>
+                          <div class="col-md-4 col-lg-3">
+                            <p class="mb-0">$0.00</p>
+                          </div>
+                        </div>
+                      </div>
+          
+                      <div class="row my-4">
+                        <div class="col-md-4 offset-md-8 col-lg-3 offset-lg-9">
+                          <p class="lead fw-bold mb-0" style="color:  #3BB77E;">${{ task.default_price }}</p>
+                        </div>
+                      </div>
+          
+                      <!-- <p class="lead fw-bold mb-4 pb-2" style="color:  #3BB77E;">Track Progress</p> -->
+          
+                      <div class="row">
+                        <div class="col-lg-12">
+          
+                          <div class="horizontal-timeline">
+          
+                            <!-- <ul class="list-inline items d-flex justify-content-between">
+                              <li class="list-inline-item items-list">
+                                <p class="py-1 px-2 rounded text-white" style="background-color:  #3BB77E;">Ordered</p
+                                  class="py-1 px-2 rounded text-white" style="background-color:  #3BB77E;">
+                              </li>
+                              <li class="list-inline-item items-list text-end" style="margin-right: 8px;">
+                                <p style="margin-right: -8px;">In Progress</p>
+                              </li>
+                              <li class="list-inline-item items-list text-end" style="margin-right: 8px;">
+                                <p style="margin-right: -8px;">Review</p>
+                              </li>
+                              <li class="list-inline-item items-list text-end" style="margin-right: 8px;">
+                                <p style="margin-right: -8px;">Complete</p>
+                              </li>
+                            </ul> -->
+                            
+                            <a class="btn btn-primary btn-lg btn-block" onclick="makePayment()" style="width: 100%;" href="#" role="button">Make Payment</a>
+          
+                          </div>
+          
+                        </div>
+                      </div>
+          
+                      <p class="mt-4 pt-2 mb-0">Need any help? <a href="#!" style="color:  #3BB77E;">Please contact
+                          us</a></p>
+          
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br><br><br>
+          </section>
+
+
+
+
+
+        <script src="https://js.paystack.co/v1/inline.js"></script>
+        <script>
+            // let cust_contact = "{{ task.user.email }}"
+            // let cust_name = "{{ task.user.first_name}}"
+            // let task_amount = parseFloat("{{ task.default_price}}")
+           
+            // let red_url = "{% url 'task-listview' %}";
+
+          </script>
+
+
+          <script>
+            
+
+        function payWithPaystack() {
+        
+          var handler = PaystackPop.setup({
+            key: 'pk_test_e14594917cb42d4c80b3623a0dadaee5f58e9105', // Replace with your public key
+            email: cust_contact,
+            amount: 50,
+            //ref: ''+Math.floor((Math.random() * 1000000000) + 1), // generates a pseudo-unique reference. Please replace with a reference you generated. Or remove the line entirely so our API will generate one for you
+            // label: "Optional string that replaces customer email"
+            currency: 'KES',
+            onClose: function(){
+              alert('Window closed.');
+            },
+            callback: function(response){
+              //let message = 'Payment complete! Reference: ' + response.reference;
+              //alert(message);
+              window.location.href = red_url;
+            }
+          });
+
+          handler.openIframe();
+        }
+
+        </script>
+
+
+
+
+
+
+<script src="https://checkout.flutterwave.com/v3.js"></script>
+<script>
+
+   let cust_contact = "{{ task.user.email }}";
+            let cust_name = "{{ task.user.first_name}}";
+            let task_amount = parseFloat("{{ task.default_price}}");
+           
+            let red_url = "{% url 'task-listview' %}";
+
+    function makePayment() {
+        FlutterwaveCheckout({
+          public_key: "FLWPUBK_TEST-20f3552e74d88c0ce534a8a29c3710e3-X",
+        
+          tx_ref: "titanic-48981487343MDI0NzMx",
+          amount: 100,
+          currency: "USD",
+          //payment_options: "card",
+          redirect_url: red_url,
+          meta: {
+            consumer_id: 23,
+            consumer_mac: "92a3-912ba-1192a",
+          },
+          customer: {
+            email: cust_contact,
+            phone_number: "254717895728",
+            //name: cust_name,
+          },
+          customizations: {
+            title: "Testprep Kenya",
+            description: "Subscription for study items",
+            //logo: "https://www.logolynx.com/images/logolynx/22/2239ca38f5505fbfce7e55bbc0604386.jpeg",
+          },
+        });
+      }
+</script>
+
+
+    
+
+
+ 
+
+
+
+
+</div>
+
+</div>
+
+                                 
+    
+
+{% endblock content %}

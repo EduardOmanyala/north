@@ -1,0 +1,685 @@
+{% extends 'analytics/base.html' %}
+{% load static %}
+{% block content %}
+
+
+    <main class="main">
+        <div class="container mb-30">
+            <div class="row flex-row-reverse">
+                <div class="col-lg-4-5">
+                    <section class="home-slider position-relative mb-30">
+                        <div class="home-slide-cover mt-30">
+                            <div class="hero-slider-1 style-4 dot-style-1 dot-style-1-position-1">
+                                <div class="single-hero-slider single-animation-wrap" style="background-image: url({% static 'assets/imgs/slider/slider-1.png' %})">
+                                    <div class="slider-content">
+                                        <h1 class="display-2 mb-40">
+                                            Don’t miss amazing<br /> grocery deals
+                                        </h1>
+                                        <p class="mb-65">Sign up for the daily newsletter</p>
+                                        <form class="form-subcriber d-flex">
+                                            <input type="email" placeholder="Your emaill address" />
+                                            <button class="btn" type="submit">Subscribe</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="single-hero-slider single-animation-wrap" style="background-image: url({% static 'assets/imgs/slider/slider-2.png' %})">
+                                    <div class="slider-content">
+                                        <h1 class="display-2 mb-40">
+                                            Fresh Vegetables<br /> Big discount
+                                        </h1>
+                                        <p class="mb-65">Save up to 50% off on your first order</p>
+                                        <form class="form-subcriber d-flex">
+                                            <input type="email" placeholder="Your emaill address" />
+                                            <button class="btn" type="submit">Subscribe</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-arrow hero-slider-1-arrow"></div>
+                        </div>
+                    </section>
+                    <!--End hero-->
+                    <section class="product-tabs section-padding position-relative">
+                        <div class="section-title style-2">
+                            <h3>Popular Products</h3>
+                            <ul class="nav nav-tabs links" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="nav-tab-one" data-bs-toggle="tab" data-bs-target="#tab-one" type="button" role="tab" aria-controls="tab-one" aria-selected="true">All</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="nav-tab-two" data-bs-toggle="tab" data-bs-target="#tab-two" type="button" role="tab" aria-controls="tab-two" aria-selected="false">Milks & Dairies</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="nav-tab-three" data-bs-toggle="tab" data-bs-target="#tab-three" type="button" role="tab" aria-controls="tab-three" aria-selected="false">Coffes & Teas</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="nav-tab-four" data-bs-toggle="tab" data-bs-target="#tab-four" type="button" role="tab" aria-controls="tab-four" aria-selected="false">Pet Foods</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="nav-tab-five" data-bs-toggle="tab" data-bs-target="#tab-five" type="button" role="tab" aria-controls="tab-five" aria-selected="false">Meats</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="nav-tab-six" data-bs-toggle="tab" data-bs-target="#tab-six" type="button" role="tab" aria-controls="tab-six" aria-selected="false">Vegetables</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="nav-tab-seven" data-bs-toggle="tab" data-bs-target="#tab-seven" type="button" role="tab" aria-controls="tab-seven" aria-selected="false">Fruits</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--End nav-tabs-->
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="tab-one" role="tabpanel" aria-labelledby="tab-one">
+                                <div class="row product-grid-4" style="padding-left:8%;">
+
+
+                                  
+
+                                    <div class="card" style="width: 18rem;margin-right: 1.5rem;margin-bottom: 1.5rem;">
+                                        <img src="..." class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Excel</h5>
+                                          <p class="card-text">Anything that can be done in Excel, we can doit for you. No matter how complex.</p>
+                                            <ul class="list-group list-group-flush">
+                                              <li class="list-group-item">Data Analysis & Reporting</li>
+                                              <li class="list-group-item">Data Visualizations</li>
+                                              <li class="list-group-item">Financial & Business Modelling</li>
+                                              <li class="list-group-item">Automation & Macros</li>
+                                              <li class="list-group-item">Formulas & Calculations</li>
+                                            </ul>
+                                          <a href="#" class="btn btn-primary">Get Started</a>
+                                        </div>
+                                      </div>
+
+                                      <div class="card" style="width: 18rem;margin-right: 1.5rem;margin-bottom: 1.5rem;">
+                                        <img src="..." class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">SPSS</h5>
+                                          <p class="card-text">Analyze complex data using one of the most popular data analysis software.</p>
+                                          <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Descriptive Statistics</li>
+                                            <li class="list-group-item">Inferential Statistics</li>
+                                            <li class="list-group-item">Data Visualization</li>
+                                            <li class="list-group-item">Data Preparation and Cleaning</li>
+                                            <li class="list-group-item">Reporting & Automation</li>
+                                          </ul>
+                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                      </div>
+
+                                      <div class="card" style="width: 18rem;margin-right: 1.5rem;margin-bottom: 1.5rem;">
+                                        <img src="..." class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Python</h5>
+                                          <p class="card-text">Any type of data analysis using raw python or any of it numerous powerful libraries.</p>
+                                          <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Exploratory Data Analysis</li>
+                                            <li class="list-group-item">Data Visualizations</li>
+                                            <li class="list-group-item">API's and Web Data</li>
+                                            <li class="list-group-item">Tkinter GUI</li>
+                                            <li class="list-group-item">Task Automation</li>
+                                          </ul>
+                                        <a href="#" class="btn btn-primary">Get Started</a>
+                                        </div>
+                                      </div>
+
+
+                             
+
+                                      <div class="card" style="width: 18rem;margin-right: 1.5rem;margin-bottom: 1.5rem;">
+                                        <img src="..." class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Machine Learning</h5>
+                                          <p class="card-text">Using Python, model and remodel using any dataset.</p>
+                                          <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Classification and Regression</li>
+                                            <li class="list-group-item">Model Evaluation and Tuning</li>
+                                            <li class="list-group-item">Natural Language Processing</li>
+                                            <li class="list-group-item">Time Series Forecasting</li>
+                                            <li class="list-group-item">Deployment and Automation</li>
+                                          </ul>
+
+
+                                          <a href="#" class="btn btn-primary">Get Started</a>
+                                        </div>
+                                      </div>
+
+
+                                      <div class="card" style="width: 18rem;margin-right: 1.5rem;margin-bottom: 1.5rem;">
+                                        <img src="..." class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">MATLAB</h5>
+                                          <p class="card-text">Use MATLAb's powerful features to simlify data analysis and numerical computing.</p>
+                                          <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Data Analysis & Visualization</li>
+                                            <li class="list-group-item">Signal Processing</li>
+                                            <li class="list-group-item">Control Systems & Simulation</li>
+                                            <li class="list-group-item">Numerical Computing and Optimization</li>
+                                          
+                                          </ul>
+                                          <a href="#" class="btn btn-primary">Get Started</a>
+                                        </div>
+                                      </div>
+
+
+                                      <div class="card" style="width: 18rem;margin-right: 1.5rem;margin-bottom: 1.5rem;">
+                                        <img src="..." class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">R</h5>
+                                          <p class="card-text">Use R's advanced data analysis and programming capabilities to solve complex tasks</p>
+                                          <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Statistical Data Analysis</li>
+                                            <li class="list-group-item">Exploratory Data Analysis</li>
+                                            <li class="list-group-item">Data Visualization</li>
+                                            <li class="list-group-item">Advanced Analytics</li>
+                                            <li class="list-group-item">Data Wrangling</li>
+                                          </ul>
+                                          <a href="#" class="btn btn-primary">Get Started</a>
+                                        </div>
+                                      </div>
+
+
+
+                                    
+                                    
+
+
+
+                                </div>
+                                <!--End product-grid-4-->
+                            </div>
+                            <!--En tab one-->
+
+
+                            <div class="tab-pane fade" id="tab-two" role="tabpanel" aria-labelledby="tab-two">
+                                <div class="row product-grid-4">
+
+
+
+
+                                    
+                                </div>
+                                <!--End product-grid-4-->
+                            </div>
+
+
+
+                            <!--En tab two-->
+                            <div class="tab-pane fade" id="tab-three" role="tabpanel" aria-labelledby="tab-three">
+                                <div class="row product-grid-4">
+                                   
+                                </div>
+                                <!--End product-grid-4-->
+                            </div>
+                            <!--En tab three-->
+                            <div class="tab-pane fade" id="tab-four" role="tabpanel" aria-labelledby="tab-four">
+                                <div class="row product-grid-4">
+                                    
+                                </div>
+                                <!--End product-grid-4-->
+                            </div>
+                            <!--En tab four-->
+                            <div class="tab-pane fade" id="tab-five" role="tabpanel" aria-labelledby="tab-five">
+                                <div class="row product-grid-4">
+                                    
+                                </div>
+                                <!--End product-grid-4-->
+                            </div>
+                            <!--En tab five-->
+
+
+                            <div class="tab-pane fade" id="tab-six" role="tabpanel" aria-labelledby="tab-six">
+                                <div class="row product-grid-4">
+                                    
+                                </div>
+                                <!--End product-grid-4-->
+                            </div>
+                            <!--En tab six-->
+                            <div class="tab-pane fade" id="tab-seven" role="tabpanel" aria-labelledby="tab-seven">
+                                <div class="row product-grid-4">
+                                    
+                                </div>
+                                <!--End product-grid-4-->
+                            </div>
+                            <!--En tab seven-->
+                        </div>
+                        <!--End tab-content-->
+
+
+
+                    </section>
+                    <!--Products Tabs-->
+
+
+                    <section class="banners">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="banner-img">
+                                    <img src="{% static 'assets/imgs/banner/banner-1.png' %}" alt="" />
+                                    <div class="banner-text">
+                                        <h4>
+                                            Everyday Fresh & <br />Clean with Our<br /> Products
+                                        </h4>
+                                        <a href="shop-grid-right.html" class="btn btn-xs">Shop Now <i class="fi-rs-arrow-small-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="banner-img">
+                                    <img src="{% static 'assets/imgs/banner/banner-2.png' %}" alt="" />
+                                    <div class="banner-text">
+                                        <h4>
+                                            Make your Breakfast<br /> Healthy and Easy
+                                        </h4>
+                                        <a href="shop-grid-right.html" class="btn btn-xs">Shop Now <i class="fi-rs-arrow-small-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 d-md-none d-lg-flex">
+                                <div class="banner-img mb-sm-0">
+                                    <img src="{% static 'assets/imgs/banner/banner-3.png' %}" alt="" />
+                                    <div class="banner-text">
+                                        <h4>The best Organic <br />Products Online</h4>
+                                        <a href="shop-grid-right.html" class="btn btn-xs">Shop Now <i class="fi-rs-arrow-small-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!--End banners-->
+                </div>
+                <div class="col-lg-1-5 primary-sidebar sticky-sidebar pt-30">
+                    <div class="sidebar-widget widget-category-2 mb-30">
+                        <h5 class="section-title style-1 mb-30">Category</h5>
+                        <ul>
+                            
+                            {% for c in categories %}
+                            <li>
+                                <a href="#"> <img src="{{ c.image.url }}" alt="" style="width: 30px; height: 30px; object-fit: cover; border-radius: 10px;" />Milks & Dairies</a><span class="count">{{c.product_count}}</span>
+                            </li>
+                            {% endfor %}
+                            
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <section class="popular-categories section-padding">
+            <div class="container">
+                <div class="section-title">
+                    <div class="title">
+                        <h3>Most Popular</h3>
+                        <a class="show-all" href="shop-grid-right.html">
+                            All Categories
+                            <i class="fi-rs-angle-right"></i>
+                        </a>
+                    </div>
+                    <div class="slider-arrow slider-arrow-2 flex-right carausel-8-columns-arrow" id="carausel-8-columns-arrows"></div>
+                </div>
+
+
+
+                <div class="carausel-8-columns-cover position-relative">
+                    <div class="carausel-8-columns" id="carausel-8-columns">
+                        <div class="card-1">
+                            <figure class="img-hover-scale overflow-hidden">
+                                <a href="shop-grid-right.html"><img src="{% static 'analytics/assets/imgs/theme/icons/category-1.svg' %}" alt="" /></a>
+                            </figure>
+                            <h6>
+                                <a href="shop-grid-right.html">Excel <br />Dashboards</a>
+                            </h6>
+                        </div>
+                        <div class="card-1">
+                            <figure class="img-hover-scale overflow-hidden">
+                                <a href="shop-grid-right.html"><img src="{% static 'analytics/assets/imgs/theme/icons/category-2.svg' %}" alt="" /></a>
+                            </figure>
+                            <h6>
+                                <a href="shop-grid-right.html">Modelling <br />
+                                    and Tuning</a>
+                            </h6>
+                        </div>
+                        <div class="card-1">
+                            <figure class="img-hover-scale overflow-hidden">
+                                <a href="shop-grid-right.html"><img src="{% static 'analytics/assets/imgs/theme/icons/category-3.svg' %}" alt="" /></a>
+                            </figure>
+                            <h6>
+                                <a href="shop-grid-right.html">Inferential  <br />Statistics</a>
+                            </h6>
+                        </div>
+                        <div class="card-1">
+                            <figure class="img-hover-scale overflow-hidden">
+                                <a href="shop-grid-right.html"><img src="{% static 'analytics/assets/imgs/theme/icons/category-4.svg' %}" alt="" /></a>
+                            </figure>
+                            <h6>
+                                <a href="shop-grid-right.html">Financial <br /> Analysis</a>
+                            </h6>
+                        </div>
+                        <div class="card-1">
+                            <figure class="img-hover-scale overflow-hidden">
+                                <a href="shop-grid-right.html"><img src="{% static 'analytics/assets/imgs/theme/icons/category-5.svg' %}" alt="" /></a>
+                            </figure>
+                            <h6>
+                                <a href="shop-grid-right.html">Python <br />Modelling</a>
+                            </h6>
+                        </div>
+                        <div class="card-1">
+                            <figure class="img-hover-scale overflow-hidden">
+                                <a href="shop-grid-right.html"><img src="{% static 'analytics/assets/imgs/theme/icons/category-6.svg' %}" alt="" /></a>
+                            </figure>
+                            <h6>
+                                <a href="shop-grid-right.html">Tkinter <br />GUI</a>
+                            </h6>
+                        </div>
+                        <div class="card-1">
+                            <figure class="img-hover-scale overflow-hidden">
+                                <a href="shop-grid-right.html"><img src="{% static 'analytics/assets/imgs/theme/icons/category-7.svg' %}" alt="" /></a>
+                            </figure>
+                            <h6>
+                                <a href="shop-grid-right.html">Excel Data<br />Analysis</a>
+                            </h6>
+                        </div>
+                        <div class="card-1">
+                            <figure class="img-hover-scale overflow-hidden">
+                                <a href="shop-grid-right.html"><img src="{% static 'analytics/assets/imgs/theme/icons/category-8.svg' %}" alt="" /></a>
+                            </figure>
+                            <h6>
+                                <a href="shop-grid-right.html">Data <br />Visualization</a>
+                            </h6>
+                        </div>
+                        <div class="card-1">
+                            <figure class="img-hover-scale overflow-hidden">
+                                <a href="shop-grid-right.html"><img src="{% static 'analytics/assets/imgs/theme/icons/category-9.svg' %}" alt="" /></a>
+                            </figure>
+                            <h6>
+                                <a href="shop-grid-right.html">Descriptive <br />Statistics</a>
+                            </h6>
+                        </div>
+                        <div class="card-1">
+                            <figure class="img-hover-scale overflow-hidden">
+                                <a href="shop-grid-right.html"><img src="{% static 'analytics/assets/imgs/theme/icons/category-10.svg' %}" alt="" /></a>
+                            </figure>
+                            <h6><a href="shop-grid-right.html">Excel <br> Formulas</a></h6>
+                        </div>
+                        <div class="card-1">
+                            <figure class="img-hover-scale overflow-hidden">
+                                <a href="shop-grid-right.html"><img src="{% static 'analytics/assets/imgs/theme/icons/category-11.svg' %}" alt="" /></a>
+                            </figure>
+                            <h6><a href="shop-grid-right.html">Web Scrapping</a></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End category slider-->
+        <section class="section-padding mb-30">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4 col-md-6 mb-sm-5 mb-md-0">
+                        <h4 class="section-title style-1 mb-30 animated animated">Top Selling</h4>
+                        <div class="product-list-small animated animated">
+                            <article class="row align-items-center hover-up">
+                                <figure class="col-md-4 mb-0">
+                                    <a href="shop-product-right.html"><img src="{% static 'analytics/assets/imgs/shop/thumbnail-1.jpg' %}" alt="" /></a>
+                                </figure>
+                                <div class="col-md-8 mb-0">
+                                    <h6>
+                                        <a href="shop-product-right.html">Interactive Dashboards with Excel</a>
+                                    </h6>
+                                    <div class="product-rate-cover">
+                                        <div class="product-rate d-inline-block">
+                                            <div class="product-rating" style="width: 90%"></div>
+                                        </div>
+                                        <span class="font-small ml-5 text-muted"> (4.0)</span>
+                                    </div>
+                                    <div class="product-price">
+                                        <span>$62.85</span>
+                                        <span class="old-price">$90.8</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="row align-items-center hover-up">
+                                <figure class="col-md-4 mb-0">
+                                    <a href="shop-product-right.html"><img src="{% static 'analytics/assets/imgs/shop/thumbnail-2.jpg' %}" alt="" /></a>
+                                </figure>
+                                <div class="col-md-8 mb-0">
+                                    <h6>
+                                        <a href="shop-product-right.html">Python Data Analysis</a>
+                                    </h6>
+                                    <div class="product-rate-cover">
+                                        <div class="product-rate d-inline-block">
+                                            <div class="product-rating" style="width: 90%"></div>
+                                        </div>
+                                        <span class="font-small ml-5 text-muted"> (4.0)</span>
+                                    </div>
+                                    <div class="product-price">
+                                        <span>$100.00</span>
+                                        <span class="old-price">$150.00</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="row align-items-center hover-up">
+                                <figure class="col-md-4 mb-0">
+                                    <a href="shop-product-right.html"><img src="{% static 'analytics/assets/imgs/shop/thumbnail-3.jpg' %}" alt="" /></a>
+                                </figure>
+                                <div class="col-md-8 mb-0">
+                                    <h6>
+                                        <a href="shop-product-right.html">Descriptive Statistics with SPSS</a>
+                                    </h6>
+                                    <div class="product-rate-cover">
+                                        <div class="product-rate d-inline-block">
+                                            <div class="product-rating" style="width: 90%"></div>
+                                        </div>
+                                        <span class="font-small ml-5 text-muted"> (4.0)</span>
+                                    </div>
+                                    <div class="product-price">
+                                        <span>$65.00</span>
+                                        <span class="old-price">$80.00</span>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 mb-md-0">
+                        <h4 class="section-title style-1 mb-30 animated animated">Trending Products</h4>
+                        <div class="product-list-small animated animated">
+                            <article class="row align-items-center hover-up">
+                                <figure class="col-md-4 mb-0">
+                                    <a href="shop-product-right.html"><img src="{% static 'analytics/assets/imgs/shop/thumbnail-4.jpg' %}" alt="" /></a>
+                                </figure>
+                                <div class="col-md-8 mb-0">
+                                    <h6>
+                                        <a href="shop-product-right.html">Tkinter GUI with form validation</a>
+                                    </h6>
+                                    <div class="product-rate-cover">
+                                        <div class="product-rate d-inline-block">
+                                            <div class="product-rating" style="width: 90%"></div>
+                                        </div>
+                                        <span class="font-small ml-5 text-muted"> (4.0)</span>
+                                    </div>
+                                    <div class="product-price">
+                                        <span>$90.55</span>
+                                        <span class="old-price">$145.00</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="row align-items-center hover-up">
+                                <figure class="col-md-4 mb-0">
+                                    <a href="shop-product-right.html"><img src="{% static 'analytics/assets/imgs/shop/thumbnail-5.jpg' %}" alt="" /></a>
+                                </figure>
+                                <div class="col-md-8 mb-0">
+                                    <h6>
+                                        <a href="shop-product-right.html">Python Deep Learning Model</a>
+                                    </h6>
+                                    <div class="product-rate-cover">
+                                        <div class="product-rate d-inline-block">
+                                            <div class="product-rating" style="width: 90%"></div>
+                                        </div>
+                                        <span class="font-small ml-5 text-muted"> (4.0)</span>
+                                    </div>
+                                    <div class="product-price">
+                                        <span>$200.00</span>
+                                        <span class="old-price">$350.00</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="row align-items-center hover-up">
+                                <figure class="col-md-4 mb-0">
+                                    <a href="shop-product-right.html"><img src="{% static 'analytics/assets/imgs/shop/thumbnail-6.jpg' %}" alt="" /></a>
+                                </figure>
+                                <div class="col-md-8 mb-0">
+                                    <h6>
+                                        <a href="shop-product-right.html">Financial Modelling and Data Analysis with Excel</a>
+                                    </h6>
+                                    <div class="product-rate-cover">
+                                        <div class="product-rate d-inline-block">
+                                            <div class="product-rating" style="width: 90%"></div>
+                                        </div>
+                                        <span class="font-small ml-5 text-muted"> (4.0)</span>
+                                    </div>
+                                    <div class="product-price">
+                                        <span>$70.00</span>
+                                        <span class="old-price">$100.00</span>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 mb-sm-5 mb-md-0 d-none d-lg-block">
+                        <h4 class="section-title style-1 mb-30 animated animated">Recently added</h4>
+                        <div class="product-list-small animated animated">
+                            <article class="row align-items-center hover-up">
+                                <figure class="col-md-4 mb-0">
+                                    <a href="shop-product-right.html"><img src="{% static 'analytics/assets/imgs/shop/thumbnail-7.jpg' %}" alt="" /></a>
+                                </figure>
+                                <div class="col-md-8 mb-0">
+                                    <h6>
+                                        <a href="shop-product-right.html">Natural Language Processing</a>
+                                    </h6>
+                                    <div class="product-rate-cover">
+                                        <div class="product-rate d-inline-block">
+                                            <div class="product-rating" style="width: 90%"></div>
+                                        </div>
+                                        <span class="font-small ml-5 text-muted"> (4.0)</span>
+                                    </div>
+                                    <div class="product-price">
+                                        <span>$180.00</span>
+                                        <span class="old-price">$200.00</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="row align-items-center hover-up">
+                                <figure class="col-md-4 mb-0">
+                                    <a href="shop-product-right.html"><img src="{% static 'analytics/assets/imgs/shop/thumbnail-8.jpg' %}" alt="" /></a>
+                                </figure>
+                                <div class="col-md-8 mb-0">
+                                    <h6>
+                                        <a href="shop-product-right.html">Signal Processing with Matlab</a>
+                                    </h6>
+                                    <div class="product-rate-cover">
+                                        <div class="product-rate d-inline-block">
+                                            <div class="product-rating" style="width: 90%"></div>
+                                        </div>
+                                        <span class="font-small ml-5 text-muted"> (4.0)</span>
+                                    </div>
+                                    <div class="product-price">
+                                        <span>$80.00</span>
+                                        <span class="old-price">$150.00</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="row align-items-center hover-up">
+                                <figure class="col-md-4 mb-0">
+                                    <a href="shop-product-right.html"><img src="{% static 'analytics/assets/imgs/shop/thumbnail-9.jpg' %}" alt="" /></a>
+                                </figure>
+                                <div class="col-md-8 mb-0">
+                                    <h6>
+                                        <a href="shop-product-right.html">Exploratory Data Analysis with Python</a>
+                                    </h6>
+                                    <div class="product-rate-cover">
+                                        <div class="product-rate d-inline-block">
+                                            <div class="product-rating" style="width: 90%"></div>
+                                        </div>
+                                        <span class="font-small ml-5 text-muted"> (4.0)</span>
+                                    </div>
+                                    <div class="product-price">
+                                        <span>$90.00</span>
+                                        <span class="old-price">$140.00</span>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 mb-sm-5 mb-md-0 d-none d-xl-block">
+                        <h4 class="section-title style-1 mb-30 animated animated">Top Rated</h4>
+                        <div class="product-list-small animated animated">
+                            <article class="row align-items-center hover-up">
+                                <figure class="col-md-4 mb-0">
+                                    <a href="shop-product-right.html"><img src="{% static 'analytics/assets/imgs/shop/thumbnail-10.jpg' %}" alt="" /></a>
+                                </figure>
+                                <div class="col-md-8 mb-0">
+                                    <h6>
+                                        <a href="shop-product-right.html">Excel Formulas and Formatting</a>
+                                    </h6>
+                                    <div class="product-rate-cover">
+                                        <div class="product-rate d-inline-block">
+                                            <div class="product-rating" style="width: 90%"></div>
+                                        </div>
+                                        <span class="font-small ml-5 text-muted"> (4.0)</span>
+                                    </div>
+                                    <div class="product-price">
+                                        <span>$65.00</span>
+                                        <span class="old-price">$100.00</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="row align-items-center hover-up">
+                                <figure class="col-md-4 mb-0">
+                                    <a href="shop-product-right.html"><img src="{% static 'analytics/assets/imgs/shop/thumbnail-11.jpg' %}" alt="" /></a>
+                                </figure>
+                                <div class="col-md-8 mb-0">
+                                    <h6>
+                                        <a href="shop-product-right.html">Web Scrapping with Python</a>
+                                    </h6>
+                                    <div class="product-rate-cover">
+                                        <div class="product-rate d-inline-block">
+                                            <div class="product-rating" style="width: 90%"></div>
+                                        </div>
+                                        <span class="font-small ml-5 text-muted"> (4.0)</span>
+                                    </div>
+                                    <div class="product-price">
+                                        <span>$170.00</span>
+                                        <span class="old-price">$250.00</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="row align-items-center hover-up">
+                                <figure class="col-md-4 mb-0">
+                                    <a href="shop-product-right.html"><img src="{% static 'analytics/assets/imgs/shop/thumbnail-12.jpg' %}" alt="" /></a>
+                                </figure>
+                                <div class="col-md-8 mb-0">
+                                    <h6>
+                                        <a href="shop-product-right.html">Excel Automation and Macros</a>
+                                    </h6>
+                                    <div class="product-rate-cover">
+                                        <div class="product-rate d-inline-block">
+                                            <div class="product-rating" style="width: 90%"></div>
+                                        </div>
+                                        <span class="font-small ml-5 text-muted"> (4.0)</span>
+                                    </div>
+                                    <div class="product-price">
+                                        <span>$70.00</span>
+                                        <span class="old-price">$90.00</span>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End 4 columns-->
+    </main>
+    
+    
+
+{% endblock content %}

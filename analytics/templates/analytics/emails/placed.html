@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>New Message for Your Project</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      width: 100%;
+      table-layout: fixed;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+    .main {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .header {
+      background-color: #4a90e2;
+      color: #ffffff;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+    .content {
+      padding: 30px 20px;
+      color: #333333;
+      line-height: 1.6;
+    }
+    .button {
+      display: inline-block;
+      padding: 12px 25px;
+      margin: 20px 0;
+      background-color: #4a90e2;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .footer {
+      background-color: #eeeeee;
+      color: #777777;
+      padding: 20px;
+      text-align: center;
+      font-size: 12px;
+    }
+    @media only screen and (max-width: 600px) {
+      .content, .header, .footer {
+        padding: 15px !important;
+      }
+      .button {
+        padding: 10px 20px !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="main">
+      <div class="header">
+        <h1>New Project Successfully Placed</h1>
+      </div>
+      <div class="content">
+        <p>Hi {{ username }},</p>
+        <p>Your project has been successfully placed. We will start working on it immediately and will update you of the progress.</p>
+        <p>View the project status by clicking the button below:</p>
+        <a href="[CTA_LINK]" class="button">View Project</a>
+        <p>If you have any questions, feel free to reach out to our support team at any time.</p>
+        <p>Cheers,<br>The Northstar Team</p>
+      </div>
+      <div class="footer">
+        © 2025 Northstar. All rights reserved.<br>
+        <br>
+       
+      </div>
+    </div>
+  </div>
+</body>
+</html>
