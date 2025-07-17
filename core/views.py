@@ -10,6 +10,7 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.db.models import Q
 from core.models import Blog, Category, RequestCount
 from django.db import IntegrityError
+from analytics.scheduler import welcome_email
 
 
 # Create your views here.
@@ -42,16 +43,8 @@ def register(request):
         if form.is_valid():
             form.save()
             email = form.cleaned_data.get('email')
+            welcome_email.apply_async(args=[email], countdown=60)
             messages.success(request, f'Account Created for {email}, you can now login')
-            html_template = 'core/welcomemail.html'
-            html_message = render_to_string(html_template)
-            subject = 'Welcome to Testprep!'
-            email_from = 'Testprep@testprepken.com'
-            recipient_list = [email]
-            message = EmailMessage(subject, html_message,
-                                   email_from, recipient_list)
-            message.content_subtype = 'html'
-            message.send(fail_silently=True)
             return redirect('login')
     else:
         form = UserRegisterForm()
@@ -72,7 +65,7 @@ def contactus(request):
 
 
 def mailtest1(request):
-    send_mail('Using SparkPost with Django123', 'This is a message from Django using SparkPost!123', 'Northstar@the-northstar.com',
+    send_mail('Using SparkPost with Django123', 'This is a message from Django using SparkPost!123', 'Northstar@mail.the-northstar.com',
     ['bestessays001@gmail.com'], fail_silently=False)
     return render(request, 'core/about.html')
 

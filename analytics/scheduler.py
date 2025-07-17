@@ -61,3 +61,16 @@ def admin_message(id):
         message.send(fail_silently=True)
     except item.DoesNotExist:
         pass
+
+
+@shared_task
+def welcome_email(email):
+    html_template = 'analytics/email/signup.html'
+    html_message = render_to_string(html_template)
+    subject = 'Welcome to Northstar'
+    email_from = 'Northstar@the-northstar.com'
+    recipient_list = [email]
+    
+    message = EmailMessage(subject, html_message, email_from, recipient_list)
+    message.content_subtype = 'html'
+    message.send(fail_silently=True)
