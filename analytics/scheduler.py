@@ -35,7 +35,7 @@ def notification_message(id):
         html_template = 'analytics/email/message.html'
         html_message = render_to_string(html_template)
         subject = 'New Message Received For Your Project'
-        email_from = 'Northstar@northstar.com'
+        email_from = 'Northstar@the-northstar.com'
         recipient_list = [email]
         message = EmailMessage(subject, html_message,
                                 email_from, recipient_list)
@@ -53,7 +53,7 @@ def admin_message(id):
         html_template = 'analytics/email/message.html'
         html_message = render_to_string(html_template)
         subject = 'New client Message'
-        email_from = 'northstar@northstar.com'
+        email_from = 'northstar@the-northstar.com'
         recipient_list = 'bestessays001@gmail.com'
         message = EmailMessage(subject, html_message,
                                 email_from, recipient_list)
@@ -70,7 +70,6 @@ def welcome_email(email):
     subject = 'Welcome to Northstar'
     email_from = 'Northstar@the-northstar.com'
     recipient_list = [email]
-    
     message = EmailMessage(subject, html_message, email_from, recipient_list)
     message.content_subtype = 'html'
     message.send(fail_silently=True)
