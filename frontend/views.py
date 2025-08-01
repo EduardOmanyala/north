@@ -19,9 +19,18 @@ def frontEnd(request):
         return redirect('task-listview')
     return render(request, 'frontend/index.html')
 
-# @login_required
-# def frontEnd2(request):
-#     return render(request, 'frontend/index.html')
+
+def frontEnd2(request):
+    return render(request, 'frontend/index.html')
+
+
+
+def privacyPolicy(request):
+    return render(request, 'frontend/privacy-policy.html')
+
+
+def termsOfService(request):
+    return render(request, 'frontend/tos.html')
 
 
 @login_required

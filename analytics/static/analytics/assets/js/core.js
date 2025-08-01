@@ -95,7 +95,8 @@ function fetchNotifications() {
   fetch(fetchNotificationsUrl)
     .then(response => response.json())
     .then(data => {
-      const countSpan = document.getElementById("notification-count");
+      const countSpan = document.getElementById("notification-count"); 
+      const notiIcon = document.getElementById("noti-icon");
 
       // Find latest notification ID from the response
       const latestNotification = data.notifications[0];
@@ -122,8 +123,13 @@ function fetchNotifications() {
       if (data.unread_count > 0) {
         countSpan.innerHTML = `<strong>${data.unread_count}</strong>`;
         countSpan.style.display = "flex";
+        notiIcon.style.color = "#3BB77E";
       } else {
         countSpan.style.display = "none";
+        notiIcon.style.color = "#ccd1d1";
+        //notiIcon.classList.add("dropbtn2");
+
+
       }
 
       const dropdown = document.getElementById("dropdownMenu");
@@ -243,6 +249,7 @@ function fetchMessageNotifications() {
       .then(response => response.json())
       .then(data => {
         const countSpan = document.getElementById("message-count");
+        const notiIcon2 = document.getElementById("noti-icon2");
            //Find latest notification ID from the response
           const latestNotification = data.notifications[0];
            const latestNotificationId = latestNotification ? latestNotification.id : null;
@@ -277,8 +284,10 @@ function fetchMessageNotifications() {
         if (data.unread_count > 0) {
           countSpan.innerHTML = `<strong>${data.unread_count}</strong>`;
           countSpan.style.display = "flex";
+          notiIcon2.style.color = "#3BB77E";
         } else {
           countSpan.style.display = "none";
+          notiIcon2.style.color = "#ccd1d1";
         }
   
         const dropdown = document.getElementById("dropdownMenu3");

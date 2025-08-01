@@ -20,7 +20,21 @@ TYPE_CHOICES = (
     ('Matlab','Matlab'),
     ('R','R'),
     ('Tableau','Tableau'),
+    ('React','React'),
+    ('Django','Django'),
+    ('Vue','Vue'),
 )
+
+
+PROGRESS_CHOICES = [
+        (30, '30'),
+        (40, '40'),
+        (50, '50'),
+        (60, '60'),
+        (70, '70'),
+        (80, '80'),
+        (90, '90'),
+    ]
 
 
 class Task(models.Model):
@@ -67,13 +81,16 @@ class Task(models.Model):
     @property
     def default_price(self):
         price_map = {
-            'Excel': 100,
-            'SPSS': 120,
-            'Python': 150,
-            'Machine Learning': 200,
-            'Matlab': 180,
-            'R': 140,
+            'Excel': 39,
+            'SPSS': 42,
+            'Python': 49,
+            'Machine Learning': 79,
+            'Matlab': 62,
+            'R': 52,
             'Tableau': 130,
+            'React':250,
+            'Django':200,
+            'Vue':200,
         }
         return price_map.get(self.type, 0)
     @property
@@ -86,6 +103,24 @@ class Task(models.Model):
         minutes, _ = divmod(remainder, 60)
         return f"{days}d {hours}h {minutes}m"
 
+    @property
+    def time_progress_percent(self):
+        now = timezone.now()
+        total_duration = self.deadline - self.created_at
+        time_spent = now - self.created_at
+
+        # If deadline has already passed
+        if now >= self.deadline:
+            return 100
+        # If task has not started yet (somehow)
+        if time_spent.total_seconds() < 0:
+            return 0
+        if self.complete:
+            return 100
+        else:
+            progress = (time_spent.total_seconds() / total_duration.total_seconds()) * 100
+            return int(progress)
+
 
 class TaskData(models.Model):
     task = models.ForeignKey(Task, on_delete=models.CASCADE)
@@ -96,6 +131,8 @@ class TaskData(models.Model):
     read = models.BooleanField(default=False)
     adminRead = models.BooleanField(default=False)
     is_auto_created = models.BooleanField(default=False)
+    is_status = models.BooleanField(default=False)
+    progress = models.IntegerField(blank=True, null=True)
 
     class Meta:
         verbose_name_plural = "TaskDatas"

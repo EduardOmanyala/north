@@ -4,7 +4,7 @@ from django.views.decorators.http import require_POST
 from analytics.forms import TaskForm, TaskDataForm, TaskFilesForm, TaskDataFormAdmin, MessageForm
 from analytics.models import Task, TaskData, TaskFiles, AdminNotifications, TaskNotifications, Message, MessageNotifications, AdminMessageNotifications
 from custom_user.models import User
-from django.http import JsonResponse, HttpResponseForbidden
+from django.http import JsonResponse, HttpResponseForbidden,  HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.utils import timezone
 from datetime import timedelta
@@ -12,7 +12,8 @@ from functools import wraps
 from django.core.paginator import Paginator
 from django.templatetags.static import static
 from django.utils.timezone import localtime
-
+import random
+from django.db.models import Q
 
 # Create your views here.
 
@@ -87,7 +88,7 @@ def task_detail(request, id, slug):
                     TaskFiles.objects.create(taskdata=taskdata, file=f)
                 return redirect('task-info', task.id, task.slug)     
         else:
-            TaskData.objects.filter(task=task, read=False).update(read=True)
+            TaskData.objects.filter(task=task, is_mod=True, read=False).update(read=True)
             data_form = TaskDataForm()
             files_form = TaskFilesForm()
             taskdatas = TaskData.objects.filter(task=task).prefetch_related('taskfiles_set')
@@ -128,8 +129,8 @@ def task_update(request, id, slug):
 
 @login_required
 def task_listView(request):
-    one_week_ago = timezone.now() - timedelta(days=7)
-    tasks = Task.objects.filter(user=request.user, complete=False).order_by('-created_at')
+    seven_days_ago = timezone.now() - timedelta(days=7)
+    tasks = Task.objects.filter((Q(complete=False) | (Q(complete=True) & Q(completion_date__gte=seven_days_ago)))).order_by('-created_at')
     paginator = Paginator(tasks, 20)  # Show 10 tasks per page
 
     page_number = request.GET.get('page')
@@ -184,8 +185,8 @@ def payCallBack(request, id):
 
 @staff_required
 def task_listViewAdmin(request):
-    one_week_ago = timezone.now() - timedelta(days=7) 
-    tasks = Task.objects.filter(complete=False).order_by('-created_at')
+    seven_days_ago = timezone.now() - timedelta(days=7)
+    tasks = Task.objects.filter((Q(complete=False) | (Q(complete=True) & Q(completion_date__gte=seven_days_ago)))).order_by('-created_at')
     paginator = Paginator(tasks, 20)  # Show 10 tasks per page
 
     page_number = request.GET.get('page')
@@ -234,6 +235,9 @@ def task_detailAdmin(request, id, slug):
             taskdata = data_form.save(commit=False)
             taskdata.task = task
             taskdata.is_mod = True
+            if taskdata.is_answer:
+                task.completion_date = timezone.now()
+                task.complete = True
             taskdata.save()
 
             files = request.FILES.getlist('files') 
@@ -242,7 +246,7 @@ def task_detailAdmin(request, id, slug):
 
             return redirect('task-info-admin', task.id, task.slug)     
      else:
-        TaskData.objects.filter(task=task, adminRead=False).update(adminRead=True)
+        TaskData.objects.filter(task=task, is_mod=False, adminRead=False).update(adminRead=True)
         data_form = TaskDataFormAdmin()
         files_form = TaskFilesForm()
         taskdatas = TaskData.objects.filter(task=task).prefetch_related('taskfiles_set')
@@ -504,7 +508,10 @@ def getMessage(request, m_user):
             message.save()
             return redirect('admin-user-messages', m_user)
     else:
-        umessages = Message.objects.filter(user=m_user).order_by('-created_at')[:7]
+        Message.objects.filter(user=m_user, isAdmin=False, read=False).update(read=True)
+        queryset = Message.objects.filter(user=m_user).order_by('-created_at')[:7]
+        umessages = list(queryset)
+        umessages.reverse()
         message_form = MessageForm()
         return render(request, 'analytics/adminmessage.html', {'umessages':umessages, 'message_form':message_form})
         
@@ -518,7 +525,10 @@ def newMessage(request):
             message.save()
             return redirect('user-messages')
     else:
-        umessages = Message.objects.filter(user=request.user).order_by('-created_at')[:4]
+        Message.objects.filter(user=request.user, isAdmin=True, read=False).update(read=True)
+        queryset = Message.objects.filter(user=request.user).order_by('-created_at')[:5]
+        umessages = list(queryset)
+        umessages.reverse()
         message_form = MessageForm()
         return render(request, 'analytics/usermessages.html', {'umessages':umessages, 'message_form':message_form})
     
@@ -585,3 +595,21 @@ def user_fetch_messages(request):
         ]
     }
     return JsonResponse(notifications_data)
+
+
+
+@require_POST
+def status_update(request, id):
+    task = Task.objects.get(id=id)
+    progress = request.POST.get('progress')
+    if progress:
+        message_choices = [
+             'Thanks for choosing Northstar! Your task is now with an expert. Need to add more details or files? Just reply here - we will ensure your spreadsheets work perfectly!',
+            'message two',
+             'message three',
+             'message four'
+         ]
+        description = random.choice(message_choices)
+        TaskData.objects.create(task=task, description=description, progress=int(progress), is_status=True)
+        return redirect('task-info-admin', task.id, task.slug)    
+    return HttpResponse('No progress provided', status=400)

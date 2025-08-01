@@ -1,19 +1,10 @@
-{% extends "analytics/base2.html" %}
+{% extends "dash/userbase.html" %}
 {% load static %}
 {% block title %}Task{% endblock %}
 {% block content %}
 {% load humanize %}
 
-<div class="task-detail-main">
-<div style="background-color: #B0E0E6;"></div>
 <div class="task-detail-pane">
-
-    <div class="progress">
-        <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-      </div>
-      <br>
-
-
 
 
     <h5 class="mb-4" style="text-align: center;font-size: 1.2rem;">{{ task.title }}</h5>
@@ -55,13 +46,22 @@
                 {% else %}
                  <p><strong>You</strong></p>
                 {% endif %}
+
+                
+                 {% if taskdata.is_status %}
+                  <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: {{ taskdata.progress }}&#37;;" aria-valuenow="{{ taskdata.progress }}" aria-valuemin="0" aria-valuemax="100">{{ taskdata.progress }}&#37;</div>
+                    </div>
+                 {% endif %}
                
                 {% if taskdata.is_answer %}
                  <div class="alert alert-primary" style="padding: 2%;"role="alert">
                     <p>With all the requirements for accepting payment now in place, you can initialize and use the SDK as shown below:</p>
                  </div>
                   {% endif %}
+                  {% if taskdata.description %}
                 <div>{{ taskdata.description|safe }}</div>
+                    {% endif %}
                 <div class="mt-4 mb-4" style="display: flex; gap: 2rem; flex-wrap: wrap;">
                 {% for file in taskdata.taskfiles_set.all %}
                     <div style="display: flex; flex-direction: column; align-items: center;">
@@ -96,10 +96,8 @@
 
             </div>
             <p class="text-right small">{{ taskdata.created_at|naturaltime }}</p>
-            {% if taskdata.adminRead == True %}
-            <p class="text-right small">
-                <span class="material-icons" style="vertical-align: middle;color: LightSkyBlue;font-size: 1.1rem;">check</span>&nbsp;
-            </p>
+            {% if taskdata.adminRead and not taskdata.is_mod %}
+             <i class="ti-check small" style="float: right; vertical-align: middle; color: #008080;"></i>
             {% endif %}
         
 
@@ -131,7 +129,6 @@
     </div>
    
     </div>
-    <div style="background-color: #B0E0E6;" ></div>
-    </div>
+ 
 
 {% endblock %}

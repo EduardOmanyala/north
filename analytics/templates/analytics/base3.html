@@ -177,6 +177,7 @@
     {% endfor %}
     {% endif %}
     {% block content %}{% endblock %}
+     {% include "analytics/partials/cookie-banner.html" %}
      
     <!-- Javascript-->
     <script src="{% static 'analytics/assets/js/core.js' %}"></script>

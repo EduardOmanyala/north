@@ -19,7 +19,7 @@ class TaskDataForm(forms.ModelForm):
 class TaskDataFormAdmin(forms.ModelForm):
     class Meta:
         model = TaskData
-        fields = ['description', 'is_answer']
+        fields = ['description', 'is_answer', 'is_status', 'progress']
 
 
 class MultipleFileInput(forms.ClearableFileInput):

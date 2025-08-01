@@ -1,0 +1,34 @@
+<div id="cookie-banner" class="alert alert-info text-center fixed-bottom mb-0" style="display: none; z-index: 1050;">
+  We use cookies to improve your experience. 
+  <button id="accept-cookies" class="btn btn-sm btn-primary ms-2">Accept</button>
+  <button id="decline-cookies" class="btn btn-sm btn-outline-secondary ms-2">Decline</button>
+</div>
+
+<script>
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  function setCookie(name, value, days) {
+    const d = new Date();
+    d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
+    document.cookie = `${name}=${value}; expires=${d.toUTCString()}; path=/`;
+  }
+
+  // Only show the banner if user has not accepted or declined
+  if (!getCookie('accepted_cookies') && !getCookie('declined_cookies')) {
+    document.getElementById('cookie-banner').style.display = 'block';
+  }
+
+  document.getElementById('accept-cookies').addEventListener('click', function () {
+    setCookie('accepted_cookies', 'true', 365);
+    document.getElementById('cookie-banner').style.display = 'none';
+  });
+
+  document.getElementById('decline-cookies').addEventListener('click', function () {
+    setCookie('declined_cookies', 'true', 365);
+    document.getElementById('cookie-banner').style.display = 'none';
+  });
+</script>

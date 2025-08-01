@@ -13,7 +13,7 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', cast=bool)
 
 ALLOWED_HOSTS = ['the-northstar.com','www.the-northstar.com']
-# ALLOWED_HOSTS = []
+#ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     'core',
     'analytics',
     'frontend',
+    'dash',
     'crispy_forms',
     'crispy_bootstrap4',
     'django_daraja',

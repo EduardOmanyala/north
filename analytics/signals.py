@@ -18,14 +18,14 @@ def create_task_notification(sender, instance, created, **kwargs):
             "New Message received on your project"
         )
         TaskNotifications.objects.create(task=instance.task, message=message, user=instance.task.user)
-        notification_message.apply_async(args=[instance.id], countdown=60)   
+        #notification_message.apply_async(args=[instance.id], countdown=60)   
   
     else:
         AdminNotifications.objects.create(
             task=instance.task,
             message="New task message received"
         )
-        admin_message.apply_async(args=[instance.id], countdown=60)  
+        #admin_message.apply_async(args=[instance.id], countdown=60)  
        
     
 
@@ -50,7 +50,7 @@ def create_admin_notification(sender, instance, created, **kwargs):
             task=instance,
             message="A new task has been created."
         )
-        admin_message.apply_async(args=[instance.id], countdown=60) 
+        #admin_message.apply_async(args=[instance.id], countdown=60) 
     elif not created and not getattr(instance, '_previous_paid', False) and instance.paid:
         AdminNotifications.objects.create(
             task=instance,
@@ -69,7 +69,7 @@ def message_notifications(sender, instance, created, **kwargs):
     if instance.isAdmin:
         message ="You have a new message"
         MessageNotifications.objects.create(user=instance.user, message=message)
-        notification_message.apply_async(args=[instance.id], countdown=60)   
+        #notification_message.apply_async(args=[instance.id], countdown=60)   
       
         
 
@@ -78,6 +78,6 @@ def message_notifications(sender, instance, created, **kwargs):
             user=instance.user,
             message="New client message received"
         )
-        admin_message.apply_async(args=[instance.id], countdown=60) 
+        #admin_message.apply_async(args=[instance.id], countdown=60) 
       
 

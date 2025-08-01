@@ -12,6 +12,8 @@ urlpatterns = [
     path('checkout/<int:id>/', a_views.task_checkout, name='task-checkout'),
     path('base', a_views.BaseTest, name='base'),
 
+    path('status/update/<int:id>/', a_views.status_update, name='status-update'),
+
     path('subjects/<str:type>/', a_views.subjectCategories, name='subjectCategories'),
     path('subjects/<str:type>/', a_views.subjectCategoriesAdmin, name='subjectCategories-admin'),
     path('project/status/<str:status>/', a_views.completeOrNot, name='completeornot'),

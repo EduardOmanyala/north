@@ -24,6 +24,7 @@ urlpatterns = [
     path('', include('core.urls')),
     path('analytics/', include('analytics.urls')),
     path('', include('frontend.urls')),
+    path('', include('dash.urls')),
     path('tinymce/', include('tinymce.urls')),
 ]
 

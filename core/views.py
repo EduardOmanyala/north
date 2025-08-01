@@ -65,7 +65,7 @@ def contactus(request):
 
 
 def mailtest1(request):
-    send_mail('Using SparkPost with Django123', 'This is a message from Django using SparkPost!123', 'Northstar@mail.the-northstar.com',
+    send_mail('Using SparkPost with Django123', 'This is a message from Django using SparkPost!123', 'Northstar@the-northstar.com',
     ['bestessays001@gmail.com'], fail_silently=False)
     return render(request, 'core/about.html')
 
