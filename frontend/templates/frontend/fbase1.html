@@ -130,6 +130,13 @@ License: https://freebootstrap.net/license
       
       <!-- ======= Main =======-->
        <main>
+            {% if messages %}
+            {% for message in messages %}
+              <div class="alert alert-{{ message.tags }} mt-4">
+                {{ message }}
+              </div>
+            {% endfor %}
+            {% endif %}
 
        
                 {% block content %}
@@ -153,10 +160,12 @@ License: https://freebootstrap.net/license
                 <p>Stay updated with our latest templates and offers—join our newsletter today!</p>
               </div>
               <div class="col-md-5">
-                <form class="d-flex gap-2">
-                  <input class="form-control" type="email" placeholder="Email your email" required="">
+                <form class="d-flex gap-2" method="POST" action="{% url 'subscribe-view' %}">
+                  {% csrf_token %}
+                  <input class="form-control" type="email" name="email" placeholder="Enter your email" required>
                   <button class="btn btn-primary fs-6" type="submit">Subscribe</button>
                 </form>
+              
               </div>
             </div>
             <div class="row justify-content-between mb-5 g-xl-5">

@@ -173,3 +173,261 @@
     grid-template-columns: 50% 50%;
 
 }
+
+
+
+
+.crazxydiv {
+	margin-top: 1%;
+	display: grid;
+    grid-template-columns: 33% 34% 33%;
+
+}
+
+.results {
+	margin-top: 1%;
+	display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-gap: 2px;
+}
+
+.score123 {
+	margin-top: 1%;
+	display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-gap: 2px;
+}
+
+.crazxydiv123 {
+	margin-top: 1%;
+	display: grid;
+    grid-template-columns: 18% 80% 2%;
+    grid-gap: 2px;
+}
+
+.profilediv {
+	margin-top: 1%;
+	display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-gap: 2px;
+}
+
+.subjectdispcol {
+	margin-top: 1%;
+	display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-gap: 2px;
+}
+
+
+
+.crazxydiv2 {
+	margin-top: 8%;
+	margin-bottom: 55%;
+}
+
+
+.crazxydiv2 h4 {
+	margin-bottom: 3%;
+}
+
+.crazxydiv2 h5 {
+	margin-bottom: 3%;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .crazxydiv {
+        grid-template-columns: 100%;
+    }
+	.questiondiv {
+		grid-template-columns: 100%;
+	}
+	.results {
+		grid-template-columns: 100%;
+	}
+	.score123 {
+		grid-template-columns: 100%;
+	}
+	.crazxydiv123 {
+        grid-template-columns: 100%;
+    }
+    .crazxydiv2 {
+        padding-top: 0rem;
+    }
+	.subjectdispcol {
+		grid-template-columns: 100%;
+		grid-gap: 2px;
+	}
+	.profilediv {
+		grid-template-columns: 100%;
+
+	}
+
+}
+
+@media screen and (max-width: 800px) {
+    .crazxydiv {
+        grid-template-columns: 100%;
+    }
+	.questiondiv {
+		grid-template-columns: 100%;
+	}
+	.results {
+		grid-template-columns: 100%;
+	}
+    .crazxydiv2 {
+        padding-top: 0rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		width: 100%;
+    }
+	.subjectdispcol {
+		grid-template-columns: 100%;
+		grid-gap: 2px;
+	}
+}
+
+.topiclist6gg {
+	border-radius: 5px;
+	background-color: dodgerblue;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+	height: 3rem;
+
+}
+
+.topiclist6gg h5 {
+	padding: 0.5rem;
+	font-family: 'FontAwesome';
+	color: white;
+
+}
+
+@media screen and (max-width: 600px) {
+    .topiclist6gg {
+        margin-left: 0.4rem;
+		margin-right: 0.4rem;
+    }
+}
+
+
+
+
+.fdgvdsf44223ghj {
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+  }
+  
+
+  
+  /* Float four columns side by side */
+  .columnmhjghg675 {
+	float: left;
+	width: 40%;
+	padding: 0 10px;
+  }
+
+  .columnmprofile {
+	float: left;
+	width: 100%;
+	padding: 0 10px;
+  }
+
+  .columnsubjectdisp {
+	float: left;
+	width: 100%;
+	padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row4545hhh {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row4545hhh:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Style the counter cards */
+  .cardfgfdsg555 {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+	padding: 2rem;
+	text-align: center;
+	background-color: #f1f1f1;
+	margin-bottom: 2rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 900px) {
+	.columnmhjghg675 {
+	  width: 100%;
+	  display: block;
+	  margin-bottom: 20px;
+	}
+  }
+
+
+  .quiz-container123fr{
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+	width: 600px;
+	overflow: hidden;
+  }
+  .quiz-headerh43ff{
+	padding: 4rem;
+  }
+
+
+  .quiz-headerh43ff h2{
+	padding: 1rem;
+	text-align: center;
+	margin: 0;
+  }
+  .quiz-headerh43ff ul{
+	list-style-type: none;
+	padding: 0;
+  }
+  .quiz-headerh43ff ul li{
+	font-size: 1.2rem;
+	margin: 1rem 0;
+  }
+  .quiz-headerh43ff ul li label{
+	cursor: pointer;
+  }
+
+  
+  .quiz-headerh43ff button{
+	background-color: #03cae4;
+	color: #fff;
+	border: none;
+	display: block;
+	width: 100%;
+	cursor: pointer;
+	font-size: 1.1rem;
+	font-family: inherit;
+	padding: 1.3rem;
+  }
+  .quiz-headerh43ff button:hover{
+	background-color: #04adc4;
+  }
+  .quiz-headerh43ff button:focus{
+	outline: none;
+	background-color: #44b927;
+  }
+
+
+  .titler56 {
+	margin-top: 0%;
+	margin-bottom: 1%;
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+	background-color: #87ceeb;
+	
+  }
+

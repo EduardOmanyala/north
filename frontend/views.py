@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect
 from analytics.models import Task
 from django.contrib.auth.decorators import login_required
+from django.contrib import messages
 
 # Create your views here.
 # def frontEnd(request):
@@ -41,3 +42,11 @@ def profile2(request):
     name = user.first_name
     comp = Task.objects.filter(user=request.user, complete=True).count()
     return render(request, 'frontend/profile.html', {'email':email, 'user_since':user_since, 'name':name, 'comp': comp })
+
+
+
+def subscribe_view(request):
+    if request.method == 'POST':
+        email = request.POST.get('email')
+       
+    return redirect('home')  # 'home' should be the name of your home view

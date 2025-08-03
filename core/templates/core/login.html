@@ -2,12 +2,12 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
-    <title>{% block title %}{% endblock %}</title>
+    <title>Login</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-    <link rel="icon" href="{% static 'core/images/favicon.ico' %}" type="image/x-icon">
+    <link rel="shortcut icon" type="image/png" href="{% static 'dash/assets/images/icon/adb4.png' %}">
     <!-- Stylesheets-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat:400,500,600,700%7CPoppins:400%7CTeko:300,400">
@@ -18,13 +18,14 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     /> -->
-    <link rel="stylesheet" href="{% static 'analytics/assets/css/customstyles.css' %}" />
-    <link rel="stylesheet" href="{% static 'core/css/blogone.css' %}">
-    <link rel="stylesheet" href="{% static 'core/css/style.css' %}">
+
+   
+
     <link rel="stylesheet" href="{% static 'core/css/fonts.css' %}">
     <link rel="stylesheet" href="{% static 'core/css/billing.css' %}">
-    <link rel="stylesheet" href="{% static 'core/css/order.css' %}">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+  
     
 
 
@@ -41,7 +42,7 @@
             <form method="post">
                 {% csrf_token %}
                 {{ form|crispy }}
-                <button type="submit" class="btn btn-primary">Login</button>
+                <button  class="btn btn-primary" style="color:white;">Login</button>
                 <p>Don't have an account? <a href="{% url 'register' %}"> Sign Up</a>.</p>
                 <p>Forgot Password? <a href="{% url 'reset_password' %}"> Reset It Here</a>.</p>  
               </form>

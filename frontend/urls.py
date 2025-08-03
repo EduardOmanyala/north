@@ -8,6 +8,7 @@ urlpatterns = [
     path('index/test', front_views.frontEnd2, name='indextest'),
     path('privacy-policy', front_views.privacyPolicy, name='p-policy'),
     path('terms-of-service', front_views.termsOfService, name='t-serve'),
+    path('subscribe/success', front_views.subscribe_view, name='subscribe-view'),
 ]
 
 
